@@ -1,0 +1,708 @@
+/* ============================================
+   itinerary-full.css
+   pages/sub-itinerary.html 專用樣式（完整版「行程」頁）
+   資料來自 js/data/itinerary.json，由
+   js/itinerary-render.js 動態渲染
+
+   顏色系統沿用 css/itinerary.css 已定義好的：
+   --area-*（10 個地區色）
+   這裡另外補上「每日主題色」「地鐵路線色」，
+   這兩組色碼實際上是由 JSON 裡的
+   dayColors / metroColors 動態帶入 inline style，
+   這裡的 CSS 只是提供 fallback／文件用途
+   ============================================ */
+
+.itinerary-full-page {
+  padding-top: 4px;
+}
+
+/* 這一頁的 fixed header 下面還多了一條 day-tabs 列，
+   要多留一點空間，蓋掉共用的 88px 規則 */
+.sub-page.itinerary-full-page[data-header-style="style5"] {
+  padding-top: 70px;
+}
+
+/* ---------- Day 切換分頁列（固定在 header 正下方） ---------- */
+.day-tabs-wrapper {
+  position: fixed;
+  top: 76px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 440px;
+  margin: 0 auto;
+  padding: 10px 20px 10px;
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.95) 30%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  z-index: 850;
+}
+
+.day-tabs {
+  display: flex;
+  gap: 8px;
+}
+
+.day-tab {
+  flex: 1;
+  padding: 9px 0;
+  border-radius: 999px;
+  border: 1.5px solid rgba(89, 89, 89, 0.25);
+  background-color: var(--color-white);
+  color: var(--color-black);
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.day-tab.active {
+  background-color: var(--tab-color, var(--color-blue));
+  border-color: var(--tab-color, var(--color-blue));
+  color: var(--color-white);
+}
+
+/* ---------- Day 標題列 ---------- */
+.itin-day-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.itin-day-header .itin-day-label {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.itin-day-header .day-label {
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--day-color);
+}
+
+.itin-day-header .day-date {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--color-gray);
+}
+
+.itin-day-header .day-stop-count {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-gray);
+  letter-spacing: 0.5px;
+}
+
+/* ---------- 時間軸主結構 ---------- */
+.itin-list {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.itin-item {
+  position: relative;
+  padding-left: 42px;
+  padding-bottom: 22px;
+}
+
+.itin-item:last-child {
+  padding-bottom: 0;
+}
+
+.itin-item:first-child::before{
+  content: "";
+  position: absolute;
+  left: 13px;
+  top: 0px;
+  bottom: 0;
+  width: 5px;
+  background-color: var(--color-white);
+  height: 9px;
+  z-index: 1;
+}
+
+.itin-item:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  left: 15px;
+  top: 0px;
+  bottom: 0;
+  width: 2px;
+  background-color: var(--day-color);
+  opacity: 0.3;
+}
+
+.itin-item:nth-last-child(2)::after {
+  bottom: -9px;
+}
+
+/* 景點編號圓點 */
+.itin-num {
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: var(--day-color);
+  color: var(--color-white);
+  font-size: 13px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.itin-num--backup {
+  background-color: #c6c6c6;
+}
+
+/* 交通路段圖示（灰底黑圖示，不用每日色，跟景點編號圓點做出區隔） */
+.itin-transit-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #eef0f2;
+  color: var(--color-gray);
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  border: 1.5px solid rgba(89, 89, 89, 0.15);
+}
+
+/* ---------- 景點卡片 ---------- */
+.stop-card {
+  background-color: var(--color-lightgray);
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.stop-card--backup {
+  filter: grayscale(1);
+  opacity: 0.7;
+}
+
+.stop-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color-black);
+  margin-bottom: 6px;
+}
+
+.stop-kr {
+  display: inline-block;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--color-gray);
+  margin-bottom: 6px;
+}
+
+.copy-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  color: var(--color-gray);
+  font-size: 14px;
+  border-radius: 4px;
+  flex-shrink: 0;
+  transition: color 0.15s ease;
+}
+
+.copy-icon:hover {
+  color: var(--color-blue);
+}
+
+.copy-icon.copied {
+  color: #2ecc71;
+}
+
+.stop-time {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.stop-time-range {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--color-blue);
+}
+
+.stop-time-duration {
+  font-size: 12px;
+  color: var(--color-gray);
+}
+
+.stop-tags {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 600;
+  border: 1.4px solid currentColor;
+  line-height: 1.5;
+  white-space: nowrap;
+  background-color: transparent;
+}
+
+.tag-area {
+  color: var(--area-color, var(--color-gray));
+}
+
+.tag-category {
+  color: var(--color-gray);
+  border-color: rgba(89, 89, 89, 0.35);
+}
+
+.tag-vbp {
+  padding: 0;
+  border-width: 1.4px;
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 999px;
+  background-image: linear-gradient(white, white), linear-gradient(to bottom, #4D00DA, #00A7EB);
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+}
+
+.tag-vbp a{
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  font-size: 11px;
+  font-weight: 700;
+  background: linear-gradient(to bottom, #4D00DA, #00A7EB);
+  background: -webkit-linear-gradient(to bottom, #4D00DA, #00A7EB);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.tag-vbp:hover{
+  background-image: linear-gradient(to bottom, #4D00DA, #00A7EB), linear-gradient(to bottom, #4D00DA, #00A7EB);
+}
+
+.tag-vbp:hover a{
+  color: var(--color-white);
+}
+
+.tag-vbp a i {
+  font-size: 9px;
+}
+
+.itin-backup-label {
+  margin-right: auto;
+  font-size: 11px;
+  font-weight: 500;
+  color: #abababff;
+  white-space: nowrap;
+  margin-bottom: 8px;
+}
+
+.stop-field {
+  display: flex;
+  gap: 10px;
+  font-size: 12.5px;
+  line-height: 1.6;
+  margin-bottom: 5px;
+}
+
+.stop-field .field-label {
+  flex-shrink: 0;
+  width: 40px;
+  color: var(--color-gray);
+  font-weight: 600;
+}
+
+.stop-field .field-value {
+  color: var(--color-black);
+  display: inline-block;
+  white-space: pre-line;
+}
+
+.metro-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 700;
+  flex-shrink: 0;
+  /* 顏色由 JS 用 inline style="color:..." 帶入，這裡不設底色（修正點 2） */
+}
+
+.metro-group {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.metro-group-sep {
+  color: rgba(89, 89, 89, 0.4);
+  margin: 0 2px;
+}
+
+.stop-note {
+  display: flex;
+  align-items: flex-start;
+  gap: 7px;
+  margin-top: 10px;
+  padding: 9px 12px;
+  background-color: var(--color-white);
+  border-radius: 10px;
+  font-size: 12.5px;
+  line-height: 1.6;
+  color: var(--color-gray);
+  white-space: pre-line;
+}
+
+.stop-note i {
+  margin-top: 6px;
+  font-size: 11px;
+  color: var(--color-blue);
+  flex-shrink: 0;
+}
+
+/* ---------- 連結按鈕列（景點卡片 + 交通卡片共用） ---------- */
+.stop-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.pin-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #34c084;
+  font-size: 14px;
+  border: 1.4px solid #34c084;
+  flex-shrink: 0;
+
+  border-width: 1.4px;
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 2rem;
+  background-image: linear-gradient(var(--color-white), var(--color-white)), linear-gradient(to bottom, #0B74FC, #00DF00);
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+}
+
+.pin-btn .fa-location-dot{
+  background-image: linear-gradient(to bottom, #0B74FC, #00DF00);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.pin-btn:hover{
+  background-image: linear-gradient(to bottom, #0B74FC, #00DF00), linear-gradient(to bottom, #0B74FC, #00DF00);
+}
+.pin-btn:hover .fa-location-dot{
+  background-image: linear-gradient(var(--color-white), var(--color-white));
+}
+
+.link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 10px;
+  height: 30px;
+  border-radius: 999px;
+  background-color: var(--color-white);
+  border: 1.4px solid var(--color-blue);
+  color: var(--color-blue);
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.link-btn:hover{
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
+
+/* 修正點 6：路程（交通路段）內的連結一律改灰色，跟景點卡片
+   本身的藍色連結做出區隔 */
+.link-btn.link-btn--muted {
+  border-color: rgba(89, 89, 89, 0.35);
+  color: var(--color-gray);
+}
+
+.link-btn.link-btn--muted:hover{
+  background: var(--color-gray);
+  color: var(--color-white);
+}
+
+.link-btn i:first-child {
+  font-size: 13px;
+  margin-top: 2px;
+}
+
+.link-btn .ext-icon {
+  font-size: 8px;
+  margin-left: 1px;
+  opacity: 0.75;
+}
+
+/* ---------- 交通路段卡片 ---------- */
+.transit-card {
+  padding-top: 0px;
+}
+
+.transit-head {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.transit-label {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--color-black);
+  background: var(--color-white);
+  padding: 5.5px 8px 5.5px 0px;
+}
+
+.transit-duration {
+  font-size: 13px;
+  color: var(--color-gray);
+  background: var(--color-white);
+  padding: 5.5px 8px 5.5px 0;
+}
+
+.transit-fee {
+  margin-top: 8px;
+  font-size: 13px;
+  color: var(--color-gray);
+}
+
+.transit-route-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-white);
+  color: var(--color-gray);
+  border: 1px solid var(--color-gray);
+  font-size: 11px;
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+.transit-route-btn:hover{
+  background-color: var(--color-gray);
+  color: var(--color-white);
+}
+
+.transit-route-btn::before{
+  content: "";
+  position: absolute;
+  width: calc(100% - 42px);
+  right: 0;
+  border: 1px dashed var(--color-gray);
+  z-index: -1;
+  opacity: 0.2;
+}
+
+.transit-taxi-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12.5px;
+  color: var(--color-gray);
+  margin-top: 8px;
+}
+
+.transit-taxi-row i.fa-location-dot {
+  color: var(--color-gray);
+  font-size: 11px;
+  flex-shrink: 0;
+}
+
+/* 修正點 3：路線說明文字（地鐵時刻等）不需要底色 */
+.transit-schedule {
+  margin-top: 4px;
+  padding: 4px 0;
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.transit-schedule-line {
+  display: flex;
+  gap: 6px;
+  align-items: flex-start;
+}
+
+.transit-note {
+  margin-top: 8px;
+  font-size: 12.5px;
+  color: var(--color-gray);
+  line-height: 1.6;
+  white-space: pre-line;
+}
+
+/* ---------- 多選項交通方式（合併在同一張交通卡片內，
+   跟在共用的「走路」路段下面，不需要額外標題或圖示） ---------- */
+.transit-options-list {
+  margin-top: 12px;
+  /* border-top: 1px dashed rgba(89, 89, 89, 0.18); */
+}
+
+.transit-option {
+  border-radius: 14px;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.transit-option:last-child {
+  margin-bottom: 0;
+}
+
+.transit-option-label {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--color-white);
+  background-color: var(--day-color);
+  margin-top: 12px;
+  padding: 3px 9px;
+  border-radius: 999px;
+  margin-bottom: 8px;
+}
+
+/* ---------- 廁所連結列表（廁所 Modal 內容） ---------- */
+.restroom-link-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-black);
+  border-bottom: 1px solid rgba(89, 89, 89, 0.1);
+}
+
+.restroom-link-item:last-child {
+  border-bottom: none;
+}
+
+.restroom-link-item i.fa-utensils,
+.restroom-link-item i.fa-location-dot {
+  color: var(--color-blue);
+  font-size: 13px;
+}
+
+.restroom-link-item .ext-icon {
+  margin-left: auto;
+  font-size: 10px;
+  color: var(--color-gray);
+}
+
+/* ---------- 菜單 Modal（沿用 app-modal 風格，但無 footer） ---------- */
+.menu-modal .modal-dialog {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 0 20px;
+  margin-top: -20px;
+}
+
+.menu-modal .modal-content {
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 5px 50px rgba(0, 0, 0, 0.5);
+  max-height: calc(100vh - 150px);
+}
+
+.menu-modal .modal-header {
+  background-color: var(--color-blue);
+  border-bottom: none;
+  padding: 18px 20px;
+  position: relative;
+}
+
+.menu-modal .modal-title {
+  font-family: var(--font-base);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--color-white);
+}
+
+.menu-modal .app-modal-close {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: var(--color-white);
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 14px;
+  padding: calc(var(--bs-modal-header-padding-y) * .5) calc(var(--bs-modal-header-padding-x) * .5);
+  margin-top: calc(-.5 * var(--bs-modal-header-padding-y));
+  margin-right: calc(-.5 * var(--bs-modal-header-padding-x));
+  margin-bottom: calc(-.5 * var(--bs-modal-header-padding-y));
+  margin-left: auto;
+}
+
+.app-modal .app-modal-close:hover {
+  background-color: rgba(255, 255, 255, 0.35);
+}
+
+.menu-modal .modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  color: var(--color-gray);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.menu-modal .modal-body img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* 廁所 Modal 沿用 menu-modal 的外框樣式，但內容是連結列表，
+   不需要 modal-body 的 flex/gap 設定 */
+.restroom-modal .modal-body {
+  display: block;
+}

@@ -1,0 +1,166 @@
+<!-- ============================================
+     pages/sub-spots.html
+     子頁面：景點與餐廳（從首頁選單點進來）
+     資料來源：使用者提供的「景點與餐廳.xlsx」
+
+     內容由 js/spots-render.js 動態渲染：
+     - fetch js/data/spots.json
+     - 顯示全部 83 筆景點與餐廳，依中文名稱正序排列
+     - 篩選（分類／室內外／釜山Pass／觀光地區／雨天備案）
+       透過下方的篩選 Modal 操作
+     ============================================ -->
+
+<div class="sub-page spots-page" data-header-style="style3" data-header-title="景點與餐廳" data-spots-mode="all">
+  <div id="header-container"></div>
+
+  <div class="spots-toolbar-wrapper">
+    <div class="spots-toolbar">
+      <button type="button" class="spots-filter-btn" data-bs-toggle="modal" data-bs-target="#spotsFilterModal">
+        <i class="fa-solid fa-sliders"></i>
+        篩選
+        <span id="spots-filter-badge" class="spots-filter-badge" style="display:none;"></span>
+      </button>
+      <span id="spots-result-count" class="spots-result-count"></span>
+    </div>
+  </div>
+
+  <div id="spots-list" class="spots-list"></div>
+
+  <!-- Back to top button 2 --> 
+  <a class="progress-wrap d-block" id="gotop_btn_2">
+      <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+          <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 138.733;"></path>
+      </svg>
+  </a>
+  <script type="text/javascript">
+      (function () {
+          "use strict";
+
+          // 改用這個寫法，確保無論 DOM 載入狀況如何都能順利執行
+          var init = function () {
+              var btn = document.getElementById('gotop_btn_2');
+              var progressPath = document.querySelector('.progress-wrap path');
+              
+              if (!btn || !progressPath) return;
+
+              var pathLength = progressPath.getTotalLength();
+              
+              // 初始化 SVG 進度條線段
+              progressPath.style.transition = progressPath.style.WebkitTransition = 'none';
+              progressPath.style.strokeDasharray = pathLength + ' ' + pathLength;
+              progressPath.style.strokeDashoffset = pathLength;
+              progressPath.getBoundingClientRect();
+              progressPath.style.transition = progressPath.style.WebkitTransition = 'stroke-dashoffset 10ms linear';
+
+              // 更新進度條與按鈕顯示狀態
+              var updateProgress = function () {
+                  var scrollTop = window.scrollY || document.documentElement.scrollTop;
+                  var docHeight = document.documentElement.scrollHeight;
+                  var winHeight = window.innerHeight;
+                  var scrollHeight = docHeight - winHeight;
+                  
+                  if (scrollHeight > 0) {
+                      var progress = pathLength - (scrollTop * pathLength / scrollHeight);
+                      progressPath.style.strokeDashoffset = progress;
+                  }
+
+                  // 滾動超過 300 顯示/隱藏按鈕【已修正錯誤寫法】
+                  if (scrollTop > 300) {
+                      btn.classList.add('show', 'active-progress');
+                  } else {
+                      btn.classList.remove('show', 'active-progress');
+                  }
+              };
+
+              // 執行與監聽滾動事件
+              updateProgress();
+              window.addEventListener('scroll', updateProgress);
+
+              // 滾動回頂端功能
+              var scrollToTop = function (e) {
+                  e.preventDefault();
+                  window.scrollTo({
+                      top: 0,
+                      behavior: 'smooth'
+                  });
+              };
+
+              // 監聽點擊與 Enter 鍵
+              btn.addEventListener('click', scrollToTop);
+              btn.addEventListener('keypress', function (e) {
+                  if (e.key === 'Enter') {
+                      scrollToTop(e);
+                  }
+              });
+
+              // 處理底部特定媒體節點點擊跳轉
+              var mediaElements = document.querySelectorAll('#ContentPlaceContent_ContentConentA div[id*="-Media"]');
+              mediaElements.forEach(function (element) {
+                  element.addEventListener('click', function (event) {
+                      var targetId = event.currentTarget.id.replace('-Media', '');
+                      var targetAnchor = document.querySelector('a[id="' + targetId + '"]');
+                      if (targetAnchor) {
+                          window.scrollTo({
+                              top: targetAnchor.offsetTop,
+                              behavior: 'smooth'
+                          });
+                      }
+                  });
+              });
+          };
+
+          // 如果 HTML 已經解完了就直接執行，沒解完就等加載完再執行
+          if (document.readyState === "loading") {
+              document.addEventListener("DOMContentLoaded", init);
+          } else {
+              init();
+          }
+      })();
+  </script>
+  <!-- Back to top button 2 --> 
+</div>
+
+<!-- ============================================
+     篩選 Modal（由 js/spots-render.js 動態產生內容）
+     ============================================ -->
+
+<div class="modal fade filter-modal" id="spotsFilterModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="spotsFilterModalTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="spotsFilterModalTitle">篩選</h5>
+        <button type="button" class="app-modal-close" data-bs-dismiss="modal" aria-label="關閉">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="modal-body" id="spots-filter-body">
+        <!-- js/spots-render.js 會把篩選項目動態插入這裡 -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="filter-clear-btn" id="spots-filter-clear-btn">清除全部</button>
+        <button type="button" class="filter-apply-btn" id="spots-filter-apply-btn" data-bs-dismiss="modal">套用篩選</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================
+     共用「菜單」Modal（跟行程頁一樣，支援多張圖片 /
+     改用連結呈現，見 js/itinerary-render.js 的
+     attachMenuModalHandler()）
+     ============================================ -->
+<div class="modal fade menu-modal" id="menuModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="menuModalTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="menuModalTitle">菜單</h5>
+        <button type="button" class="app-modal-close" data-bs-dismiss="modal" aria-label="關閉">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="modal-body" id="menuModalBody">
+        <!-- js/itinerary-render.js 會把一張或多張 <img> 動態插入這裡 -->
+      </div>
+    </div>
+  </div>
+</div>

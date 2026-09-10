@@ -1,0 +1,99 @@
+<!-- ============================================
+     pages/sub-hotel.html
+     子頁面：飯店詳情（從首頁選單「飯店詳情」點進來）
+     資料來源：使用者提供的飯店資訊表格
+
+     分為 2 個區塊：飯店資訊、住宿訊息
+     大量重用既有 class，詳見 css/hotel.css 開頭註解
+     ============================================ -->
+
+<div class="sub-page hotel-page" data-header-style="style3" data-header-title="飯店詳情">
+  <div id="header-container"></div>
+
+  <!-- ========== 1. 飯店資訊 ========== -->
+  <section class="dep-section">
+    <h3 class="section-title"><i class="fa-solid fa-bookmark"></i>飯店資訊</h3>
+
+    <div class="stop-card">
+      <div class="hotel-name-block">
+        <div class="hotel-name-primary">
+          <span>釜山西面都市格魯夫飯店</span>
+          <a class="entity-link-icon" href="https://www.agoda.com/zh-tw/busan-seomyeon-oz-h10590500/hotel/busan-kr.html?countryId=212&ds=UMA1tdGzbOyFuLEm" target="_blank" rel="noopener noreferrer">
+            <i class="fa-solid fa-link"></i>
+          </a>
+        </div>
+        <div class="hotel-name-secondary">
+          <span>부산 서면 어반그루브 호텔</span>
+          <button type="button" class="js-copy copy-icon" data-copy-text="부산 서면 어반그루브 호텔" aria-label="複製韓文名稱"><i class="fa-solid fa-copy"></i></button>
+        </div>
+        <div class="hotel-name-secondary">
+          <span>Busan Seomyeon Urban Groove Hotel</span>
+          <button type="button" class="js-copy copy-icon" data-copy-text="Busan Seomyeon Urban Groove Hotel" aria-label="複製英文名稱"><i class="fa-solid fa-copy"></i></button>
+        </div>
+      </div>
+
+      <div class="hotel-info-group">
+        <div class="hotel-info-group-title">地址</div>
+        <ul class="hotel-bullet-list">
+          <li>
+            <span class="bullet-text">18, Hwangnyeong-daero 17beon-gil, Busanjin-gu, 西面, 釜山, 韓國, 47353</span>
+          </li>
+          <li>
+            <span class="bullet-text">
+              부산광역시 부산진구 황령대로17번길 18, 서면, 부산, 대한민국, 47353
+              <button type="button" class="js-copy copy-icon" data-copy-text="부산광역시 부산진구 황령대로17번길 18, 서면, 부산, 대한민국, 47353" aria-label="複製韓文地址"><i class="fa-solid fa-copy"></i></button>
+            </span>
+          </li>
+          <li>
+            <span class="bullet-text">
+              18, Hwangnyeong-daero 17beon-gil, Busanjin-gu, Seo-myeon, Busan, South Korea, 47353
+              <button type="button" class="js-copy copy-icon" data-copy-text="18, Hwangnyeong-daero 17beon-gil, Busanjin-gu, Seo-myeon, Busan, South Korea, 47353" aria-label="複製英文地址"><i class="fa-solid fa-copy"></i></button>
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="hotel-info-group">
+        <div class="hotel-info-group-title">當地連絡電話</div>
+        <ul class="hotel-bullet-list">
+          <li>
+            <span class="bullet-text">
+              +82 10-9675-5552
+              <button type="button" class="js-copy copy-icon" data-copy-text="+82 10-9675-5552" aria-label="複製電話"><i class="fa-solid fa-copy"></i></button>
+            </span>
+          </li>
+          <li>
+            <span class="bullet-text">
+              +82 507-1384-5553（虛擬代轉號碼）
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 2. 住宿訊息 ========== -->
+  <section class="dep-section">
+    <h3 class="section-title"><i class="fa-solid fa-bookmark"></i>住宿訊息</h3>
+
+    <div class="stop-card">
+      <div class="stop-field"><span class="field-label">訂單編號</span><span class="field-value">請查看email</span></div>
+      <div class="stop-field"><span class="field-label">房型</span><span class="field-value">標準雙人房 (Standard Double Room)</span></div>
+      <div class="stop-field"><span class="field-label">入住時間</span><span class="field-value">2026/10/1&nbsp;17:00</span></div>
+      <div class="stop-field"><span class="field-label">退房時間</span><span class="field-value">2026/10/4&nbsp;12:00</span></div>
+      <div class="stop-field"><span class="field-label">價格</span><span class="field-value">3晚 - ₩292,950 + 5%稅</span></div>
+
+      <div class="hotel-info-group" style="margin-top: 12px;">
+        <div class="hotel-info-group-title">各項服務與設備</div>
+        <ol class="tax-notes-list">
+          <li>可<span class="text-danger fw-bold">寄放行李</span></li>
+          <li>可幫忙<span class="text-danger fw-bold">代訂炸雞</span>，至櫃檯告知服務人員</li>
+          <li>每層樓都配有<span class="text-danger fw-bold">微波爐</span></li>
+          <li>二樓可<span class="text-danger fw-bold">洗衣、烘衣</span>（要很久），需自備洗衣精</li>
+          <li>頂樓有<span class="text-danger fw-bold">免費罐裝水、茶包、冰塊、咖啡</span>，可帶食物上去吃</li>
+          <li>需要<span class="text-danger fw-bold">整理房間</span>，請至<span class="text-danger fw-bold">櫃檯告知</span></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+</div>

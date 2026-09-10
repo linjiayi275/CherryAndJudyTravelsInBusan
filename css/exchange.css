@@ -1,0 +1,258 @@
+/* ============================================
+   exchange.css
+   pages/sub-exchange.html 專用樣式（換匯）
+
+   重用既有 class：
+   - .section-title / .dep-section（departure.css）
+   - .stop-card / .link-btn / .pin-btn / .stop-note（itinerary-full.css）
+   - .tag / .tag-area（itinerary-full.css，這裡拿來當地區標籤）
+   - .app-modal 系列（home.css，自訂匯率 Modal 沿用同一套外觀）
+   ============================================ */
+
+.exchange-page {
+  padding-top: 4px;
+}
+
+/* ---------- 換匯試算卡片 ---------- */
+.fx-converter-card {
+  background-color: #f5f6f8;
+  border-radius: 16px;
+  padding: 18px 16px;
+}
+
+.fx-rate-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 14px;
+  border-radius: 999px;
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  font-size: 12.5px;
+  font-weight: 700;
+  border: none;
+  flex-shrink: 0;
+}
+
+.fx-rate-btn i {
+  font-size: 11px;
+}
+
+.fx-box {
+  background-color: var(--color-white);
+  border: 1.4px solid rgba(89, 89, 89, 0.15);
+  border-radius: 14px;
+  padding: 12px 14px;
+  position: relative;
+}
+
+.fx-box-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-gray);
+  margin-bottom: 8px;
+}
+
+.fx-box-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.fx-amount-input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: var(--font-serif);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-black);
+  width: 130px;
+  min-width: 0;
+  padding: 0;
+}
+
+.fx-amount-display {
+  font-family: var(--font-serif);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-blue);
+}
+
+.fx-currency-select-wrap {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.fx-currency-select {
+  appearance: none;
+  -webkit-appearance: none;
+  border: 1.4px solid rgba(89, 89, 89, 0.25);
+  border-radius: 999px;
+  background-color: var(--color-white);
+  padding: 6px 26px 6px 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-black);
+  max-width: 150px;
+}
+
+.fx-select-chevron {
+  position: absolute;
+  right: 11px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 10px;
+  color: var(--color-gray);
+  pointer-events: none;
+}
+
+/* ---------- 中間交換按鈕 ---------- */
+.fx-swap-row {
+  display: flex;
+  justify-content: center;
+  margin: -2px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.fx-swap-btn {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  border: 4px solid #f5f6f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  transform: rotate(90deg);
+}
+
+.fx-rate-caption {
+  font-size: 11.5px;
+  color: var(--color-gray);
+  margin-top: 12px;
+  line-height: 1.6;
+}
+
+/* ---------- 自訂匯率 Modal ---------- */
+.fx-rate-modal .modal-body {
+  padding: 20px;
+}
+
+.fx-rate-field {
+  margin-bottom: 16px;
+}
+
+.fx-rate-field:last-child {
+  margin-bottom: 0;
+}
+
+.fx-rate-field label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-black);
+  margin-bottom: 6px;
+}
+
+.fx-rate-field .fx-rate-input-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--color-gray);
+}
+
+.fx-rate-field input {
+  flex: 1;
+  min-width: 0;
+  padding: 9px 12px;
+  border-radius: 10px;
+  border: 1.4px solid rgba(89, 89, 89, 0.3);
+  font-size: 14px;
+  font-family: var(--font-serif);
+  color: var(--color-black);
+}
+
+.fx-rate-field input:focus {
+  outline: none;
+  border-color: var(--color-blue);
+}
+
+.fx-rate-reset-btn {
+  /* width: 100%; */
+  padding: 10px 0;
+  margin-top: 4px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: none;
+  color: var(--color-gray);
+  font-size: 12.5px;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* ---------- 匯率優惠券 / 更多換匯地點 ---------- */
+.fx-region-block {
+  margin-bottom: 16px;
+}
+
+.fx-region-block:last-child {
+  margin-bottom: 0;
+}
+
+.fx-region-header {
+  margin-bottom: 8px;
+}
+
+.fx-place-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(89, 89, 89, 0.1);
+}
+
+.fx-place-row:first-child {
+  padding-top: 2px;
+}
+
+.fx-place-row:last-child {
+  padding-bottom: 2px;
+  border-bottom: none;
+}
+
+.fx-place-name {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--color-black);
+  margin-bottom: 2px;
+}
+
+.fx-place-kr {
+  font-size: 12px;
+  color: var(--color-gray);
+}
+
+.fx-place-side {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-shrink: 0;
+}
+
+.fx-place-hours {
+  font-size: 11.5px;
+  color: var(--color-gray);
+  text-align: left;
+  white-space: wrap;
+  width: 90px;
+}

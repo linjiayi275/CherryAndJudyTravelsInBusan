@@ -1,0 +1,168 @@
+/* ============================================
+   common.css
+   全站共用：色彩變數、reset、外層容器寬度規則
+   ============================================ */
+
+:root {
+  --color-blue: #5DAEFF;
+  --color-gray: #595959;
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-lightgray: #f7f7f7;
+
+  --footer-bg: rgba(255, 255, 255, 0.25);
+
+  /* Google Fonts（於 index.html <head> 引入）
+     - 其餘一般文字：Noto Sans TC
+     - "Visit BUSAN" 大標：Limelight
+     - "Cherry & Judy" 標籤 與 日期文字：Noto Serif */
+  --font-base: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-display: "Limelight", "Noto Sans TC", cursive;
+  --font-serif: "Noto Serif", "Noto Sans TC", serif;
+
+
+  --area-gimhae: #9B59D6;      /* 金海機場 */
+  --area-seomyeon: #FF8C3D;    /* 西面 */
+  --area-osiria: #3B5B9B;      /* 奧西利亞 */
+  --area-gwangalli: #4CAF50;   /* 廣安里 */
+  --area-haeundae: #2D8CE0;    /* 海雲台 */
+  --area-yeongdo: #2E7D32;     /* 影島 */
+  --area-nampodong: #C0202D;   /* 南浦洞 */
+  --area-dongdaesin: #F06BA8;  /* 東大新洞 */
+  --area-gamcheon: #A08500;    /* 甘川洞 */
+  --area-songdo: #008c96;      /* 松島 */
+
+  /* day color */
+  --day1-color: #f0404e;
+  --day2-color: #2ca2aa;
+  --day3-color: #da819c;
+  --day4-color: #4350c5;
+
+  /* pages/sub-tax-refund.html 退稅級距表的五種標籤色 */
+  --tax-color-blue: #2D8CE0;
+  --tax-color-orange: #F58220;
+  --tax-color-green: #4CAF50;
+  --tax-color-purple: #9B59D6;
+  --tax-color-yellow: #C9971F;
+
+  /* metro color */
+  --metro-g: #924BDD;
+  --metro-1: #F7752D;
+  --metro-k: #3356B4;
+  --metro-2: #3CB44A;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-white);
+  color: var(--color-black);
+  font-family: var(--font-base);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+ol {
+  padding-left: 18px;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+ol li{
+  padding-left: 5px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* -------------------------------------------
+   核心規則：不論裝置寬度，畫面固定以手機版型呈現
+   ------------------------------------------- */
+.app-container {
+  width: 100%;
+  max-width: 440px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 20px;
+  position: relative;
+  min-height: 100vh;
+  background-color: var(--color-white);
+}
+
+/* 讓固定式 footer 在寬螢幕時也對齊 440px 容器，而不是貼齊整個瀏覽器邊緣 */
+.footer-fixed-wrapper {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 440px;
+  margin: 0 auto;
+  z-index: 1000;
+  pointer-events: none; /* 讓漸層區域不擋點擊，footer-nav 內再開回來 */
+}
+
+/* 頁面內容需保留 footer 高度的底部空間，避免內容被遮住 */
+#page-container {
+  padding-bottom: 120px;
+}
+
+/* -------------------------------------------
+   換頁淡入效果
+   每次 pages/*.html 被載入到 #page-container 時
+   （不管是第一次進站，還是之後點選單/footer 換頁），
+   js/common.js 都會幫 #page-container 重新掛上
+   .page-fade-in 這個 class 來觸發動畫
+   ------------------------------------------- */
+@keyframes pageFadeIn {
+  from {
+    opacity: 0;
+    /* transform: translateY(10px); */
+  }
+  to {
+    opacity: 1;
+    /* transform: translateY(0); */
+  }
+}
+
+#page-container.page-fade-in {
+  animation: pageFadeIn 0.8s ease both;
+}
+
+/* 尊重使用者的「減少動態效果」系統設定 */
+@media (prefers-reduced-motion: reduce) {
+  #page-container.page-fade-in {
+    animation: none;
+  }
+}
+
+.modal-backdrop{
+  z-index: -1;  /* 不需要透明灰底 */
+  background-color: transparent; /* 不需要透明灰底 */
+}

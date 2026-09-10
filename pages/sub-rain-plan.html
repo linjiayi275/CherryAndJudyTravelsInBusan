@@ -1,0 +1,72 @@
+<!-- ============================================
+     pages/sub-rain-plan.html
+     子頁面：雨天備案（從首頁選單點進來）
+     資料來源：使用者提供的「景點與餐廳.xlsx」
+
+     內容由 js/spots-render.js 動態渲染：
+     - fetch js/data/spots.json
+     - 只顯示標記為雨天備案的景點，依中文名稱正序排列
+     - 篩選（分類／室內外／釜山Pass／觀光地區）
+       透過下方的篩選 Modal 操作
+     ============================================ -->
+
+<div class="sub-page spots-page" data-header-style="style3" data-header-title="雨天備案" data-spots-mode="rain">
+  <div id="header-container"></div>
+
+  <div class="spots-toolbar-wrapper">
+    <div class="spots-toolbar">
+      <button type="button" class="spots-filter-btn" data-bs-toggle="modal" data-bs-target="#spotsFilterModal">
+        <i class="fa-solid fa-sliders"></i>
+        篩選
+        <span id="spots-filter-badge" class="spots-filter-badge" style="display:none;"></span>
+      </button>
+      <span id="spots-result-count" class="spots-result-count"></span>
+    </div>
+  </div>
+
+  <div id="spots-list" class="spots-list"></div>
+</div>
+
+<!-- ============================================
+     篩選 Modal（由 js/spots-render.js 動態產生內容）
+     ============================================ -->
+<div class="modal fade filter-modal" id="spotsFilterModal" tabindex="-1" aria-labelledby="spotsFilterModalTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="spotsFilterModalTitle">篩選</h5>
+        <button type="button" class="app-modal-close" data-bs-dismiss="modal" aria-label="關閉">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="modal-body" id="spots-filter-body">
+        <!-- js/spots-render.js 會把篩選項目動態插入這裡 -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="filter-clear-btn" id="spots-filter-clear-btn">清除全部</button>
+        <button type="button" class="filter-apply-btn" id="spots-filter-apply-btn" data-bs-dismiss="modal">套用篩選</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================
+     共用「菜單」Modal（跟行程頁一樣，支援多張圖片 /
+     改用連結呈現，見 js/itinerary-render.js 的
+     attachMenuModalHandler()）
+     ============================================ -->
+<div class="modal fade menu-modal" id="menuModal" tabindex="-1" aria-labelledby="menuModalTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="menuModalTitle">菜單</h5>
+        <button type="button" class="app-modal-close" data-bs-dismiss="modal" aria-label="關閉">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="modal-body" id="menuModalBody">
+        <!-- js/itinerary-render.js 會把一張或多張 <img> 動態插入這裡 -->
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,337 @@
+/* ============================================
+   spots.css
+   pages/sub-spots.html（景點與餐廳）與
+   pages/sub-rain-plan.html（雨天備案）共用樣式
+
+   卡片內容重用 itinerary-full.css 的 .stop-card /
+   .stop-field / .tag / .link-btn / .copy-icon 等樣式
+   （景點卡片渲染邏輯直接沿用 js/itinerary-render.js
+   裡的共用函式，例如 itinFieldRow() / itinMetroGroupsHtml()）
+   ============================================ -->
+
+.spots-page {
+  padding-top: 4px;
+}
+
+/* ---------- 頂部工具列：篩選按鈕 + 結果筆數（固定在 header 下方） ---------- */
+.spots-toolbar-wrapper {
+  /* position: fixed; */
+  top: 76px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 440px;
+  margin: 0 auto;
+  padding: 0px 0px 16px;
+  background-color: var(--color-white);
+  box-shadow: 0 6px 10px -6px rgba(0, 0, 0, 0.08);
+  z-index: 850;
+}
+
+.spots-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.spots-filter-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 16px;
+  border-radius: 999px;
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  font-size: 13px;
+  font-weight: 700;
+  border: none;
+  flex-shrink: 0;
+}
+
+.spots-filter-btn i {
+  font-size: 12px;
+}
+
+.spots-filter-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 17px;
+  height: 17px;
+  padding: 0 4px;
+  border-radius: 999px;
+  background-color: var(--color-white);
+  color: var(--color-blue);
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.spots-result-count {
+  font-size: 12.5px;
+  color: var(--color-gray);
+  white-space: nowrap;
+}
+
+.spots-result-count strong {
+  color: var(--color-black);
+  font-weight: 700;
+}
+
+/* ---------- 景點卡片列表 ---------- */
+.spots-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.spots-empty {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--color-gray);
+  font-size: 13.5px;
+  line-height: 1.8;
+}
+
+.spots-empty i {
+  display: block;
+  font-size: 28px;
+  margin-bottom: 12px;
+  color: rgba(89, 89, 89, 0.3);
+}
+
+/* ---------- 篩選 Modal（沿用 app-modal 的外觀，但 body 是篩選項目） ---------- */
+.filter-modal .modal-dialog {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  min-height: calc(100% - 20px);
+}
+
+.filter-modal .modal-content {
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 -8px 32px rgba(0, 0, 0, 0.2);
+  max-height: calc(100vh - 245px);
+}
+
+.filter-modal .modal-header {
+  background-color: var(--color-blue);
+  border-bottom: none;
+  padding: 16px 18px;
+  flex-shrink: 0;
+}
+
+.filter-modal .modal-title {
+  font-family: var(--font-base);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--color-white);
+}
+
+.filter-modal .app-modal-close {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: var(--color-white);
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 13px;
+  margin-left: auto;
+}
+
+.filter-modal .modal-body {
+  padding: 16px 18px;
+  overflow-y: auto;
+}
+
+.filter-group {
+  margin-bottom: 20px;
+}
+
+.filter-group:last-child {
+  margin-bottom: 0;
+}
+
+.filter-group-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--color-black);
+  margin-bottom: 10px;
+}
+
+.filter-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 13px;
+  border-radius: 999px;
+  border: 1.4px solid rgba(89, 89, 89, 0.28);
+  background-color: var(--color-white);
+  color: var(--color-gray);
+  font-size: 12.5px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.filter-chip.active {
+  background-color: var(--color-blue);
+  border-color: var(--color-blue);
+  color: var(--color-white);
+}
+
+/* 觀光地區的 chip 用地區色當邊框，選中時填滿該地區色 */
+.filter-chip.filter-chip--area {
+  border-color: var(--area-color, rgba(89, 89, 89, 0.28));
+  color: var(--area-color, var(--color-gray));
+}
+
+.filter-chip.filter-chip--area.active {
+  background-color: var(--area-color, var(--color-blue));
+  border-color: var(--area-color, var(--color-blue));
+  color: var(--color-white);
+}
+
+.filter-modal .modal-footer {
+  border-top: 1px solid rgba(89, 89, 89, 0.1);
+  padding: 12px 18px;
+  display: flex;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.filter-clear-btn {
+  flex: 1;
+  padding: 8px 0;
+  border-radius: 999px;
+  background-color: var(--color-white);
+  border: 1.4px solid rgba(89, 89, 89, 0.3);
+  color: var(--color-gray);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.filter-apply-btn {
+  flex: 2;
+  padding: 8px 0;
+  border-radius: 999px;
+  background-color: var(--color-blue);
+  border: none;
+  color: var(--color-white);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+/* ---------- 雨天備案標籤（只出現在「景點與餐廳」頁的卡片上） ---------- */
+.tag-rain {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 600;
+  border: 1.4px solid #4a90c9;
+  color: #4a90c9;
+}
+
+.tag-rain i {
+  font-size: 10px;
+}
+
+/* gotop */
+/* go-to-top-2 */
+.progress-wrap {
+	position: fixed;
+	right: 20px;
+	bottom: 120px;
+	height: 40px;
+	width: 40px;
+	cursor: pointer;
+	display: block;
+	border-radius: 50px;
+	box-shadow: inset  0 0 0 2px rgba(0,0,0,0.03);
+	z-index: 10000;
+	opacity: 0;
+	visibility: hidden;
+	transform: translateY(15px);
+	-webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+	background: rgba(255,255,255,0.5);
+}
+
+@media (min-width:441px){
+  .progress-wrap {
+    right: calc(50% - 220px + 20px);
+  }
+}
+.progress-wrap.active-progress {
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0);
+}
+.progress-wrap::after {
+	position: absolute;
+	font-family: 'Font Awesome 7 Free';
+	content: '\f062';
+  font-weight: 900;
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+	color: var(--color-blue);
+	left: 0;
+	top: 0;
+	height: 40px;
+	width: 40px;
+	cursor: pointer;
+	display: block;
+	z-index: 1;
+	-webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+.progress-wrap::before {
+	position: absolute;
+	font-family: 'Font Awesome 7 Free';
+	content: '\f062';
+  font-weight: 900;
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+	opacity: 0;
+	background: transparent; /* --- Pijl hover kleur --- */
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	left: 0;
+	top: 0;
+	height: 40px;
+	width: 40px;
+	cursor: pointer;
+	display: block;
+	z-index: 2;
+	-webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+.progress-wrap:hover::before {
+	opacity: 1;
+}
+.progress-wrap svg path { 
+	fill: none; 
+}
+.progress-wrap svg.progress-circle path {
+	stroke: rgba(93, 174, 255, 0.8); /* --- Lijn progres kleur --- */
+	stroke-width: 4;
+	box-sizing:border-box;
+	-webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+}

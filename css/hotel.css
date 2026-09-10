@@ -1,0 +1,108 @@
+/* ============================================
+   hotel.css
+   pages/sub-hotel.html 專用樣式（飯店詳情）
+
+   重用既有 class：
+   - .section-title（bookmark 圖示 + 標題，departure.css）
+   - .stop-card / .stop-field / .field-label / .field-value（itinerary-full.css）
+   - .entity-link-icon（departure.css，訂房網站小圖示連結）
+   - .copy-icon / .js-copy（common.js 事件委派）
+   - .tax-notes-list（tax-refund.css，紅字編號備註清單）
+   ============================================ -->
+
+.hotel-page {
+  padding-top: 4px;
+}
+
+.hotel-page .dep-section {
+  margin-bottom: 26px;
+}
+
+.hotel-page .dep-section:last-child {
+  margin-bottom: 0;
+}
+
+/* ---------- 飯店名稱（中/韓/英 三個語言版本疊在一起） ---------- */
+.hotel-name-block {
+  margin-bottom: 16px;
+}
+
+.hotel-name-primary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--color-black);
+  margin-bottom: 6px;
+}
+
+.hotel-name-secondary {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13.5px;
+  color: var(--color-gray);
+  margin-bottom: 4px;
+}
+
+.hotel-name-secondary:last-child {
+  margin-bottom: 0;
+}
+
+/* ---------- 地址 / 當地連絡電話：藍色方塊項目符號清單 ---------- */
+.hotel-info-group {
+  margin-bottom: 14px;
+}
+
+.hotel-info-group:last-child {
+  margin-bottom: 0;
+}
+
+.hotel-info-group-title {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--color-black);
+  margin-bottom: 8px;
+}
+
+.hotel-bullet-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hotel-bullet-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--color-black);
+  margin-bottom: 8px;
+}
+
+.hotel-bullet-list li:last-child {
+  margin-bottom: 0;
+}
+
+.hotel-bullet-list li::before {
+  content: "";
+  flex-shrink: 0;
+  width: 6px;
+  height: 6px;
+  margin-top: 6px;
+  background-color: var(--color-blue);
+}
+
+.hotel-bullet-list li .bullet-text {
+  flex: 1;
+  display: inline;
+  align-items: center;
+}
+
+
+/* 不要被行程頁CSS影響 */
+.hotel-page .stop-field .field-label{
+  width: 60px;
+}

@@ -1,0 +1,37 @@
+<!-- ============================================
+     pages/sub-expense.html
+     子頁面：花費
+     footer 的「花費」現在是內部頁面連結，這個頁面
+     再放一個連到 LINE App「lightsplit」小工具的連結。
+     line.me 本身就是 universal link：手機有裝 LINE 會
+     直接跳轉開 App，沒裝則自動落地到網頁版，所以這裡
+     用一般 <a target="_blank"> 即可，不需要額外的
+     app/web 判斷邏輯。
+     ============================================ -->
+
+<div class="sub-page" data-header-style="style3" data-header-title="花費">
+  <div id="header-container"></div>
+
+  <section class="sub-section">
+    <h3 class="sub-section-title">花費</h3>
+    <div class="sub-card">
+      這裡之後可以放旅費總覽、每日花費紀錄或分帳表格。
+    </div>
+  </section>
+
+  <section class="sub-section">
+    <h3 class="sub-section-title">分帳工具</h3>
+    <div class="sub-card">
+      <p>使用 LINE「lightsplit」小工具記錄與分攤旅費，點下方按鈕開啟：</p>
+      <a
+        href="https://line.me/R/ti/p/@lightsplit"
+        class="expense-line-btn"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i class="fa-brands fa-line"></i>
+        開啟 LINE lightsplit
+      </a>
+    </div>
+  </section>
+</div>

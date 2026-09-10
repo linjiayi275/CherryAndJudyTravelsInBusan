@@ -1,0 +1,71 @@
+<!-- ============================================
+     pages/sub-itinerary.html
+     子頁面：行程（完整版，footer「行程」分頁）
+
+     這個頁面本身幾乎沒有內容，只有掛載點；
+     實際的 4 天 62 個景點內容由
+     js/itinerary-render.js 讀取 js/data/itinerary.json
+     動態渲染進 #itinerary-content。
+
+     這樣設計的原因：資料量太大（62 個景點 x 十幾個
+     欄位），如果全部寫死成 HTML，之後要改行程內容會
+     很痛苦；改成 JSON + JS 渲染，之後只要改
+     js/data/itinerary.json 的內容就好，不用碰版面。
+     ============================================ -->
+<div class="sub-page itinerary-full-page" data-header-style="style5" data-header-title="行程" data-header-icon="fa-solid fa-calendar-days">
+  <div id="header-container"></div>
+
+  <div class="day-tabs-wrapper">
+    <div class="day-tabs" id="itinerary-day-tabs"></div>
+  </div>
+
+  <div id="itinerary-content">
+    <!-- js/itinerary-render.js 會把當天的行程時間軸渲染在這裡 -->
+  </div>
+</div>
+
+<!-- ============================================
+     共用「菜單」Modal
+     每個景點卡片的「菜單」按鈕都指向同一個 Modal，
+     點擊時由 js/itinerary-render.js 讀取按鈕上的
+     data-menu-title / data-menu-images（JSON 陣列，
+     支援一個景點有多張菜單圖）動態帶入
+     ============================================ -->
+<div class="modal fade menu-modal" id="menuModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="menuModalTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="menuModalTitle">菜單</h5>
+        <button type="button" class="app-modal-close" data-bs-dismiss="modal" aria-label="關閉">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="modal-body" id="menuModalBody">
+        <!-- js/itinerary-render.js 會把一張或多張 <img> 動態插入這裡 -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================
+     共用「廁所」Modal
+     景點的「廁所」按鈕開啟這個 Modal，列出該景點所有
+     廁所相關連結（可能不只一個），由
+     js/itinerary-render.js 讀取按鈕上的
+     data-restroom-title / data-restroom-links 動態帶入
+     ============================================ -->
+<div class="modal fade menu-modal restroom-modal" id="restroomModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="restroomModalTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="restroomModalTitle">廁所</h5>
+        <button type="button" class="app-modal-close" data-bs-dismiss="modal" aria-label="關閉">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="modal-body" id="restroomModalBody">
+        <!-- js/itinerary-render.js 會把廁所連結列表動態插入這裡 -->
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,205 @@
+/* ============================================
+   departure.css
+   pages/sub-departure.html 專用樣式（出入境）
+
+   大量重用既有的共用 class：
+   - .stop-card / .stop-field / .field-label / .field-value（itinerary-full.css）
+   - .link-btn / .copy-icon / .js-copy（itinerary-full.css / common.js）
+   - .itin-item / .itin-transit-icon / .transit-card / .transit-head /
+     .transit-label（itinerary-full.css 的時間軸樣式，這裡拿來畫「去／回」
+     兩個航班段落，視覺上跟行程頁一致）
+   - .tax-notes-list（tax-refund.css 的紅字編號清單）
+   ============================================ */
+
+.departure-page {
+  padding-top: 4px;
+}
+
+.dep-section {
+  margin-bottom: 26px;
+}
+
+.dep-section:last-child {
+  margin-bottom: 0;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--color-black);
+  margin-bottom: 12px;
+}
+
+.section-title i {
+  color: var(--color-blue);
+  font-size: 14px;
+}
+
+/* ---------- 機票/機場 卡片標題（名稱 + 官網小圖示） ---------- */
+.entity-title-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.entity-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color-black);
+  margin-bottom: 0;
+}
+
+.entity-link-icon {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: var(--color-blue);
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.dep-card + .dep-card {
+  margin-top: 14px;
+}
+
+/* ---------- 航班代碼小標籤（含複製圖示） ---------- */
+.flight-code-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 10px;
+  border-radius: 999px;
+  border: 1.4px solid rgba(89, 89, 89, 0.3);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-black);
+  font-family: "Noto Serif", monospace;
+}
+
+.flight-datetime {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-black);
+  margin-top: 8px;
+}
+
+.flight-duration {
+  font-size: 12px;
+  color: var(--color-gray);
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+/* ---------- 去／回 灰底文字圓形徽章 ---------- */
+.leg-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: var(--color-gray);
+  color: var(--color-white);
+  font-size: 13px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.leg-block {
+  margin-top: 16px;
+}
+
+.leg-block:first-of-type {
+  margin-top: 14px;
+}
+
+.leg-header {
+  margin-bottom: 8px;
+}
+
+.leg-notes {
+  margin-left: 15px;
+  margin-right: 5px;
+  margin-top: 4px;
+}
+
+/* ---------- 必填資料 4 個連結按鈕 ---------- */
+.dep-links-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+/* ---------- 出入境步驟：出境／入境 子卡片 ---------- */
+.proc-card {
+  border-radius: 12px;
+  padding: 0px 14px 12px 48px;
+  margin-top: 5px;
+}
+
+.proc-card:first-of-type {
+  margin-top: 12px;
+}
+
+.proc-title {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: #e0433c;
+  margin-bottom: 8px;
+}
+
+.proc-notes {
+  margin-left: 2px;
+}
+
+.proc-bonus-note {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  margin-top: 10px;
+  padding: 9px 12px;
+  background-color: #fff6e8;
+  border-radius: 10px;
+  font-size: 12.5px;
+  line-height: 1.6;
+  color: #b8860b;
+}
+
+.proc-bonus-note i {
+  margin-top: 2px;
+  font-size: 11px;
+  flex-shrink: 0;
+}
+
+/* 不要被行程頁CSS影響 */
+.departure-page .stop-field .field-label{
+  width: 60px;
+}
+
+.departure-page .transit-label{
+  background: transparent;
+  color: var(--color-blue);
+}
+
+.departure-page .itin-transit-icon{
+  font-weight: bold;
+  color: var(--color-white);
+  background-color: var(--color-gray);
+}
+
+.departure-page .itin-item::before,
+.departure-page .itin-item::after{
+  content: none;
+}
+
+.departure-page .tax-notes-list > li{
+  color: var(--color-black);
+}

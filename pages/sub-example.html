@@ -1,0 +1,30 @@
+<!-- ============================================
+     pages/sub-example.html
+     範例子頁面（純參考用，未被任何選單連結指向）：
+     示範新增子頁面的標準寫法。實際使用時可複製這份
+     檔案改名，例如：
+       pages/sub-restaurant-detail.html
+
+     寫法重點：
+     - 最外層 div 標記 data-header-style / data-header-title，
+       js/common.js 的 initSubPageHeader() 會自動讀取並載入
+       對應的 header 元件、帶入標題文字 —— 不需要在頁面裡寫
+       任何 inline <script>，完全符合 CSP 對 inline script 的限制
+     - 內文請用 css/sub.css 既有的 .sub-section / .sub-card
+       class，或視需求另外新增專屬 css 檔並在 index.html 加一行
+       <link>
+     ============================================ -->
+
+<div class="sub-page" data-header-style="style3" data-header-title="範例頁面">
+  <div id="header-container"></div>
+
+  <section class="sub-section">
+    <h3 class="sub-section-title">範例區塊標題</h3>
+    <div class="sub-card">
+      這裡放子頁面的內容。此檔案示範子頁面如何透過
+      data-header-title 自動載入
+      components/header/sub-header-style1.html，
+      並套用 css/sub.css 的卡片樣式。
+    </div>
+  </section>
+</div>

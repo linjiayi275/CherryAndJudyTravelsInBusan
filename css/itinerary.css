@@ -1,0 +1,170 @@
+/* ============================================
+   itinerary.css
+   pages/sub-itinerary-brief.html 專用樣式
+   （簡要行程時間軸）
+
+   顏色系統說明：
+   - 地區色（--area-*）：對應使用者提供的地區配色圖，
+     套用在每個行程項目的「地區」標籤上
+   - 每日色（--day-color）：每個 Day 區塊自己的主題色，
+     套用在該日的時間軸圓點編號、連接線、Day 標題文字
+   ============================================ */
+
+.itinerary-page {
+  padding-top: 4px;
+}
+
+/* ---------- Day 區塊 ---------- */
+.day-block {
+  margin-bottom: 36px;
+}
+
+.day-block:last-child {
+  margin-bottom: 0;
+}
+
+.day-header {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.day-header .day-label {
+  font-family: var(--font-display);
+  font-size: 21px;
+  font-weight: 700;
+  color: var(--day-color);
+}
+
+.day-header .day-date {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--color-gray);
+}
+
+/* ---------- 時間軸 ---------- */
+.timeline {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline-item {
+  position: relative;
+  padding-left: 42px;
+  padding-bottom: 22px;
+}
+
+.timeline-item:last-child {
+  padding-bottom: 0;
+}
+
+/* 連接線：從這一個項目的圓點下緣，接到下一個項目 */
+.timeline-item:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  left: 15px;
+  top: 32px;
+  bottom: 0;
+  width: 2px;
+  background-color: var(--day-color);
+  opacity: 0.5;
+}
+
+.timeline-num {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: var(--day-color);
+  color: var(--color-white);
+  font-size: 11.5px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+/* 備案項目的圓點：灰階，代表「非主行程」 */
+.timeline-num--backup {
+  background-color: #C6C6C6;
+}
+
+.timeline-content {
+  padding-top: 4px;
+}
+
+.timeline-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--color-black);
+  line-height: 1.4;
+  margin-bottom: 8px;
+}
+
+.timeline-tags {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 600;
+  border: 1.4px solid currentColor;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+
+.tag-area {
+  color: var(--area-color, var(--color-gray));
+}
+
+.tag-category {
+  color: var(--color-gray);
+  border-color: rgba(89, 89, 89, 0.35);
+}
+
+.timeline-backup-label {
+  margin-left: auto;
+  font-size: 11px;
+  font-weight: 500;
+  color: #ABABAB;
+  white-space: nowrap;
+}
+
+.timeline-note {
+  display: flex;
+  align-items: flex-start;
+  gap: 7px;
+  margin-top: 9px;
+  padding: 9px 12px;
+  background-color: var(--color-lightgray);
+  border-radius: 10px;
+  font-size: 12.5px;
+  line-height: 1.6;
+  color: var(--color-gray);
+}
+
+.timeline-note i {
+  margin-top: 3px;
+  font-size: 11px;
+  color: var(--color-blue);
+  flex-shrink: 0;
+}
+
+/* ---------- 備案項目：整體灰階弱化，與主行程做出區隔 ---------- */
+.timeline-item--backup .timeline-content {
+  filter: grayscale(1);
+  opacity: 0.7;
+}

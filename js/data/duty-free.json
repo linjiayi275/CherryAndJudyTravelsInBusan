@@ -1,0 +1,105 @@
+{
+ "stores": [
+  {
+   "name": "樂天",
+   "website": "https://chn.lottedfs.cn/kr/shopmain/home?changeLang=ZH",
+   "eximPay": true,
+   "memberUrl": "https://m.lpoint.com/app/global/LHGA100100.do?globalFlag=CH",
+   "memberNote": "請先申辦後再前往線上免稅店"
+  },
+  {
+   "name": "新世界",
+   "website": "https://www.ssgdfs.com/cn/main/initMain",
+   "eximPay": false,
+   "memberUrl": null,
+   "memberNote": null
+  },
+  {
+   "name": "新羅",
+   "website": "https://www.shilladutyfree.cn/estore/kr/zh/?uiel=Desktop",
+   "eximPay": true,
+   "memberUrl": null,
+   "memberNote": null
+  }
+ ],
+ "guide": {
+  "label": "免稅訂購與取貨說明",
+  "url": "https://www.dcard.tw/f/korea_travel/p/257406719"
+ },
+ "items": [
+  {
+   "store": "樂天",
+   "no": 1,
+   "name": "DOCTOR MELAXIN NECKLINEPHALT NECK CREAM 頸霜 20ml",
+   "image": "https://static.lottedfs.cn/prod/prd-img/46/62/28/01/00/02/20001286246_7.jpg/dims/resize/460x460",
+   "url": "https://chn.lottedfs.cn/kr/product/productDetail?prdNo=20000964226&prdOptNo=20001286246&adltPrdYn=N",
+   "price": 390,
+   "currency": "TWD",
+   "twShops": [
+    "酷澎",
+    "蝦皮"
+   ],
+   "note": "免稅便宜"
+  },
+  {
+   "store": "樂天",
+   "no": 2,
+   "name": "(XOCOSILOK) FULL SAND TIRAMISU (LARGE) 提拉米蘇餅乾(大-9入)",
+   "image": "https://static.lottedfs.cn/prod/prd-img/45/95/28/01/00/02/20001289545_2.jpg/dims/resize/460x460",
+   "url": "https://chn.lottedfs.cn/kr/product/productDetail?prdNo=20000965712&prdOptNo=20001289545&adltPrdYn=N&accDispShopNo=10001471",
+   "price": 299,
+   "currency": "TWD",
+   "twShops": [
+    "酷澎",
+    "蝦皮"
+   ],
+   "note": "1. 還有草莓、杜拜巧克力、濟州柑橘巧克力、巧克力口味的\n2. 免稅便宜"
+  },
+  {
+   "store": "樂天",
+   "no": 3,
+   "name": "BAGEL CHIPS 4PCS COLLECTION 貝果脆片4 種口味組合裝",
+   "image": "https://static.lottedfs.cn/prod/prd-img/98/67/41/01/00/02/20001416798_2.webp/dims/resize/460x460",
+   "url": "https://chn.lottedfs.cn/kr/product/productDetail?prdNo=20001033726&prdOptNo=20001416798&adltPrdYn=N",
+   "price": 166,
+   "currency": "TWD",
+   "twShops": [
+    "蝦皮"
+   ],
+   "note": "免稅便宜"
+  },
+  {
+   "store": "樂天",
+   "no": 4,
+   "name": "VERISH COOL FIT BRA SIGNATURE 內衣 (淺藍/淺粉)",
+   "image": "https://static.lottedfs.cn/prod/prd-img/41/69/30/01/00/02/20001306941_1.jpg/dims/resize/460x460",
+   "url": "https://chn.lottedfs.cn/kr/product/productDetail?prdNo=20000886111&prdOptNo=20001302360&adltPrdYn=N&accDispShopNo=10058436",
+   "price": 1116,
+   "currency": "TWD",
+   "twShops": [],
+   "note": "買2件"
+  },
+  {
+   "store": "樂天",
+   "no": 5,
+   "name": "VERISH COOL-FIT PANTY 內褲 (淺藍/淺粉)",
+   "image": "https://static.lottedfs.cn/prod/prd-img/96/66/09/01/00/02/20001096696_2.jpg/dims/resize/460x460",
+   "url": "https://chn.lottedfs.cn/kr/product/productDetail?prdNo=20000848794&prdOptNo=20001096690&adltPrdYn=N&accDispShopNo=10058436",
+   "price": 508,
+   "currency": "TWD",
+   "twShops": [],
+   "note": "買2件"
+  },
+  {
+   "store": "樂天",
+   "no": 6,
+   "name": "VERISH ICE ON STRAPLESS BRA 露肩文胸 (膚)",
+   "image": "https://static.lottedfs.cn/prod/prd-img/69/98/44/01/00/02/20001449869_2.webp/dims/resize/460x460",
+   "url": "https://chn.lottedfs.cn/kr/product/productDetail?prdNo=20001050368&prdOptNo=20001449861&adltPrdYn=N&accDispShopNo=10058436",
+   "price": 609,
+   "currency": "TWD",
+   "twShops": [],
+   "note": "買1件"
+  }
+ ]
+}

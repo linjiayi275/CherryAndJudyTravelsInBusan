@@ -1,0 +1,57 @@
+/* ============================================
+   sub.css
+   pages/sub-XXX.html 等子分頁共用樣式
+   （目前僅建立基礎骨架，之後依各子頁需求擴充）
+   ============================================ */
+
+.sub-page[data-header-style="style3"],
+.sub-page[data-header-style="style4"],
+.sub-page[data-header-style="style5"] {
+  padding-top: 8px;
+  margin-top: 80px;
+}
+
+.sub-section {
+  margin-bottom: 28px;
+}
+
+.sub-section-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color-black);
+  margin-bottom: 12px;
+}
+
+.sub-card {
+  background-color: var(--color-white);
+  border: 1px solid rgba(89, 89, 89, 0.12);
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.sub-card p {
+  color: var(--color-gray);
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+/* pages/sub-expense.html 專用：開啟 LINE lightsplit 的按鈕 */
+.expense-line-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 12px 0;
+  background-color: #06c755; /* LINE 品牌綠 */
+  color: var(--color-white);
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 999px;
+}
+
+.expense-line-btn i {
+  font-size: 18px;
+}

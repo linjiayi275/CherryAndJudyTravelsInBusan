@@ -1,0 +1,208 @@
+/* ============================================
+   tax-refund.css
+   pages/sub-tax-refund.html 專用樣式（關於退稅）
+   ============================================ */
+
+.tax-refund-page {
+  padding-top: 4px;
+}
+
+/* ---------- 上方注意事項卡片 ---------- */
+.tax-notes-card {
+  background-color: var(--color-lightgray);
+  border-radius: 16px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.tax-notes-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: tax-note;
+}
+
+.tax-notes-list > li {
+  position: relative;
+  padding-left: 22px;
+  margin-bottom: 2px;
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--color-black);
+  counter-increment: tax-note;
+}
+
+.tax-notes-list > li:last-child {
+  margin-bottom: 0;
+}
+
+.tax-notes-list > li::before {
+  content: counter(tax-note) ".";
+  position: absolute;
+  left: 0;
+  font-weight: 700;
+}
+
+.tax-notes-list a {
+  color: var(--bs-red);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-weight: bold;
+}
+
+/* 3-a / 3-b 子項目 */
+.tax-subnotes {
+  list-style: none;
+  margin: 6px 0 0;
+  padding: 0;
+}
+
+.tax-subnotes li {
+  position: relative;
+  padding-left: 20px;
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--color-black);
+  margin-bottom: 4px;
+}
+
+.tax-subnotes li:last-child {
+  margin-bottom: 0;
+}
+
+.tax-subnotes li .subnote-mark {
+  position: absolute;
+  left: 0;
+  font-weight: 700;
+}
+
+/* ---------- 退稅級距表 ---------- */
+.tax-table-wrap {
+  border-radius: 16px;
+  overflow: hidden;
+  /* border: 1px solid rgba(89, 89, 89, 0.12); */
+}
+
+.tax-table-title {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  padding: 12px 0;
+}
+
+/* 橫向捲動容器：手機/平板原生觸控滑動即可，
+   桌機另外用 js/common.js 的 initDragScroll() 支援滑鼠拖曳 */
+.tax-table-scroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  cursor: grab;
+  user-select: none;
+  scrollbar-width: thin;
+}
+
+.tax-table-scroll.grabbing {
+  cursor: grabbing;
+}
+
+.tax-table-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+
+.tax-table-scroll::-webkit-scrollbar-thumb {
+  background-color: rgba(89, 89, 89, 0.25);
+  border-radius: 999px;
+}
+
+.tax-table {
+  border-collapse: collapse;
+  width: max-content;
+  min-width: 100%;
+}
+
+.tax-table th,
+.tax-table td {
+  padding: 10px 14px;
+  font-size: 12.5px;
+  text-align: center;
+  white-space: nowrap;
+  border-bottom: 1px solid rgba(89, 89, 89, 0.1);
+}
+
+.tax-table thead th {
+  font-weight: 700;
+  color: var(--color-black);
+  background-color: var(--color-lightgray);
+  border-bottom: 1px solid rgba(89, 89, 89, 0.15);
+}
+
+/* 第一欄（消費金額）固定在左側，橫向捲動時保持可見 */
+.tax-table th.col-range,
+.tax-table td.col-range {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  background-color: var(--color-white);
+  font-weight: 600;
+  color: var(--color-black);
+  box-shadow: 1px 0 0 rgba(89, 89, 89, 0.1);
+}
+
+.tax-table thead th.col-range {
+  background-color: var(--color-lightgray);
+  z-index: 2;
+}
+
+.tax-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* 各退稅標籤色（修正需求：不同欄位要用不同顏色呈現數字） */
+.tax-table td.col-blue,
+.tax-table th.col-blue {
+  color: var(--tax-color-blue);
+}
+
+.tax-table td.col-orange,
+.tax-table th.col-orange {
+  color: var(--tax-color-orange);
+}
+
+.tax-table td.col-green,
+.tax-table th.col-green {
+  color: var(--tax-color-green);
+}
+
+.tax-table td.col-purple,
+.tax-table th.col-purple {
+  color: var(--tax-color-purple);
+}
+
+.tax-table td.col-yellow,
+.tax-table th.col-yellow {
+  color: var(--tax-color-yellow);
+}
+
+.tax-table thead th.col-blue,
+.tax-table thead th.col-orange,
+.tax-table thead th.col-green,
+.tax-table thead th.col-purple,
+.tax-table thead th.col-yellow {
+  font-weight: 700;
+}
+
+.tax-scroll-hint {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 0 2px;
+  font-size: 11px;
+  color: var(--color-gray);
+}
+
+.tax-scroll-hint i {
+  font-size: 10px;
+}

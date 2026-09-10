@@ -1,0 +1,50 @@
+<!-- ============================================
+     components/footer.html
+     固定於畫面下方的導覽列（由 component-loader.js
+     載入到 index.html 的 #footer-container 中）
+
+     - 行程 / 出入境 / 首頁 / 換匯：內部頁面，SPA 換頁（js-nav-link）
+     - 花費：內部頁面（pages/sub-expense.html），該頁面內文
+      再放連到 LINE App「lightsplit」小工具的連結
+      （沒安裝 LINE 則落到網頁版 https://line.me/R/ti/p/@lightsplit）
+     ============================================ -->
+
+<div class="footer">
+  <div class="footer-gradient"></div>
+
+  <nav class="footer-nav">
+    <a href="#" class="footer-item js-nav-link" data-page-url="pages/sub-itinerary.html" data-page-key="itinerary">
+      <i class="fa-regular fa-calendar-days"></i>
+      <span>行程</span>
+    </a>
+
+    <a href="#" class="footer-item js-nav-link" data-page-url="pages/sub-departure.html" data-page-key="departure">
+      <i class="fa-solid fa-plane-departure"></i>
+      <span>出入境</span>
+    </a>
+
+    <a href="#" class="footer-item js-nav-link active" data-page-url="pages/home.html" data-page-key="home">
+      <i class="fa-regular fa-house"></i>
+      <span>首頁</span>
+    </a>
+
+    <a href="#" class="footer-item js-nav-link" data-page-url="pages/sub-exchange.html" data-page-key="exchange">
+      <i class="fa-solid fa-money-bill-transfer"></i>
+      <span>換匯</span>
+    </a>
+
+    <!-- <a href="#" class="footer-item js-nav-link" data-page-url="pages/sub-expense.html" data-page-key="expense">
+      <i class="fa-solid fa-sack-dollar"></i>
+      <span>花費</span>
+    </a> -->
+    <a
+        href="https://line.me/R/ti/p/@lightsplit"
+        class="footer-item"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+      <i class="fa-solid fa-sack-dollar"></i>
+      <span>花費</span>
+    </a>
+  </nav>
+</div>

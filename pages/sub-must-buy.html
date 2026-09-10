@@ -1,0 +1,101 @@
+<!-- ============================================
+     pages/sub-must-buy.html
+     子頁面：必買推薦（實體店）（從首頁選單點進來）
+     資料來源：使用者提供的 Excel「必買推薦(實體店)」工作表
+
+     購物清單表格由 js/shopping-render.js 讀取
+     js/data/must-buy.json 動態渲染（表頭凍結 + 第一欄凍結，
+     支援滑鼠拖曳橫向捲動）；其餘介紹區塊資料量小，直接寫死
+     ============================================ -->
+
+<div class="sub-page shopping-page" data-header-style="style3" data-header-title="必買推薦（實體店）" data-shopping-mode="must-buy">
+  <div id="header-container"></div>
+
+  <!-- ========== 會員 ========== -->
+  <section class="dep-section">
+    <h3 class="section-title"><i class="fa-solid fa-bookmark"></i>會員</h3>
+    <div class="stop-card">
+      <div class="entity-title-row">
+        <h4 class="entity-title">樂天會員 (L.POINT)</h4>
+      </div>
+      <div class="stop-actions">
+        <a class="link-btn" href="https://m.lpoint.com/app/global/LHGA100100.do?globalFlag=CH" target="_blank" rel="noopener noreferrer">
+          <i class="fa-solid fa-link"></i>會員申辦
+        </a>
+      </div>
+      <div class="stop-note"><i class="fa-solid fa-pen"></i><span>樂天會員可用於樂天超市、7-11、樂天免稅店等等</span></div>
+    </div>
+  </section>
+
+  <!-- ========== 線下優惠券 ========== -->
+  <section class="dep-section">
+    <h3 class="section-title"><i class="fa-solid fa-bookmark"></i>線下優惠券</h3>
+
+    <div class="stop-card dep-card">
+      <div class="entity-title-row">
+        <h4 class="entity-title">KKDAY 樂天超市 COUPON</h4>
+      </div>
+      <div class="stop-actions">
+        <a class="link-btn" href="https://www.kkday.com/zh-tw" target="_blank" rel="noopener noreferrer">
+          <i class="fa-solid fa-link"></i>前往 KKDAY
+        </a>
+      </div>
+      <ol class="tax-notes-list" style="margin-top:10px;">
+        <li>APP 登入</li>
+        <li>滿₩100,000才能折扣₩6,000</li>
+      </ol>
+    </div>
+
+    <div class="stop-card dep-card">
+      <div class="entity-title-row">
+        <h4 class="entity-title">Creatrip 各個免稅店 COUPON</h4>
+      </div>
+      <div class="stop-actions">
+        <a class="link-btn" href="https://creatrip.com/" target="_blank" rel="noopener noreferrer">
+          <i class="fa-solid fa-link"></i>前往 Creatrip
+        </a>
+      </div>
+      <ol class="tax-notes-list" style="margin-top:10px;">
+        <li>用LINE登入</li>
+        <li>有滿額才有折扣</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ========== 檢查產品能否帶回台灣 ========== -->
+  <section class="dep-section">
+    <h3 class="section-title"><i class="fa-solid fa-bookmark"></i>檢查產品能否帶回台灣</h3>
+    <div class="stop-card">
+      <div class="entity-title-row">
+        <h4 class="entity-title">AI入境物品檢查</h4>
+      </div>
+      <div class="stop-actions">
+        <a class="link-btn" href="https://ai-customs.tw/" target="_blank" rel="noopener noreferrer">
+          <i class="fa-solid fa-link"></i>前往查詢
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 購物說明 ========== -->
+  <section class="dep-section">
+    <h3 class="section-title"><i class="fa-solid fa-bookmark"></i>購物說明</h3>
+    <div class="stop-card">
+      <ol class="tax-notes-list">
+        <li>刷卡幣別選擇：韓幣 &gt; 美金 &gt; 台幣(最好不要選)</li>
+        <li>有時候台灣網購買比韓國買便宜，記得購買前先查看網購價格</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ========== 購物清單（JSON 動態渲染） ========== -->
+  <section class="dep-section">
+    <h3 class="section-title"><i class="fa-solid fa-bookmark"></i>購物清單</h3>
+    <div id="shop-btn" class="shop-btn">
+      <!-- js/shopping-render.js 會讀取 js/data/must-buy.json 動態渲染 -->
+    </div>
+    <div id="shop-list">
+      <!-- js/shopping-render.js 會讀取 js/data/must-buy.json 動態渲染 -->
+    </div>
+  </section>
+</div>

@@ -1,0 +1,4428 @@
+{
+ "areaColors": {
+  "金海機場": "#9B59D6",
+  "西面": "#FF8C3D",
+  "奧西利亞": "#3B5B9B",
+  "廣安里": "#4CAF50",
+  "海雲台": "#2D8CE0",
+  "影島": "#2E7D32",
+  "南浦洞": "#C0202D",
+  "東大新洞": "#F06BA8",
+  "甘川洞": "#A08500",
+  "松島": "#00BFA5"
+ },
+ "dayColors": {
+  "1": "#f0404e",
+  "2": "#2ca2aa",
+  "3": "#da819c",
+  "4": "#4350c5"
+ },
+ "metroColors": {
+  "Ⓖ": "#924BDD",
+  "➀": "#F7752D",
+  "Ⓚ": "#3356B4",
+  "➁": "#3CB44A"
+ },
+ "days": [
+  {
+   "day": 1,
+   "dateShort": "10/1",
+   "dateLabel": "10/1 (THU.)",
+   "dayColor": "#f0404e",
+   "stopCount": 10,
+   "items": [
+    {
+     "kind": "stop",
+     "num": 1,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "金海國際機場",
+     "kr": "김해국제공항",
+     "region": "金海機場",
+     "category": "機場",
+     "indoor": "室內",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": "11:15",
+     "leave": "12:15",
+     "duration": 60,
+     "hours": "04:30 - 23:00",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "Ⓖ",
+         "color": "#924BDD"
+        }
+       ],
+       "name": "機場站 공항역"
+      }
+     ],
+     "address": "부산 강서구 공항진입로 108 1층",
+     "navermap": "https://naver.me/GNRjwFwb",
+     "website": "https://www.airport.co.kr/gimhaechn/index.do",
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "1. 抵達1F入境大廳\n2. 預習出入境流程",
+     "links": [
+      {
+       "label": "出入境",
+       "url": "pages/sub-departure.html",
+       "internal": true,
+       "pageKey": "departure"
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 5,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/GcADIV6i",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": null,
+     "links": [
+      {
+       "label": "路線影片",
+       "url": "https://www.instagram.com/reel/DZOp8trR8sq/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+       "internal": false,
+       "pageKey": null
+      }
+     ]
+    },
+    {
+     "kind": "stop",
+     "num": 2,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "Moneybox 金海機場分店",
+     "kr": "머니박스 김해공항지점",
+     "region": "金海機場",
+     "category": "換匯所",
+     "indoor": "室內",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": "12:20",
+     "leave": "12:30",
+     "duration": 10,
+     "hours": "06:00 - 21:00",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "Ⓖ",
+         "color": "#924BDD"
+        }
+       ],
+       "name": "機場站 공항역"
+      }
+     ],
+     "address": "부산 강서구 공항진입로 165 경전철 김해공항역 1층 대합실",
+     "navermap": "https://naver.me/xzxwVFcz",
+     "website": null,
+     "sns": [
+      {
+       "url": "https://www.instagram.com/moneybox_busan/",
+       "icon": "fa-brands fa-instagram"
+      },
+      {
+       "url": "https://www.threads.com/@moneybox_busan",
+       "icon": "fa-brands fa-threads"
+      }
+     ],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "1. 換韓幣\n2. 有COUPON可用，請見換匯",
+     "links": [
+      {
+       "label": "換匯",
+       "url": "pages/sub-exchange.html",
+       "internal": true,
+       "pageKey": "exchange"
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 1,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/GwfJkym6",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": null,
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 3,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "emart 輕軌機場站店",
+     "kr": "이마트24 S경전철공항역점",
+     "region": "金海機場",
+     "category": "便利商店",
+     "indoor": "室內",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": "12:31",
+     "leave": "12:38",
+     "duration": 7,
+     "hours": "09:00 - 22:00",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "Ⓖ",
+         "color": "#924BDD"
+        }
+       ],
+       "name": "機場站 공항역"
+      }
+     ],
+     "address": "부산 강서구 공항진입로 165 부산-김해경전철 공항역 역사",
+     "navermap": "https://naver.me/FetkY3GH",
+     "website": null,
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "買T-money，並儲值",
+     "links": [],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "subway",
+     "icon": "fa-solid fa-train-subway",
+     "label": "地鐵 + 走路",
+     "isTaxi": false,
+     "duration": 47,
+     "fee": 2100,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/FWTbs99Q",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": [
+      {
+       "code": "Ⓖ",
+       "color": "#924BDD",
+       "text": "機場往釜山流通地區(沙上方向) 12:37、12:43(預計)、12:49、12:55"
+      },
+      {
+       "code": "➁",
+       "color": "#3CB44A",
+       "text": "沙上往甘田(萇山方向) 12:52、12:59(預計)、13:06、13:13"
+      },
+      {
+       "code": "➀",
+       "color": "#F7752D",
+       "text": "西面往凡內谷(多大浦方向) 13:12、13:19(預計)、13:25、13:32"
+      }
+     ],
+     "note": null,
+     "links": [
+      {
+       "label": "搭車影片",
+       "url": "https://www.facebook.com/watch/?v=1278306227018266",
+       "internal": false,
+       "pageKey": null
+      }
+     ]
+    },
+    {
+     "kind": "stop",
+     "num": 4,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "URBAN GROOVE HOTEL SEOMYEON",
+     "kr": "어반그루브호텔 서면점",
+     "region": "西面",
+     "category": "飯店",
+     "indoor": "室內",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": "13:25",
+     "leave": "13:35",
+     "duration": 10,
+     "hours": "24hr",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "凡內谷站 범내골역"
+      },
+      {
+       "badges": [
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "田浦站 전포역"
+      }
+     ],
+     "address": "부산 부산진구 황령대로17번길 18 어반그루브호텔",
+     "navermap": "https://naver.me/GPdHlOfc",
+     "website": null,
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "1. 寄放行李\n2. 一個人先去點餐，一個人先去寄放行李",
+     "links": [
+      {
+       "label": "飯店詳情",
+       "url": "pages/sub-hotel.html",
+       "internal": true,
+       "pageKey": "home"
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 1,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/FSvE3dSB",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": null,
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 5,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "MEGA Coffee 凡川店",
+     "kr": "메가MGC커피 범천점",
+     "region": "西面",
+     "category": "飲料店",
+     "indoor": "室內",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": "13:36",
+     "leave": "13:45",
+     "duration": 9,
+     "hours": "08:00 - 22:00 (假日到 21:00)",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "凡內谷站 범내골역"
+      },
+      {
+       "badges": [
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "田浦站 전포역"
+      }
+     ],
+     "address": "부산 부산진구 황령대로 23 1층 102호",
+     "navermap": "https://naver.me/xa5bqZnz",
+     "website": null,
+     "sns": [],
+     "menuImages": [
+      "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240911_284%2F1726033003960DfMW9_JPEG%2F1.%25B8%25DE%25B4%25BA%25C6%25C71.jpg",
+      "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240911_70%2F1726033008968QsiEn_JPEG%2F2.%25B8%25DE%25B4%25BA%25C6%25C72.jpg"
+     ],
+     "menuAsLink": false,
+     "note": "1. 外帶午餐，放進袋子(不可透明塑膠袋)裡\n2. 計程車上不能吃，飲料也需要包裝",
+     "links": [
+      {
+       "label": "點餐機教學",
+       "url": "https://www.instagram.com/reel/C8dp2tsPW1Z/",
+       "internal": false,
+       "pageKey": null
+      },
+      {
+       "label": "推薦飲品",
+       "url": "https://www.instagram.com/reel/C6vRXf7vru4/?utm_source=ig_web_button_share_sheet",
+       "internal": false,
+       "pageKey": null
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "taxi",
+     "icon": "fa-solid fa-taxi",
+     "label": "計程車",
+     "isTaxi": true,
+     "duration": 40,
+     "fee": 20600,
+     "tollOptions": "0/1000/2000",
+     "routeUrl": "https://naver.me/Grghbv0v",
+     "taxiFrom": "메가MGC커피 범천점",
+     "taxiTo": "세븐일레븐 부산롯데월드1호점",
+     "scheduleLines": null,
+     "note": "在 7-11 釜山樂天世界1號店前的計程車停靠站下車",
+     "links": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 5,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/GlRv4fr1",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": "下車過斑馬線後，上樓梯並右轉",
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 6,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "釜山樂天世界冒險樂園",
+     "kr": "롯데월드 어드벤처 부산",
+     "region": "奧西利亞",
+     "category": "遊樂園",
+     "indoor": "室外",
+     "vbp": "免費",
+     "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000000270",
+     "fee": "持釜山pass 無須額外費用",
+     "arrive": "14:30",
+     "leave": "16:25",
+     "duration": 115,
+     "hours": "https://adventurebusan.lotteworld.com/usage-guide/service/closed",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "Ⓚ",
+         "color": "#3356B4"
+        }
+       ],
+       "name": "奧西利亞站 오시리아역"
+      }
+     ],
+     "address": "부산 기장군 기장읍 동부산관광로 42",
+     "navermap": "https://naver.me/x9BN8XXI",
+     "website": "https://adventurebusan.lotteworld.com/",
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "要玩水設施的話，記得帶雨衣",
+     "links": [
+      {
+       "label": "園區地圖",
+       "url": "https://girlsplan.com/wp-content/uploads/2023/10/2023_Guidemap_CN_page-0002.jpg",
+       "internal": false,
+       "pageKey": null
+      },
+      {
+       "label": "介紹",
+       "url": "https://kimiyo.tw/busan-lotte-world/",
+       "internal": false,
+       "pageKey": null
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 15,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "https://www.facebook.com/share/p/1Ah4HuGJ7g/",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": null,
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 7,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "Skyline Luge 釜山",
+     "kr": "스카이라인루지 부산",
+     "region": "奧西利亞",
+     "category": "斜坡滑車",
+     "indoor": "室外",
+     "vbp": "免費",
+     "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000000268",
+     "fee": "持釜山pass 無須額外費用",
+     "arrive": "16:40",
+     "leave": "17:30",
+     "duration": 50,
+     "hours": "https://busan.skylineluge.kr/en/visiting-us/open-hours/?week=1788105600",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "Ⓚ",
+         "color": "#3356B4"
+        }
+       ],
+       "name": "奧西利亞站 오시리아역"
+      }
+     ],
+     "address": "부산 기장군 기장읍 기장해안로 205",
+     "navermap": "https://naver.me/IDFUcLWo",
+     "website": "https://busan.skylineluge.kr/en/",
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "1. 自備拋棄式浴帽\n2. 包包會背著一起滑，建議不要帶太多東西！要空出雙手",
+     "links": [
+      {
+       "label": "錄影小妙招",
+       "url": "https://www.threads.com/@e.nn26/post/DOk_6X6EXVk?xmt=AQG0GLtMQ44ehyYE5ZnofkYryIo3iUn5q8dIxhMi4gQjLA",
+       "internal": false,
+       "pageKey": null
+      },
+      {
+       "label": "介紹",
+       "url": "https://traveltokoreanow.com/busan-skyline-luge/",
+       "internal": false,
+       "pageKey": null
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit-options",
+     "sharedWalk": {
+      "duration": 5,
+      "routeUrl": "https://naver.me/x7eA6O9m",
+      "note": "走到Skyline Luge - GS25外的路邊搭車"
+     },
+     "options": [
+      {
+       "label": "方法1",
+       "mode": "taxi",
+       "icon": "fa-solid fa-taxi",
+       "isTaxi": true,
+       "modeText": "計程車(或公車) + 走路",
+       "duration": 15,
+       "fee": 4900,
+       "tollOptions": null,
+       "taxiFrom": "GS25 오시리아루지점",
+       "taxiTo": "오시리아역1번출구",
+       "note": "1. 在 Skyline Luge - GS25 外的路邊上車\n2. 公車搭1001 (費用 ₩2,100)，下車需要走天橋到地鐵站",
+       "routeUrl": "https://naver.me/GwfQB4gE",
+       "scheduleLines": null
+      },
+      {
+       "label": null,
+       "mode": "subway",
+       "icon": "fa-solid fa-train-subway",
+       "isTaxi": false,
+       "modeText": "地鐵 + 走路",
+       "duration": 55,
+       "fee": 1800,
+       "tollOptions": null,
+       "taxiFrom": null,
+       "taxiTo": null,
+       "note": null,
+       "routeUrl": "https://naver.me/xdMBrPri",
+       "scheduleLines": [
+        {
+         "code": "Ⓚ",
+         "color": "#3356B4",
+         "text": "奧西利亞往松亭(釜田方向) 17:42、17:53(預計)、18:08(有點趕)"
+        },
+        {
+         "code": "➀",
+         "color": "#F7752D",
+         "text": "教大往蓮山(多大浦方向) 18:24(預計)、18:28(預計)、18:32、18:36、18:40(有點趕)"
+        }
+       ]
+      },
+      {
+       "label": "方法2",
+       "mode": "taxi",
+       "icon": "fa-solid fa-taxi",
+       "isTaxi": true,
+       "modeText": "計程車",
+       "duration": "65 - 95",
+       "fee": 33500,
+       "tollOptions": "0/1000/2000",
+       "taxiFrom": "GS25 오시리아루지점",
+       "taxiTo": "쉐이크쉑 서면점",
+       "note": "1. 下班時間會塞車\n2. 在 shake shake 漢堡店(三井塔樓入口旁)前下車",
+       "routeUrl": "https://naver.me/xG0dtS9v",
+       "scheduleLines": null
+      }
+     ]
+    },
+    {
+     "kind": "stop",
+     "num": 8,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "Running Man 釜山店",
+     "kr": "런닝맨 부산점",
+     "region": "西面",
+     "category": "互動體驗",
+     "indoor": "室內",
+     "vbp": "免費",
+     "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000000047",
+     "fee": "持釜山pass 無須額外費用",
+     "arrive": "18:45",
+     "leave": "19:55",
+     "duration": 70,
+     "hours": "11:00 - 20:00 (最後入場19:00)",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        },
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "西面站 서면역"
+      },
+      {
+       "badges": [
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "田浦站 전포역"
+      }
+     ],
+     "address": "부산 부산진구 중앙대로 672 삼정타워 10층",
+     "navermap": "https://naver.me/x9BN6Lg5",
+     "website": null,
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "1. 位於三井塔樓(삼정타워) 10F\n2. 從 SHAKE SHACK 漢堡店旁邊的入口(中央大路중앙대로)進去\n3. 報到前先去洗手間(遊戲過程有計時，無法去上廁所)",
+     "links": [
+      {
+       "label": "攻略",
+       "url": "https://whatime.space/https-whatime-space-running-man/",
+       "internal": false,
+       "pageKey": null
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "stop",
+     "num": 8,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": true,
+     "backupOf": "Running Man 釜山店",
+     "zh": "Samjeong Tower 雷射槍競技場",
+     "kr": "레이저아레나 부산삼정타워",
+     "region": "西面",
+     "category": "射擊體驗",
+     "indoor": "室內",
+     "vbp": "免費",
+     "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000000219",
+     "fee": "持釜山pass 兩場遊戲免費",
+     "arrive": null,
+     "leave": null,
+     "duration": null,
+     "hours": "11:00 - 22:00 (五六到 22:30)",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        },
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "西面站 서면역"
+      },
+      {
+       "badges": [
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "田浦站 전포역"
+      }
+     ],
+     "address": "부산 부산진구 중앙대로 672 삼정타워 9층 908호",
+     "navermap": "https://naver.me/5ch6nqas",
+     "website": null,
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "1. 位於三井塔樓(삼정타워) 9F\n2. 一場約10-15分鐘\n3. 在 running man樓下，如果還有體力可以去玩一場\n4. 若running man來不及改玩這個",
+     "links": [
+      {
+       "label": "介紹",
+       "url": "https://yonnie.cyou/seomyeon-visit-busan-pass/",
+       "internal": false,
+       "pageKey": null
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 10,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/F1a4iJ2H",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": null,
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 9,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "神殿辣炒年糕 西面店",
+     "kr": "신전떡볶이 서면점",
+     "region": "西面",
+     "category": "餐廳",
+     "indoor": "室內",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": "20:05",
+     "leave": "20:20",
+     "duration": 15,
+     "hours": "11:00 - 23:00",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        },
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "西面站 서면역"
+      },
+      {
+       "badges": [
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "田浦站 전포역"
+      }
+     ],
+     "address": "부산 부산진구 중앙대로680번길 25",
+     "navermap": "https://naver.me/59vYhgyC",
+     "website": null,
+     "sns": [],
+     "menuImages": [
+      "https://chatgpt.com/share/6a7984cc-7574-83ee-b9e5-c731a7577786"
+     ],
+     "menuAsLink": true,
+     "note": "外帶回飯店",
+     "links": [],
+     "restroomLinks": []
+    },
+    {
+     "kind": "stop",
+     "num": 9,
+     "numLabel": null,
+     "hideNum": true,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "Compose Coffee 西面學園街店",
+     "kr": "컴포즈커피 서면학원가점",
+     "region": "西面",
+     "category": "咖啡廳",
+     "indoor": "室內",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": null,
+     "leave": null,
+     "duration": null,
+     "hours": "07:00 - 21:30 (六 07:30開門 / 日08:30開門)",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        },
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "西面站 서면역"
+      },
+      {
+       "badges": [
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "田浦站 전포역"
+      }
+     ],
+     "address": "부산 부산진구 중앙대로680번길 23 1층",
+     "navermap": "https://naver.me/GxkMXuPD",
+     "website": null,
+     "sns": [],
+     "menuImages": [
+      "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230426_184%2F16824773840976TJLm_JPEG%2FIN%253AOUT.jpeg"
+     ],
+     "menuAsLink": false,
+     "note": "1. 外帶回飯店\n2. 網路推薦：焦糖拿鐵、紅豆麻糬奶昔冰沙",
+     "links": [],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 15,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/F8lZbK7B",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": null,
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 10,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "URBAN GROOVE HOTEL SEOMYEON",
+     "kr": "어반그루브호텔 서면점",
+     "region": "西面",
+     "category": "飯店",
+     "indoor": "室內",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": "20:35",
+     "leave": null,
+     "duration": null,
+     "hours": "24hr",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "凡內谷站 범내골역"
+      },
+      {
+       "badges": [
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "田浦站 전포역"
+      }
+     ],
+     "address": "부산 부산진구 황령대로17번길 18 어반그루브호텔",
+     "navermap": "https://naver.me/GPdHlOfc",
+     "website": null,
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "1. check in\n2. 領行李\n3. 到頂樓用餐",
+     "links": [
+      {
+       "label": "飯店詳情",
+       "url": "pages/sub-hotel.html",
+       "internal": true,
+       "pageKey": "home"
+      }
+     ],
+     "restroomLinks": []
+    }
+   ]
+  },
+  {
+   "day": 2,
+   "dateShort": "10/2",
+   "dateLabel": "10/2 (FRI.)",
+   "dayColor": "#2ca2aa",
+   "stopCount": 15,
+   "items": [
+    {
+     "kind": "stop",
+     "num": 1,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "URBAN GROOVE HOTEL SEOMYEON",
+     "kr": "어반그루브호텔 서면점",
+     "region": "西面",
+     "category": "飯店",
+     "indoor": "室內",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": "05:15",
+     "leave": "05:45",
+     "duration": 30,
+     "hours": "24hr",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "凡內谷站 범내골역"
+      },
+      {
+       "badges": [
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "田浦站 전포역"
+      }
+     ],
+     "address": "부산 부산진구 황령대로17번길 18 어반그루브호텔",
+     "navermap": "https://naver.me/GPdHlOfc",
+     "website": null,
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "1. 天氣好的話，早起看日出\n2. 出門記得帶外套，海邊早晨很冷",
+     "links": [
+      {
+       "label": "飯店詳情",
+       "url": "pages/sub-hotel.html",
+       "internal": true,
+       "pageKey": "home"
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 5,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/FwGUfOh5",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": "走到路口搭車 (COZY TREE HOTEL前)",
+     "links": []
+    },
+    {
+     "kind": "transit",
+     "mode": "taxi",
+     "icon": "fa-solid fa-taxi",
+     "label": "計程車",
+     "isTaxi": true,
+     "duration": 20,
+     "fee": 10700,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/xM5AmiS6",
+     "taxiFrom": "코지트리호텔 서면점",
+     "taxiTo": "GS25 광안해변점",
+     "scheduleLines": null,
+     "note": "1. 在 COZY TREE HOTEL 前上車\n2. 在 GS25 廣安海邊店前下車",
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 2,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "廣安里海水浴場",
+     "kr": "광안리해수욕장",
+     "region": "廣安里",
+     "category": "海邊",
+     "indoor": "室外",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": "免門票",
+     "arrive": "06:10",
+     "leave": "06:55",
+     "duration": 45,
+     "hours": "24hr",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "廣安站 광안역"
+      }
+     ],
+     "address": "부산 수영구 광안해변로 219",
+     "navermap": "https://naver.me/xzxmzK1j",
+     "website": null,
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "1. 沙灘有椅子，也可以帶浴巾去鋪著\n2. 可在超商買零食，帶去看日出\n3. 日出時間：06:18",
+     "links": [],
+     "restroomLinks": [
+      {
+       "label": "廁所",
+       "url": "https://naver.me/xVGXcBae",
+       "internal": false,
+       "pageKey": null
+      },
+      {
+       "label": "廁所",
+       "url": "https://naver.me/xzxmTb5m",
+       "internal": false,
+       "pageKey": null
+      },
+      {
+       "label": "廁所",
+       "url": "https://naver.me/xWTw8jtj",
+       "internal": false,
+       "pageKey": null
+      }
+     ]
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 5,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/G5ksPkp3",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": null,
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 3,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "水邊最高豬肉湯飯廣安店",
+     "kr": "수변최고돼지국밥 광안점",
+     "region": "廣安里",
+     "category": "餐廳",
+     "indoor": "室內",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": "07:00",
+     "leave": "07:55",
+     "duration": 55,
+     "hours": "24hr",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "廣安站 광안역"
+      }
+     ],
+     "address": "부산 수영구 광안로 63",
+     "navermap": "https://naver.me/5wWgvTZ6",
+     "website": null,
+     "sns": [],
+     "menuImages": [
+      "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260606_24%2F1780723044050EuBWc_JPEG%2F%25B8%25DE%25B4%25BA%25C6%25C7%2528%25BC%25BC%25B7%25CEA3%2529_%25B1%25A4%25BE%25C8_%25BE%25C6%25BF%25F4%25B6%25F3%25C0%25CE_%25281%2529.jpg",
+      "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260715_218%2F1784105525594tc63F_JPEG%2F%25BC%25F6%25BA%25AF_%25BC%25BC%25C6%25AE%25B8%25DE%25B4%25BA%2528A3%25BC%25BC%25B7%25CE%2529_%25B1%25E2%25C5%25B8.jpg"
+     ],
+     "menuAsLink": false,
+     "note": "每人低消： 一份餐點",
+     "links": [],
+     "restroomLinks": []
+    },
+    {
+     "kind": "stop",
+     "num": 3,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": true,
+     "backupOf": "水邊最高豬肉湯飯廣安店",
+     "zh": "All Sunday 廣安店",
+     "kr": "올선데이 광안점",
+     "region": "廣安里",
+     "category": "麵包店",
+     "indoor": "室內",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": null,
+     "leave": null,
+     "duration": null,
+     "hours": "08:00-22:00(最後點餐21:30)",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "廣安站 광안역"
+      }
+     ],
+     "address": "부산 수영구 광안로61번길 28 1층",
+     "navermap": "https://naver.me/5WOQqri9",
+     "website": null,
+     "sns": [],
+     "menuImages": ["https://lizzzstyle.tw/all-sunday/#rtoc-8"],
+     "menuAsLink": true,
+     "note": "1. 有名的貝果店\n2. 距離水邊最高豬肉湯飯廣安店走路2分鐘左右\n3. 可外帶當點心",
+     "links": [],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 5,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/59lCUOxH",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": null,
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 4,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "Hotel Aqua Palace Spa & Sauna",
+     "kr": "호텔아쿠아펠리스 찜질방 해수온천사우나 인피니티 풀",
+     "region": "廣安里",
+     "category": "汗蒸幕",
+     "indoor": "室內",
+     "vbp": "免費",
+     "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000000061",
+     "fee": "持釜山pass 桑拿＋汗蒸幕免費使用",
+     "arrive": "08:00",
+     "leave": "09:25",
+     "duration": 85,
+     "hours": "24hr",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "廣安站 광안역"
+      }
+     ],
+     "address": "부산 수영구 광안해변로 225",
+     "navermap": "https://naver.me/IxsqbXEH",
+     "website": null,
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "看完日出，休息睡覺",
+     "links": [
+      {
+       "label": "步驟介紹",
+       "url": "https://deeppositive.com.tw/hotel-aqua-palace-spa-sauna/",
+       "internal": false,
+       "pageKey": null
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 5,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/xKyrXvtM",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": "先過斑馬線！",
+     "links": []
+    },
+    {
+     "kind": "transit",
+     "mode": "taxi",
+     "icon": "fa-solid fa-taxi",
+     "label": "計程車",
+     "isTaxi": true,
+     "duration": 30,
+     "fee": 17000,
+     "tollOptions": "0/1000",
+     "routeUrl": "https://naver.me/5K61UrwF",
+     "taxiFrom": "Hotel Aquapellis Water Park & Jjimjilbang",
+     "taxiTo": "코랄라니",
+     "scheduleLines": null,
+     "note": "上車定位改到 Hotel Aqua Palace Spa & Sauna 對面（靠海灘），車頭朝 GS25。",
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 5,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "CORALANI",
+     "kr": "코랄라니",
+     "region": "海雲台",
+     "category": "咖啡廳",
+     "indoor": "室內",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": "10:00",
+     "leave": "10:50",
+     "duration": 50,
+     "hours": "10:00 - 22:00 (最後點餐 21:20)",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "Ⓚ",
+         "color": "#3356B4"
+        }
+       ],
+       "name": "松亭站 송정역"
+      }
+     ],
+     "address": "부산 기장군 기장읍 기장해안로 32",
+     "navermap": "https://naver.me/GALRIqNv",
+     "website": null,
+     "sns": [],
+     "menuImages": [
+      "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260713_299%2F1783916708924Xnrux_JPEG%2F20260713_%25C4%25BF%25C7%25C7.jpg",
+      "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260713_174%2F1783916704890ry4Js_JPEG%2F20260713_%25C1%25D6%25BD%25BA.jpg",
+      "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260713_13%2F17839167010972LEJR_JPEG%2F20260713_%25BF%25A1%25C0%25CC%25B5%25E5.jpg"
+     ],
+     "menuAsLink": false,
+     "note": "每人低消： 一杯飲品",
+     "links": [
+      {
+       "label": "介紹",
+       "url": "https://tinachiang0824.pixnet.net/blog/posts/9576737292",
+       "internal": false,
+       "pageKey": null
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 15,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/GjyCYFoL",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": null,
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 6,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "海雲臺藍線公園 松亭站",
+     "kr": "해운대블루라인파크 송정정거장",
+     "region": "海雲台",
+     "category": "海岸列車",
+     "indoor": "室外",
+     "vbp": "免費",
+     "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000000042",
+     "fee": "持釜山pass 無須額外費用，同站只可上下車一次",
+     "arrive": "11:05",
+     "leave": "11:30",
+     "duration": 25,
+     "hours": "https://www.bluelinepark.com/chn/beachTramTime.do",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "Ⓚ",
+         "color": "#3356B4"
+        }
+       ],
+       "name": "松亭站 송정역"
+      }
+     ],
+     "address": "부산 해운대구 송정중앙로8번길 60",
+     "navermap": "https://naver.me/GEXhttm0",
+     "website": "https://www.bluelinepark.com/chn/beachTramCourse.do",
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "1. 搭乘海岸列車\n2. 車上\"不\"可吃東西\n3. 松亭站 1F 售票/換票窗口出示VBP換票(紅色指引)，告知要換\"11:30\"的車次\n4. 前往首次搭乘通道(綠色指引)",
+     "links": [
+      {
+       "label": "海岸列車時刻表",
+       "url": "https://www.bluelinepark.com/chn/traintime.do",
+       "internal": false,
+       "pageKey": null
+      },
+      {
+       "label": "海雲臺藍線公園旅遊書(指南)",
+       "url": "https://www.bluelinepark.com/images/guidemap/GUIDEBOOK_CHN_B.pdf",
+       "internal": false,
+       "pageKey": null
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "ride",
+     "icon": "fa-solid fa-train",
+     "label": "海岸列車",
+     "isTaxi": false,
+     "duration": 19,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": null,
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": "發車\"前10分鐘\"可以開始排隊，但如果要坐到前排位置必須發車\"前20-25分\"去排隊\n松亭發車 11:00、11:12(很趕)、11:30(理想)、12:00(最晚)\n抵達青沙浦 11:12、11:25(很趕)、11:42(理想)、12:12(最晚)",
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 7,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "海雲臺藍線公園 迎月隧道站",
+     "kr": "해운대블루라인파크 달맞이터널 정거장",
+     "region": "海雲台",
+     "category": "海岸列車",
+     "indoor": "室外",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": "11:49",
+     "leave": "11:55",
+     "duration": 6,
+     "hours": "https://www.bluelinepark.com/chn/beachTramTime.do",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "中洞站 중동역"
+      },
+      {
+       "badges": [
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "海雲台站 해운대역"
+      }
+     ],
+     "address": "부산 해운대구 달맞이길62번길 13",
+     "navermap": "https://naver.me/GCvpLtc3",
+     "website": null,
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "海岸列車下車後前往步棧道",
+     "links": [],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 5,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/xpj6diDb",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": null,
+     "links": [      
+      {
+       "label": "前往隱藏版打卡點",
+       "url": "https://www.instagram.com/reel/DXo95xdqYrH/?utm_source=ig_web_button_share_sheet",
+       "internal": false,
+       "pageKey": null
+      }]
+    },
+    {
+     "kind": "stop",
+     "num": 8,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "海雲臺藍線公園 尾浦站 隱藏版打卡點",
+     "kr": null,
+     "region": "海雲台",
+     "category": "拍照點",
+     "indoor": "室外",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": "12:00",
+     "leave": "12:10",
+     "duration": 10,
+     "hours": "24hr",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "中洞站 중동역"
+      },
+      {
+       "badges": [
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "海雲台站 해운대역"
+      }
+     ],
+     "address": null,
+     "navermap": null,
+     "website": null,
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": null,
+     "links": [],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 10,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "/images/sub/路線.png",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": null,
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 9,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "老虎冰淇淋大福",
+     "kr": "호랑이젤라떡 부산해운대본점",
+     "region": "海雲台",
+     "category": "冰淇淋",
+     "indoor": "室外",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": "12:20",
+     "leave": "12:40",
+     "duration": 20,
+     "hours": "12:00 - 21:30 (16:00 - 17:30休息)",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "中洞站 중동역"
+      },
+      {
+       "badges": [
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "海雲台站 해운대역"
+      }
+     ],
+     "address": "부산 해운대구 달맞이길62번길 38 115호, 116호",
+     "navermap": "https://naver.me/GeURWn5w",
+     "website": null,
+     "sns": [],
+     "menuImages": ["https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260511_62%2F1778502224063pwBcw_JPEG%2FIMG_3318.jpg"],
+     "menuAsLink": false,
+     "note": "1. 一次最少買4顆\n2. 推薦 \"有機濟州抹茶、烤開心果、海雲台粉紅鹽牛奶\"\n3. 解凍約 10 分鐘最好吃\n4. 一個人先去買自然島麵包",
+     "links": [],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 5,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/5T0EuYNb",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": null,
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 10,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "自然島鹽麵包",
+     "kr": "자연도소금빵&자연도해",
+     "region": "海雲台",
+     "category": "麵包店",
+     "indoor": "室外",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": "12:45",
+     "leave": "12:50",
+     "duration": 5,
+     "hours": "09:00 - 22:00",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "中洞站 중동역"
+      },
+      {
+       "badges": [
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "海雲台站 해운대역"
+      }
+     ],
+     "address": "부산 해운대구 달맞이길62번길 12-2",
+     "navermap": "https://naver.me/xrSQSF2f",
+     "website": null,
+     "sns": [
+      {
+       "url": "https://www.instagram.com/saltbread.in.seaside",
+       "icon": "fa-brands fa-instagram"
+      }
+     ],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "出爐時間 09:00、12:30、14:00、15:30、17:00、18:30，賣完提早收",
+     "links": [],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 5,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/FXn9m3Fd",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": null,
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 11,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "釜山 X the sky",
+     "kr": "부산엑스더스카이",
+     "region": "海雲台",
+     "category": "景觀台",
+     "indoor": "室內",
+     "vbp": "免費",
+     "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000000269",
+     "fee": "持釜山pass 無須額外費用",
+     "arrive": "12:55",
+     "leave": "14:55",
+     "duration": 120,
+     "hours": "09:30 - 21:30 (20:30截止售票)",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "中洞站 중동역"
+      },
+      {
+       "badges": [
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "海雲台站 해운대역"
+      }
+     ],
+     "address": "부산 해운대구 달맞이길 30",
+     "navermap": "https://naver.me/5IS92bMA",
+     "website": "http://www.busanxthesky.com",
+     "sns": [
+      {
+       "url": "https://www.instagram.com/busanxthesky/",
+       "icon": "fa-brands fa-instagram"
+      }
+     ],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "1. 入場說明：入口位於面海那側(非面大馬路那側)\n2. 樓層說明：\n98F X the gift 伴手禮店，買超Q磁鐵\n99F 全球最高星巴克\n100F 觀景區",
+     "links": [
+      {
+       "label": "攻略",
+       "url": "https://www.bigfang.tw/blog/post/busan-x-thesky",
+       "internal": false,
+       "pageKey": null
+      },
+      {
+       "label": "介紹",
+       "url": "https://panpanlife.com/xthesky/",
+       "internal": false,
+       "pageKey": null
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "stop",
+     "num": 11,
+     "numLabel": null,
+     "hideNum": true,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "CLUB D OASIS",
+     "kr": "클럽디오아시스 스파&워터파크",
+     "region": "海雲台",
+     "category": "汗蒸幕",
+     "indoor": "室內",
+     "vbp": "免費",
+     "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000001112",
+     "fee": "持釜山pass 免費使用戶外SPA(清水堂)＋汗蒸幕4小時(可使用5F室內-6F室外)；餐飲優惠9折，須向工作人員出示VBP(自助點餐機無法使用折扣)",
+     "arrive": null,
+     "leave": null,
+     "duration": null,
+     "hours": "https://www.clubdoasis.com/guide/cn/guideV2",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "中洞站 중동역"
+      },
+      {
+       "badges": [
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "海雲台站 해운대역"
+      }
+     ],
+     "address": "부산 해운대구 달맞이길 30 엘시티",
+     "navermap": "https://naver.me/F9N4ni3R",
+     "website": "https://www.clubdoasis.com/cn",
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "1. 位於X the sky入口旁，兩個地方位於不同棟\n2. X the sky 逛完剩下時間到本棟5F體驗汗蒸幕或6F室外看風景",
+     "links": [
+      {
+       "label": "樓層指南",
+       "url": "https://www.clubdoasis.com/guide/cn/floor",
+       "internal": false,
+       "pageKey": null
+      },
+      {
+       "label": "介紹",
+       "url": "https://mamahuhu.blog/overseas/club-d-oasis/",
+       "internal": false,
+       "pageKey": null
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 10,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/GFsr3DbO",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": "走到 BETTER MONDAY COFFEE 前搭車",
+     "links": []
+    },
+    {
+     "kind": "transit",
+     "mode": "taxi",
+     "icon": "fa-solid fa-taxi",
+     "label": "計程車",
+     "isTaxi": true,
+     "duration": 45,
+     "fee": 23000,
+     "tollOptions": "0/1400/2400",
+     "routeUrl": "https://naver.me/GhwKpEHk",
+     "taxiFrom": "베러먼데이커피 해운대센트럴호텔점",
+     "taxiTo": "부산광역시 영도구 동삼동 190-1",
+     "scheduleLines": null,
+     "note": "1. 上車定位點設在PLEA DE BLANC這側的 Haeundae Central Hotel 的馬路邊( BETTER MONDAY COFFEE 前)\n2. 在 ARTE MUSEUM 馬路(斑馬線)對面下車",
+     "links": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 5,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/GuCKPltv",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": "過斑馬線到對面",
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 12,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "ARTE MUSEUM BUSAN",
+     "kr": "아르떼뮤지엄 부산",
+     "region": "影島",
+     "category": "美術館",
+     "indoor": "室內",
+     "vbp": "免費",
+     "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000001236",
+     "fee": "持釜山pass 無須額外費用",
+     "arrive": "15:55",
+     "leave": "17:55",
+     "duration": 120,
+     "hours": "10:00 - 20:00 (最後入場 19:00)",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "南浦站 남포역"
+      }
+     ],
+     "address": "부산 영도구 해양로247번길 29",
+     "navermap": "https://naver.me/FIfsvnna",
+     "website": "https://cn.artemuseum.com/?redirect=no",
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": null,
+     "links": [
+      {
+       "label": "介紹 1",
+       "url": "https://tsnio.com/arte-museum-busan/",
+       "internal": false,
+       "pageKey": null
+      },
+      {
+       "label": "介紹 2",
+       "url": "https://mamahuhu.blog/overseas/arte-museum-busan/",
+       "internal": false,
+       "pageKey": null
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 5,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/F1a49Fp2",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": "走到馬路旁搭車(不用過斑馬線)",
+     "links": []
+    },
+    {
+     "kind": "transit",
+     "mode": "taxi",
+     "icon": "fa-solid fa-taxi",
+     "label": "計程車",
+     "isTaxi": true,
+     "duration": 20,
+     "fee": 8500,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/FCZw5LqY",
+     "taxiFrom": "부산 영도구 동삼동 201-31",
+     "taxiTo": "CU 광복센터점",
+     "scheduleLines": null,
+     "note": "在龍頭山公園入口旁的 CU 前下車",
+     "links": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 15,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/5jXwDYbA",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": "從龍頭山公園入口(용두산공원입구)進入",
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 13,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "釜山塔",
+     "kr": "부산타워",
+     "region": "南浦洞",
+     "category": "景觀台",
+     "indoor": "室內",
+     "vbp": "免費",
+     "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000000273",
+     "fee": "持釜山pass 無須額外費用",
+     "arrive": "18:35",
+     "leave": "19:20",
+     "duration": 45,
+     "hours": "10:00 - 22:00 (最後售票 21:30)",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "南浦站 남포역"
+      },
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "中央站 중앙역"
+      }
+     ],
+     "address": "부산 중구 광복로 79",
+     "navermap": "https://naver.me/G65JM8n7",
+     "website": null,
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "1. 從CU旁的龍頭山公園入口上去\n2. 遊戲密碼：19731121\n3. 每10分鐘有一次投影煙火秀\n4. 有空幫黑黑代購",
+     "links": [
+      {
+       "label": "介紹",
+       "url": "https://lizzzstyle.tw/busan-tower/",
+       "internal": false,
+       "pageKey": null
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "subway",
+     "icon": "fa-solid fa-train-subway",
+     "label": "地鐵 + 走路",
+     "isTaxi": false,
+     "duration": 30,
+     "fee": 1600,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/xqb7zIvt",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": [
+      {
+       "code": "➀",
+       "color": "#F7752D",
+       "text": "中央往釜山(老圃方向) 19:43、19:53、19:58(預計)、20:04"
+      }
+     ],
+     "note": null,
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 14,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "CU凡內谷店",
+     "kr": "CU 범내골점",
+     "region": "西面",
+     "category": "便利商店",
+     "indoor": "室內",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": "19:50",
+     "leave": "20:05",
+     "duration": 15,
+     "hours": "24hr",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "凡內谷站 범내골역"
+      }
+     ],
+     "address": "부산 부산진구 황령대로 1 (범천동)",
+     "navermap": "https://naver.me/G9pUKK3J",
+     "website": null,
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "買明天的早餐或是零食等等",
+     "links": [
+      {
+       "label": "必買推薦",
+       "url": "pages/sub-must-buy.html",
+       "internal": true,
+       "pageKey": "home"
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "stop",
+     "num": 14,
+     "numLabel": null,
+     "hideNum": true,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "GS25 西面儒城店",
+     "kr": "GS25 서면유성점",
+     "region": "西面",
+     "category": "便利商店",
+     "indoor": "室內",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": null,
+     "leave": null,
+     "duration": null,
+     "hours": "24hr",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "凡內谷站 범내골역"
+      }
+     ],
+     "address": "부산 부산진구 황령대로 9",
+     "navermap": "https://naver.me/GtUs3l0v",
+     "website": null,
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "買明天的早餐或是零食等等",
+     "links": [
+      {
+       "label": "必買推薦",
+       "url": "pages/sub-must-buy.html",
+       "internal": true,
+       "pageKey": "home"
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 5,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/Gpr3SmEq",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": null,
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 15,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "URBAN GROOVE HOTEL SEOMYEON",
+     "kr": "어반그루브호텔 서면점",
+     "region": "西面",
+     "category": "飯店",
+     "indoor": "室內",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": "20:10",
+     "leave": null,
+     "duration": null,
+     "hours": "24hr",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "凡內谷站 범내골역"
+      },
+      {
+       "badges": [
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "田浦站 전포역"
+      }
+     ],
+     "address": "부산 부산진구 황령대로17번길 18 어반그루브호텔",
+     "navermap": "https://naver.me/GPdHlOfc",
+     "website": null,
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "1. 先到1F櫃台請櫃檯人員幫忙代訂 PURADAK푸라닭 炸雞(IU代言)，外送費3,000韓元(最低外送金額16,900韓元)\n2. 推薦玉米起司粉口味\n3. 預計需等約30min~1hr，可以先去卸妝洗澡，餐點來了再到樓下取餐",
+     "links": [
+      {
+       "label": "飯店詳情",
+       "url": "pages/sub-hotel.html",
+       "internal": true,
+       "pageKey": "home"
+      },
+      {
+       "label": "PURADAK 炸雞",
+       "url": "https://naver.me/5xjud352",
+       "internal": false,
+       "pageKey": null
+      }
+     ],
+     "restroomLinks": []
+    }
+   ]
+  },
+  {
+   "day": 3,
+   "dateShort": "10/3",
+   "dateLabel": "10/3 (SAT.)",
+   "dayColor": "#da819c",
+   "stopCount": 17,
+   "items": [
+    {
+     "kind": "stop",
+     "num": 1,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "URBAN GROOVE HOTEL SEOMYEON",
+     "kr": "어반그루브호텔 서면점",
+     "region": "西面",
+     "category": "飯店",
+     "indoor": "室內",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": "06:00",
+     "leave": "07:00",
+     "duration": 60,
+     "hours": "24hr",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "凡內谷站 범내골역"
+      },
+      {
+       "badges": [
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "田浦站 전포역"
+      }
+     ],
+     "address": "부산 부산진구 황령대로17번길 18 어반그루브호텔",
+     "navermap": "https://naver.me/GPdHlOfc",
+     "website": null,
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": null,
+     "links": [
+      {
+       "label": "飯店詳情",
+       "url": "pages/sub-hotel.html",
+       "internal": true,
+       "pageKey": "home"
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 5,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/FwGUfOh5",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": "走到路口搭車 (COZY TREE HOTEL前)",
+     "links": []
+    },
+    {
+     "kind": "transit",
+     "mode": "taxi",
+     "icon": "fa-solid fa-taxi",
+     "label": "計程車",
+     "isTaxi": true,
+     "duration": 25,
+     "fee": 11600,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/x8kyU0lr",
+     "taxiFrom": "코지트리호텔 서면점",
+     "taxiTo": "소망계단 모노레일",
+     "scheduleLines": null,
+     "note": "在 COZY TREE HOTEL 前上車",
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 2,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "192階梯(索芒階梯單軌列車)",
+     "kr": "소망계단 모노레일",
+     "region": "東大新洞",
+     "category": "單軌列車",
+     "indoor": "室外",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": "免門票",
+     "arrive": "07:30",
+     "leave": "07:55",
+     "duration": 25,
+     "hours": "07:30 - 20:00(平日) / 10:00 - 17:30(假日) 開放搭乘",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "東大新站 동대신역"
+      }
+     ],
+     "address": "부산 서구 동대신동2가 87-302",
+     "navermap": "https://naver.me/FXwoZh8d",
+     "website": null,
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "以當地居民搭乘為主",
+     "links": [
+      {
+       "label": "介紹",
+       "url": "https://www.instagram.com/reel/DP3WBtKAaCH/?utm_source=ig_web_button_share_sheet",
+       "internal": false,
+       "pageKey": null
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "taxi",
+     "icon": "fa-solid fa-taxi",
+     "label": "計程車",
+     "isTaxi": true,
+     "duration": 20,
+     "fee": 7800,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/x8kyU0lr",
+     "taxiFrom": "소망계단 모노레일",
+     "taxiTo": "철수와영희",
+     "scheduleLines": null,
+     "note": "下車定在哲秀與英熙韓服前，下車後直接前往入口",
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 3,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "甘川洞文化村",
+     "kr": "감천문화마을입구",
+     "region": "甘川洞",
+     "category": "文化村莊",
+     "indoor": "室外",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": "免門票",
+     "arrive": "08:15",
+     "leave": "08:50",
+     "duration": 35,
+     "hours": "24hr",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "土城站 토성역"
+      }
+     ],
+     "address": "부산 사하구 감천동",
+     "navermap": "https://naver.me/FPn5Lbco",
+     "website": "https://www.gamcheon.or.kr/?param=index#",
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "從入口處逛到甘川文化驛返回",
+     "links": [
+      {
+       "label": "食物地圖",
+       "url": "https://www.gamcheon.or.kr/?param=eat",
+       "internal": false,
+       "pageKey": null
+      },
+      {
+       "label": "行走路線",
+       "url": "https://naver.me/GSQE3bcc",
+       "internal": false,
+       "pageKey": null
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 5,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/Gfr4N9cV",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": null,
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 4,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "哲秀與英熙 韓服租賃",
+     "kr": "철수와영희 한복대여",
+     "region": "甘川洞",
+     "category": "韓服",
+     "indoor": "室內",
+     "vbp": "免費",
+     "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000001157",
+     "fee": "持釜山pass 基本韓服無須額外費用(可租借1小時)，含簡易編髮與免費配件",
+     "arrive": "08:55",
+     "leave": "09:35",
+     "duration": 40,
+     "hours": "09:00 - 19:00 (最後入場17:00) / 雨天暫停營業",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "土城站 토성역"
+      }
+     ],
+     "address": "부산 사하구 옥천로 123",
+     "navermap": "https://naver.me/5WOQlWQy",
+     "website": null,
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "1. 盡量穿淺色小可愛在裡面，韓服才不會露出來\n2. 順序：B1找工作人員刷VBP → 寄放包包(有鑰匙) → B1挑基本款(1F 新款要加價) → 協助更衣 → 免費編髮+挑選配件 → 開始計算時間\n(整個程序大約 30 - 45 mins)",
+     "links": [
+      {
+       "label": "介紹",
+       "url": "https://carolblog.tw/chulsoo-and-younghee/",
+       "internal": false,
+       "pageKey": null
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 5,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/FRoA9kDN",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": null,
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 5,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "flipbookstudio 手翻書",
+     "kr": "움직이는사진상점",
+     "region": "甘川洞",
+     "category": "拍攝",
+     "indoor": "室內",
+     "vbp": "免費",
+     "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000001111",
+     "fee": "持2張釜山pass 無須額外費用，可拍一次，獲得一本手翻書",
+     "arrive": "09:40",
+     "leave": "10:30",
+     "duration": 50,
+     "hours": "10:00 - 17:30 (每月第二、日個星期三無營業) / 雨天暫停營業",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "土城站 토성역"
+      }
+     ],
+     "address": "부산 사하구 감내2로 170-1",
+     "navermap": "https://naver.me/xyTGIESn",
+     "website": null,
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "1. 10點前去排隊(10點開)\n2. 額外印製一本 5,000 韓元\n3. 記得先想好8秒動作 !!!\n4. 15分鐘後可以去領取手翻書",
+     "links": [
+      {
+       "label": "介紹",
+       "url": "https://whatime.space/flipbook-studio/",
+       "internal": false,
+       "pageKey": null
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 5,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/xgXgSAyU",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": null,
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": null,
+     "numLabel": null,
+     "hideNum": true,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "哲秀與英熙 韓服租賃",
+     "kr": "철수와영희 한복대여",
+     "region": "甘川洞",
+     "category": "韓服",
+     "indoor": "室內",
+     "vbp": "免費",
+     "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000001157",
+     "fee": null,
+     "arrive": "10:35",
+     "leave": "10:50",
+     "duration": 15,
+     "hours": "09:00 - 19:00 (最後入場17:00) / 雨天暫停營業",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "土城站 토성역"
+      }
+     ],
+     "address": "부산 사하구 옥천로 123",
+     "navermap": "https://naver.me/5WOQlWQy",
+     "website": null,
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "1. 還韓服\n2. 超時費率：每 10 分鐘 ₩2,000（約合新台幣 45 - 50 元左右）\n3. 順序：櫃台告知還韓服 → 更衣室換裝 → 取回置物櫃內物品 → 交還裝備與結帳(整個程序大約 10 - 15 mins)",
+     "links": [],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 5,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/FRoA9kDN",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": null,
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": null,
+     "numLabel": null,
+     "hideNum": true,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "flipbookstudio 手翻書",
+     "kr": "움직이는사진상점",
+     "region": "甘川洞",
+     "category": "拍攝",
+     "indoor": "室內",
+     "vbp": "免費",
+     "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000001111",
+     "fee": null,
+     "arrive": "10:55",
+     "leave": "11:10",
+     "duration": 15,
+     "hours": "10:00 - 17:30 (每月第二、日個星期三無營業) / 雨天暫停營業",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "土城站 토성역"
+      }
+     ],
+     "address": "부산 사하구 감내2로 170-1",
+     "navermap": "https://naver.me/xyTGIESn",
+     "website": null,
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "領手翻書",
+     "links": [],
+     "restroomLinks": []
+    },
+    {
+     "kind": "stop",
+     "num": 7,
+     "numLabel": "4-5",
+     "hideNum": false,
+     "isBackup": true,
+     "backupOf": "哲秀與英熙 韓服租賃 與 flipbookstudio 手翻書",
+     "zh": "Little Prince House",
+     "kr": "리틀프린스하우스",
+     "region": "甘川洞",
+     "category": "展覽",
+     "indoor": "室內",
+     "vbp": "折扣",
+     "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000001377",
+     "fee": "現場1樓(禮品店)購買門票 持釜山pass 85折 ➝  14000*0.85=11900韓元",
+     "arrive": null,
+     "leave": null,
+     "duration": null,
+     "hours": "09:30 - 18:30 (最後入場 18:00)",
+     "metroGroups": [],
+     "address": "부산 사하구 감내1로 200",
+     "navermap": "https://naver.me/574BeJcZ",
+     "website": "https://www.littleprincehouse.kr/",
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "1. 樓層說明：\n1F 禮品店與門票販賣\n2F 展覽入口\n4F 可免費打印門票折價券給朋友與拿取便籤，外側走廊可以看風景\nRF(頂樓) 看風景跟小王子合照\n2. 多出30min的話可以來這裡",
+     "links": [
+      {
+       "label": "介紹",
+       "url": "https://lilytogo.com/little-prince-house/",
+       "internal": false,
+       "pageKey": null
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "taxi",
+     "icon": "fa-solid fa-taxi",
+     "label": "計程車",
+     "isTaxi": true,
+     "duration": 25,
+     "fee": 9400,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/FQuFcp83",
+     "taxiFrom": "부산 사하구 옥천로 125",
+     "taxiTo": "달콤커피 부산송도케이블카점",
+     "scheduleLines": null,
+     "note": "1. 在웅이네(位在哲秀與英熙韓服與甘川洞入口中間)前上車\n2. 在 Dal.Komm 咖啡廳前(松島海上纜車入口在其旁邊)下車",
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 6,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "松島港灣站 (松島海上纜車 入口)",
+     "kr": "송도해상케이블카입구",
+     "region": "松島",
+     "category": "纜車",
+     "indoor": "室內",
+     "vbp": "免費",
+     "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000000267",
+     "fee": "持釜山pass 可搭乘水晶車廂，無須額外費用",
+     "arrive": "11:35",
+     "leave": "12:20",
+     "duration": 45,
+     "hours": "09:00 - 21:00",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "札嘎其站 자갈치역"
+      },
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "南浦站 남포역"
+      }
+     ],
+     "address": "부산 서구 송도해변로 171",
+     "navermap": "https://naver.me/xa5RBXes",
+     "website": "https://zh.busanaircruise.co.kr/main/main.html",
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "步驟：至1F售票亭出示VBP換紙本票 → 前往4F搭乘 → 普通車廂(藍 / 一般通道) 或 水晶車廂(紅 / 水晶通道)",
+     "links": [
+      {
+       "label": "介紹",
+       "url": "https://tsnio.com/songdo-sea-cable-car/",
+       "internal": false,
+       "pageKey": null
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "ride",
+     "icon": "fa-solid fa-cable-car",
+     "label": "纜車",
+     "isTaxi": false,
+     "duration": 15,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": null,
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": null,
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 7,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "松島纜車Sky Park站 (松島天空公園)",
+     "kr": "송도해상케이블카송도스카이파크",
+     "region": "松島",
+     "category": "纜車",
+     "indoor": "室內",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": "12:35",
+     "leave": "12:40",
+     "duration": 5,
+     "hours": "09:00 - 21:00",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "札嘎其站 자갈치역"
+      },
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "南浦站 남포역"
+      }
+     ],
+     "address": "부산 서구 암남공원로 181",
+     "navermap": "https://naver.me/xCB7Ujqk",
+     "website": "https://zh.busanaircruise.co.kr/main/main.html",
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "下纜車後先至1F吃午餐，再前往車站樓上觀景台、空中步道與岩南公園，拍風景與稍作休息",
+     "links": [
+      {
+       "label": "介紹 1",
+       "url": "https://whatime.space/busanaircruise/",
+       "internal": false,
+       "pageKey": null
+      },
+      {
+       "label": "介紹 2",
+       "url": "https://grace-520.com/skypark/",
+       "internal": false,
+       "pageKey": null
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 5,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": null,
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": null,
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 8,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "松島纜車Sky Park站 1F 美食廣場",
+     "kr": "송도해상케이블카송도스카이파크 1층 푸드코트",
+     "region": "松島",
+     "category": "美食廣場",
+     "indoor": "室內",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": "12:45",
+     "leave": "13:15",
+     "duration": 30,
+     "hours": "09:00 - 21:00",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "札嘎其站 자갈치역"
+      },
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "南浦站 남포역"
+      }
+     ],
+     "address": "부산 서구 암남공원로 181",
+     "navermap": "https://naver.me/xCB7Ujqk",
+     "website": "https://zh.busanaircruise.co.kr/main/main.html",
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "下纜車後先至1F吃午餐(有炒年糕、熱狗、魚板串等等，也有便利商店)",
+     "links": [],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 5,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": null,
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": "吃飽前往3樓觀景台",
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 9,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "松島纜車Sky Park站 3F 景觀台",
+     "kr": "송도해상케이블카송도스카이파크 3층 전망대",
+     "region": "松島",
+     "category": "景觀台",
+     "indoor": "室外",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": "免門票",
+     "arrive": "13:20",
+     "leave": "13:35",
+     "duration": 15,
+     "hours": "09:00 - 21:00",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "札嘎其站 자갈치역"
+      },
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "南浦站 남포역"
+      }
+     ],
+     "address": "부산 서구 암남공원로 181",
+     "navermap": "https://naver.me/xCB7Ujqk",
+     "website": "https://zh.busanaircruise.co.kr/main/main.html",
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": null,
+     "links": [],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 10,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": null,
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": "回1樓走出去室外\"右轉\"前往松島龍宮空中步道：一段路(沿著建築外牆) → 下樓梯 → 右轉 → 直走一段路",
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 10,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "松島龍宮空中步道",
+     "kr": "송도용궁구름다리",
+     "region": "松島",
+     "category": "景點",
+     "indoor": "室外",
+     "vbp": "免費",
+     "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000000051",
+     "fee": "持釜山pass 無須額外費用",
+     "arrive": "13:45",
+     "leave": "14:15",
+     "duration": 30,
+     "hours": "09:00 - 17:30 (最後入場 17:00)",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "札嘎其站 자갈치역"
+      },
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "南浦站 남포역"
+      }
+     ],
+     "address": "부산 서구 암남동 620-53",
+     "navermap": "https://naver.me/5T4AUbEV",
+     "website": null,
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "1. 時常因為天氣而關閉\n2. 先到售票亭換票",
+     "links": [
+      {
+       "label": "介紹",
+       "url": "https://lizzzstyle.tw/%E6%9D%BE%E5%B3%B6%E9%BE%8D%E5%AE%AE%E9%9B%B2%E6%A9%8B/",
+       "internal": false,
+       "pageKey": null
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 10,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": null,
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": "回到Sky Park站1F出口的地方往戶外廣場方向可前往岩南公園",
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 11,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "岩南公園",
+     "kr": "암남공원",
+     "region": "松島",
+     "category": "公園",
+     "indoor": "室外",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": "免門票",
+     "arrive": "14:25",
+     "leave": "14:55",
+     "duration": 30,
+     "hours": "24hr",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "札嘎其站 자갈치역"
+      },
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "南浦站 남포역"
+      }
+     ],
+     "address": "부산 서구 암남공원로 179-20",
+     "navermap": "https://naver.me/GV2kdvD8",
+     "website": null,
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": null,
+     "links": [
+      {
+       "label": "岩南公園路口告示",
+       "url": "https://whatime.space/wp-content/uploads/2024/11/20241107_160626.jpg.webp",
+       "internal": false,
+       "pageKey": null
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 10,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": null,
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": null,
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 12,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "松島纜車Sky Park站 (松島天空公園)",
+     "kr": "송도해상케이블카송도스카이파크",
+     "region": "松島",
+     "category": "纜車",
+     "indoor": "室內",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": "15:05",
+     "leave": "15:45",
+     "duration": 40,
+     "hours": "09:00 - 21:00",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "札嘎其站 자갈치역"
+      },
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "南浦站 남포역"
+      }
+     ],
+     "address": "부산 서구 암남공원로 181",
+     "navermap": "https://naver.me/xCB7Ujqk",
+     "website": "https://zh.busanaircruise.co.kr/main/main.html",
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "排隊上纜車回松島港灣站",
+     "links": [],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "ride",
+     "icon": "fa-solid fa-cable-car",
+     "label": "纜車",
+     "isTaxi": false,
+     "duration": 15,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": null,
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": null,
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 13,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "松島港灣站 (松島海上纜車 入口)",
+     "kr": "송도해상케이블카입구",
+     "region": "松島",
+     "category": "纜車",
+     "indoor": "室內",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": "16:00",
+     "leave": "16:10",
+     "duration": 10,
+     "hours": "09:00 - 21:00",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "札嘎其站 자갈치역"
+      },
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "南浦站 남포역"
+      }
+     ],
+     "address": "부산 서구 송도해변로 171",
+     "navermap": "https://naver.me/xa5RBXes",
+     "website": "https://zh.busanaircruise.co.kr/main/main.html",
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": null,
+     "links": [],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "taxi",
+     "icon": "fa-solid fa-taxi",
+     "label": "計程車",
+     "isTaxi": true,
+     "duration": 15,
+     "fee": 7800,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/xoGqTMiT",
+     "taxiFrom": "달콤커피 부산송도케이블카점",
+     "taxiTo": "부산 영도구 절영로 188-1",
+     "scheduleLines": null,
+     "note": "1. 一樣回 Dal.Komm 咖啡廳前搭車\n2. 在白淺灘文化村\"1-告示牌\"處下車",
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 14,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "白淺灘文化村",
+     "kr": "흰여울문화마을",
+     "region": "影島",
+     "category": "景點",
+     "indoor": "室外",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": "免門票",
+     "arrive": "16:25",
+     "leave": "18:00",
+     "duration": 95,
+     "hours": "24hr",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "南浦站 남포역"
+      }
+     ],
+     "address": "부산 영도구 절영로 188-1",
+     "navermap": "https://naver.me/xLWAPvjS",
+     "website": null,
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "起點：上 - 1 白淺灘文化村諮詢處 (흰여울문화마을거점센터)\n終點：上 - 15 白淺灘展望台 (흰여울전망대) / 中 - 松島展望台 (이송도전망대) / 下 - 白淺灘海岸隧道 (흰여울 해안터널)\n(分成上下兩條路：上是大馬路，中是店家 A-L，下是海岸邊)",
+     "links": [
+      {
+       "label": "簡易地圖",
+       "url": "https://fffe1fb4-fe9f-46bf-bb2f-c5dcbbb3f2ce.filesusr.com/ugd/c70abb_cfb0ed7daa8c4d958610df4dfd40f02d.pdf?fbclid=IwAR16yf-77jTJlJ1PuyUjXC4sgTvI4eXl1GCzrUQnfnh-C2sm10Iw4X2vzeg",
+       "internal": false,
+       "pageKey": null
+      },
+      {
+       "label": "介紹",
+       "url": "https://vocus.cc/article/6635c77bfd89780001335dd8",
+       "internal": false,
+       "pageKey": null
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "taxi",
+     "icon": "fa-solid fa-taxi",
+     "label": "計程車",
+     "isTaxi": true,
+     "duration": 15,
+     "fee": 7000,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/Fet59177",
+     "taxiFrom": "부산 영도구 절영로 188-1",
+     "taxiTo": "남포설렁탕",
+     "scheduleLines": null,
+     "note": "回到白淺灘文化村\"1-告示牌\"搭車",
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 15,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "南浦雪濃湯",
+     "kr": "남포설렁탕",
+     "region": "南浦洞",
+     "category": "餐廳",
+     "indoor": "室內",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": "18:15",
+     "leave": "19:05",
+     "duration": 50,
+     "hours": "24hr",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "南浦站 남포역"
+      }
+     ],
+     "address": "부산 중구 구덕로34번길 5 1층",
+     "navermap": "https://naver.me/GctrSsLb",
+     "website": null,
+     "sns": [],
+     "menuImages": ["https://lizzzstyle.tw/wp-content/uploads/2025/05/20250317_124945.jpg","https://lizzzstyle.tw/wp-content/uploads/2025/05/20250317_124949.jpg"],
+     "menuAsLink": false,
+     "note": null,
+     "links": [
+      {
+       "label": "介紹",
+       "url": "https://lizzzstyle.tw/nampo-seolleongtang/",
+       "internal": false,
+       "pageKey": null
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 10,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/GSQ3p5SN",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": null,
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 16,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "釜山樂天超市 LOTTE MART / 樂天百貨光復店",
+     "kr": "롯데마트 광복점 / 롯데백화점 광복점",
+     "region": "南浦洞",
+     "category": "超市/百貨",
+     "indoor": "室內",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": "19:15",
+     "leave": "21:15",
+     "duration": 120,
+     "hours": "10:00 - 23:00",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "南浦站 남포역"
+      }
+     ],
+     "address": "부산 중구 중앙대로 2 롯데마트 광복점",
+     "navermap": "https://naver.me/FlZns9hH",
+     "website": "https://global.lotteshopping.com/cht/store/type?cstrCd=0333",
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "1. 超市滿15,000韓元可立即退稅，只能到1樓的結帳櫃檯辦理\n2. 1F、3F、4F有衣服店可以逛",
+     "links": [
+      {
+       "label": "必買推薦",
+       "url": "pages/sub-must-buy.html",
+       "internal": true,
+       "pageKey": "home"
+      },
+      {
+       "label": "介紹",
+       "url": "https://bobbytravel.tw/lotte-mart-busan/",
+       "internal": false,
+       "pageKey": null
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "subway",
+     "icon": "fa-solid fa-train-subway",
+     "label": "地鐵 + 走路",
+     "isTaxi": false,
+     "duration": 20,
+     "fee": 1600,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/GEdLQCIq",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": null,
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 17,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "URBAN GROOVE HOTEL SEOMYEON",
+     "kr": "어반그루브호텔 서면점",
+     "region": "西面",
+     "category": "飯店",
+     "indoor": "室內",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": "21:35",
+     "leave": null,
+     "duration": null,
+     "hours": "24hr",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "凡內谷站 범내골역"
+      },
+      {
+       "badges": [
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "田浦站 전포역"
+      }
+     ],
+     "address": "부산 부산진구 황령대로17번길 18 어반그루브호텔",
+     "navermap": "https://naver.me/GPdHlOfc",
+     "website": null,
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": null,
+     "links": [
+      {
+       "label": "飯店詳情",
+       "url": "pages/sub-hotel.html",
+       "internal": true,
+       "pageKey": "home"
+      }
+     ],
+     "restroomLinks": []
+    }
+   ]
+  },
+  {
+   "day": 4,
+   "dateShort": "10/4",
+   "dateLabel": "10/4 (SUN.)",
+   "dayColor": "#4350c5",
+   "stopCount": 12,
+   "items": [
+    {
+     "kind": "stop",
+     "num": 1,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "URBAN GROOVE HOTEL SEOMYEON",
+     "kr": "어반그루브호텔 서면점",
+     "region": "西面",
+     "category": "飯店",
+     "indoor": "室內",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": "08:20",
+     "leave": "09:10",
+     "duration": 50,
+     "hours": "24hr",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "凡內谷站 범내골역"
+      },
+      {
+       "badges": [
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "田浦站 전포역"
+      }
+     ],
+     "address": "부산 부산진구 황령대로17번길 18 어반그루브호텔",
+     "navermap": "https://naver.me/GPdHlOfc",
+     "website": null,
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "08:55下樓checkout並寄放行李，大約15:30-16:00回來領",
+     "links": [
+      {
+       "label": "飯店詳情",
+       "url": "pages/sub-hotel.html",
+       "internal": true,
+       "pageKey": "home"
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 10,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/xy7BQ0wB",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": null,
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 2,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "Paik's Coffee釜山西面A1廣場店",
+     "kr": "빽다방 부산서면에이원프라자점",
+     "region": "西面",
+     "category": "飲料店",
+     "indoor": "室內",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": "09:20",
+     "leave": "09:30",
+     "duration": 10,
+     "hours": "07:00 - 22:00(假日 08:00 - 22:00)",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "凡內谷站 범내골역"
+      },
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "西面站 서면역"
+      },
+      {
+       "badges": [
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "西面站 서면역"
+      }
+     ],
+     "address": "부산 부산진구 중앙대로 668 1층 104호",
+     "navermap": "https://naver.me/FRLkS6Wa",
+     "website": null,
+     "sns": [],
+     "menuImages": [
+      "https://paikdabang.com/menu/menu_coffee/"
+     ],
+     "menuAsLink": true,
+     "note": "網路推薦：芒果冰茶 (완전망고)、桃子烏龍茶+濃縮 (피치우롱티 + 샷추가)",
+     "links": [
+      {
+       "label": "點餐機使用方式與推薦",
+       "url": "https://www.instagram.com/reel/C8dp2tsPW1Z/",
+       "internal": false,
+       "pageKey": null
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 5,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/xhPuXGMA",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": null,
+     "links": []
+    },
+    {
+    "kind": "stop",
+    "num": 3,
+    "numLabel": null,
+    "hideNum": false,
+    "isBackup": false,
+    "backupOf": null,
+    "zh": "SEOMYEON JJANG PHARMACY DRUGSTORE",
+    "kr": "서면짱약국",
+    "region": "西面",
+    "category": "藥妝",
+    "indoor": "室內",
+    "vbp": null,
+    "vbpUrl": null,
+    "fee": null,
+    "arrive": "09:35",
+    "leave": "09:55",
+    "duration": 20,
+    "hours": "09:00 - 23:00",
+    "metroGroups": [
+      {
+      "badges": [
+        {
+        "code": "➀",
+        "color": "#F7752D"
+        },
+        {
+        "code": "➁",
+        "color": "#3CB44A"
+        }
+      ],
+      "name": "西面站 서면역"
+      }
+    ],
+    "address": "부산 부산진구 중앙대로 668 1층 104호",
+    "navermap": "https://naver.me/FLEiHr2d",
+    "website": null,
+    "sns": [],
+    "menuImages": [],
+    "menuAsLink": false,
+    "note": "滿15,000韓元可立即退稅",
+    "links": [      
+    {
+      "label": "必買推薦",
+      "url": "pages/sub-must-buy.html",
+      "internal": true,
+      "pageKey": "home"
+    }],
+    "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 10,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/FORGa7KK",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": null,
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 4,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "Olive Young 釜山田浦站店",
+     "kr": "올리브영 부산전포역점",
+     "region": "西面",
+     "category": "藥妝",
+     "indoor": "室內",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": "10:05",
+     "leave": "10:50",
+     "duration": 45,
+     "hours": "10:00 - 22:30",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "田浦站 전포역"
+      }
+     ],
+     "address": "부산 부산진구 전포대로199번길 9",
+     "navermap": "https://naver.me/5uI7mezJ",
+     "website": "https://www.oliveyoung.co.kr/store/main/main.do?oy=0",
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "免費個人色彩檢測(2F)、肌膚檢測儀(1F)",
+     "links": [
+      {
+       "label": "免費檢測說明",
+       "url": "https://www.instagram.com/reel/DaURrf4uk53/?utm_source=ig_web_button_share_sheet",
+       "internal": false,
+       "pageKey": null
+      },
+      {
+       "label": "必買推薦",
+       "url": "pages/sub-must-buy.html",
+       "internal": true,
+       "pageKey": "home"
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 5,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/FZoVKzgi",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": null,
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 5,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "stickers 貼紙拍貼機 西面(田浦)店",
+     "kr": "스티커즈 서면전포점",
+     "region": "西面",
+     "category": "拍攝",
+     "indoor": "室內",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": "單張(6個貼紙) 6,000韓元",
+     "arrive": "10:55",
+     "leave": "11:25",
+     "duration": 30,
+     "hours": "24hr",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "田浦站 전포역"
+      }
+     ],
+     "address": "부산 부산진구 서전로38번길 76 1층",
+     "navermap": "https://naver.me/FvTKGXRz",
+     "website": null,
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "1. 建議選擇FULL SHOT全身\n2. 拍8次選6個\n3. 準備現金\n4.機台若詢問是否要印出 QR Code (通常會寫 QR Code、QR 코드 或 Mobile Sharing)，一定要勾選「QR 코드 동의/YES/동의함/QR 포함」",
+     "links": [
+      {
+       "label": "怎麼拍?",
+       "url": "https://www.threads.com/@chenchijhen/post/DZ9HefKgSQg?xmt=AQG0THp4yjkRA2O-50UwsgbeEVVyFN1ug5_wCnWyTEPvpg",
+       "internal": false,
+       "pageKey": null
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 5,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/FriaCvM9",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": null,
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 6,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "香港飯店0410 西面店",
+     "kr": "홍콩반점0410 서면점",
+     "region": "西面",
+     "category": "餐廳",
+     "indoor": "室內",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": "11:30",
+     "leave": "12:20",
+     "duration": 50,
+     "hours": "11:30 - 22:00 (最後點餐 21:15)",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        },
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "西面站 서면역"
+      },
+      {
+       "badges": [
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "田浦站 전포역"
+      }
+     ],
+     "address": "부산 부산진구 중앙대로680번가길 38 109호",
+     "navermap": "https://naver.me/FG7YGWdv",
+     "website": null,
+     "sns": [],
+     "menuImages": [
+      "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260707_186%2F1783404204965Hg65V_JPEG%2F260629_%25C8%25AB%25C4%25E1%25B9%25DD%25C1%25A1_%25C0%25FC%25C3%25BC%25B8%25DE%25B4%25BA%25C6%25C7_%25C5%25D7%25C0%25CC%25BA%25ED%25BD%25C3%25C6%25AE%25C1%25F6_A4.jpg"
+     ],
+     "menuAsLink": false,
+     "note": null,
+     "links": [],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 5,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/IID7dDep",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": null,
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 7,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "大創 釜山西面店",
+     "kr": "다이소 부산서면점",
+     "region": "西面",
+     "category": "生活百貨",
+     "indoor": "室內",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": "12:25",
+     "leave": "13:15",
+     "duration": 50,
+     "hours": "09:00 - 22:00",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        },
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "西面站 서면역"
+      },
+      {
+       "badges": [
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "田浦站 전포역"
+      }
+     ],
+     "address": "부산 부산진구 중앙대로702번길 43 지하1층",
+     "navermap": "https://naver.me/F74V6Inz",
+     "website": null,
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "滿15,000韓元可事後退稅",
+     "links": [
+      {
+       "label": "如何結帳?",
+       "url": "https://www.facebook.com/windko.tw/posts/%E9%9F%93%E5%9C%8B%E5%A4%A7%E5%89%B5%E4%BD%BF%E7%94%A8%E8%87%AA%E5%8A%A9%E7%B5%90%E5%B8%B3%E6%A9%9F%E5%8F%AF%E4%BB%A5%E5%8D%B0%E9%80%80%E7%A8%85%E5%96%AE%E5%97%8E%E7%AD%94%E6%A1%88%E6%98%AF%E5%8F%AF%E4%BB%A5%E7%96%AB%E6%83%85%E5%BE%8C%E5%8F%B0%E7%81%A3%E7%9A%84%E9%9B%BB%E5%AD%90%E6%94%AF%E4%BB%98%E5%8F%AF%E4%BB%A5%E5%9C%A8%E9%9F%93%E5%9C%8B%E4%BD%BF%E7%94%A8%E4%BB%A5%E5%BE%8C%E6%88%91%E5%9C%A8%E5%A4%A7%E5%89%B5%E8%B2%B7%E6%9D%B1%E8%A5%BF%E9%83%BD%E6%98%AF%E9%81%B8%E6%93%87%E8%87%AA%E5%B7%B1%E4%BE%86%E7%9A%84%E8%87%AA%E5%8A%A9%E7%B5%90%E5%B8%B3%E6%A9%9F%EF%B8%8F-%E9%9F%93%E5%9C%8B%E5%A4%A7%E5%89%B5%E7%9A%84%E8%87%AA%E5%8A%A9%E7%B5%90%E5%B8%B3%E6%A9%9F%E6%93%8D%E4%BD%9C%E6%AD%A5%E9%A9%9F-%E7%95%A2/1368864831269414/",
+       "internal": false,
+       "pageKey": null
+      },
+            {
+       "label": "必買推薦",
+       "url": "pages/sub-must-buy.html",
+       "internal": true,
+       "pageKey": "home"
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 5,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/xYNr6bYF",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": null,
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 8,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "scentica",
+     "kr": "센티카 전포",
+     "region": "西面",
+     "category": "香水",
+     "indoor": "室內",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": "13:20",
+     "leave": "13:50",
+     "duration": 30,
+     "hours": "11:00 - 21:00",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "田浦站 전포역"
+      }
+     ],
+     "address": "부산 부산진구 전포대로199번길 12 1층",
+     "navermap": "https://naver.me/xLs7kjhl",
+     "website": null,
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": null,
+     "links": [],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 5,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/5hoSZKaN",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": null,
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 9,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "wannabe 釜山西面",
+     "kr": "워너비 서면점",
+     "region": "西面",
+     "category": "服飾",
+     "indoor": "室內",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": "13:55",
+     "leave": "14:45",
+     "duration": 50,
+     "hours": "10:30 - 22:30",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        },
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "西面站 서면역"
+      }
+     ],
+     "address": "부산 부산진구 동천로 63 성광빌딩",
+     "navermap": "https://naver.me/5D843OO8",
+     "website": null,
+     "sns": [
+      {
+       "url": "https://www.instagram.com/wannabe._official/",
+       "icon": "fa-brands fa-instagram"
+      }
+     ],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "1. 滿15,000韓元可機場退稅\n2. 衣服便宜但大多中國製",
+     "links": [],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "walk",
+     "icon": "fa-solid fa-person-walking",
+     "label": "走路",
+     "isTaxi": false,
+     "duration": 15,
+     "fee": null,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/GSQ3BnMy",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": null,
+     "note": null,
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 10,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "生活達人 糖餅 西面",
+     "kr": "생활의달인",
+     "region": "西面",
+     "category": "餐車",
+     "indoor": "室外",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": "15:00",
+     "leave": "15:10",
+     "duration": 10,
+     "hours": "12:00後 - 午夜",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        },
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "西面站 서면역"
+      }
+     ],
+     "address": null,
+     "navermap": "https://naver.me/5fIprHLC",
+     "website": null,
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "香港飯店 0410 釜山西面樂天店樓下",
+     "links": [
+      {
+       "label": "介紹",
+       "url": "https://busanfun.com/hotteog/",
+       "internal": false,
+       "pageKey": null
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "stop",
+     "num": 10,
+     "numLabel": null,
+     "hideNum": true,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "傳聞中好吃 糖餅 西面",
+     "kr": "소문난맛집",
+     "region": "西面",
+     "category": "餐車",
+     "indoor": "室外",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": null,
+     "leave": null,
+     "duration": null,
+     "hours": "12:00後 - 午夜",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        },
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "西面站 서면역"
+      }
+     ],
+     "address": null,
+     "navermap": "https://naver.me/5fIprHLC",
+     "website": null,
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "香港飯店 0410 釜山西面樂天店樓下",
+     "links": [
+      {
+       "label": "介紹",
+       "url": "https://busanfun.com/hotteog/",
+       "internal": false,
+       "pageKey": null
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "subway",
+     "icon": "fa-solid fa-train-subway",
+     "label": "地鐵 + 走路",
+     "isTaxi": false,
+     "duration": 20,
+     "fee": 1600,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/5dhMnSj2",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": [
+      {
+       "code": "➀",
+       "color": "#F7752D",
+       "text": "西面往凡內谷(多大浦方向) 15:15、15:21(預計)、15:27"
+      }
+     ],
+     "note": null,
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 11,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "URBAN GROOVE HOTEL SEOMYEON",
+     "kr": "어반그루브호텔 서면점",
+     "region": "西面",
+     "category": "飯店",
+     "indoor": "室內",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": "15:30",
+     "leave": "15:45",
+     "duration": 15,
+     "hours": "24hr",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "➀",
+         "color": "#F7752D"
+        }
+       ],
+       "name": "凡內谷站 범내골역"
+      },
+      {
+       "badges": [
+        {
+         "code": "➁",
+         "color": "#3CB44A"
+        }
+       ],
+       "name": "田浦站 전포역"
+      }
+     ],
+     "address": "부산 부산진구 황령대로17번길 18 어반그루브호텔",
+     "navermap": "https://naver.me/GPdHlOfc",
+     "website": null,
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": "回飯店拿行李，並整理",
+     "links": [
+      {
+       "label": "飯店詳情",
+       "url": "pages/sub-hotel.html",
+       "internal": true,
+       "pageKey": "home"
+      }
+     ],
+     "restroomLinks": []
+    },
+    {
+     "kind": "transit",
+     "mode": "subway",
+     "icon": "fa-solid fa-train-subway",
+     "label": "地鐵 + 走路",
+     "isTaxi": false,
+     "duration": 50,
+     "fee": 2100,
+     "tollOptions": null,
+     "routeUrl": "https://naver.me/F3EWeWqM",
+     "taxiFrom": null,
+     "taxiTo": null,
+     "scheduleLines": [
+      {
+       "code": "➀",
+       "color": "#F7752D",
+       "text": "凡內谷往西面(老圃方向) 15:49、15:55(預計)、16:01"
+      },
+      {
+       "code": "➁",
+       "color": "#3CB44A",
+       "text": "西面往釜岩(梁山方向) 15:53、16:00(預計)、16:07"
+      },
+      {
+       "code": "Ⓖ",
+       "color": "#924BDD",
+       "text": "沙上往掛法Renecite(加耶大方向) 16:16、16:22(預計)、16:28"
+      }
+     ],
+     "note": null,
+     "links": []
+    },
+    {
+     "kind": "stop",
+     "num": 12,
+     "numLabel": null,
+     "hideNum": false,
+     "isBackup": false,
+     "backupOf": null,
+     "zh": "金海國際機場",
+     "kr": "김해국제공항",
+     "region": "金海機場",
+     "category": "機場",
+     "indoor": "室內",
+     "vbp": null,
+     "vbpUrl": null,
+     "fee": null,
+     "arrive": "16:35",
+     "leave": "20:00",
+     "duration": 205,
+     "hours": "04:30 - 23:00",
+     "metroGroups": [
+      {
+       "badges": [
+        {
+         "code": "Ⓖ",
+         "color": "#924BDD"
+        }
+       ],
+       "name": "機場站 공항역"
+      }
+     ],
+     "address": "부산 강서구 공항진입로 108 1층",
+     "navermap": "https://naver.me/GNRjwFwb",
+     "website": "https://www.airport.co.kr/gimhaechn/index.do",
+     "sns": [],
+     "menuImages": [],
+     "menuAsLink": false,
+     "note": null,
+     "links": [
+      {
+       "label": "出入境該做啥?",
+       "url": "pages/sub-departure.html",
+       "internal": true,
+       "pageKey": "departure"
+      }
+     ],
+     "restroomLinks": []
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+/* ============================================
+   header.css
+   components/header/ 內各種子頁 header 樣式
+   （首頁 home.html 不使用 header，此檔案給未來
+   sub-header-style1.html / sub-header-style2.html 使用）
+   ============================================ */
+
+.sub-header {
+  width: 100%;
+  padding: 20px 0 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+}
+
+.sub-header .back-btn,
+.sub-header .sub-header-icon {
+  width: 50px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 25px 25px 0;
+  background-color: rgba(93, 174, 255, 0.12);
+  color: var(--color-blue);
+  font-size: 16px;
+}
+
+.sub-header .sub-header-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-black);
+}
+
+/* style2：置中標題，無返回鍵背景色，供子分頁彈性使用 */
+.sub-header.sub-header-style2 {
+  justify-content: center;
+  position: relative;
+}
+
+.sub-header.sub-header-style2 .back-btn {
+  position: absolute;
+  left: 0;
+  background: none;
+}
+
+/* style3：返回鍵（深色圓底）+ 右側藍底徽章標題，
+   用於例如「簡要行程」這類需要標題徽章浮在右上角的頁面
+   固定於畫面最上方（跟 footer 的固定方式一樣），
+   捲動內容時 header 不會被捲走 */
+.sub-header.sub-header-style3 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 440px;
+  margin: 0 auto;
+  padding: 20px 0;
+  justify-content: space-between;
+  z-index: 900;
+  overflow: hidden;
+}
+
+.sub-header.sub-header-style3 .back-btn {
+  background-color: var(--footer-bg);
+  color: var(--color-gary);
+  box-shadow: 0 5px 13px rgba(97, 97, 97, 0.25);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+
+.sub-header.sub-header-style3 .sub-header-badge {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  font-size: 15px;
+  font-weight: 700;
+  padding: 11px 22px;
+  border-radius: 25px 0 0 25px;
+}
+
+/* style4：左側圖示（非返回鍵）+ 右側藍底徽章標題 */
+
+.sub-header.sub-header-style4 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 440px;
+  margin: 0 auto;
+  padding: 20px 0;
+  justify-content: space-between;
+  z-index: 900;
+  overflow: hidden;
+}
+
+.sub-header.sub-header-style4 .sub-header-icon {
+  background-color: var(--footer-bg);
+  color: var(--color-blue);
+  box-shadow: 0 5px 13px rgba(97, 97, 97, 0.25);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+
+.sub-header.sub-header-style4 .sub-header-badge {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  font-size: 15px;
+  font-weight: 700;
+  padding: 11px 22px;
+  border-radius: 25px 0 0 25px;
+}
+
+/* 3與4 的漸層底 */
+.sub-header-gradient{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 92px;
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.85) 30%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* style5：左側圖示 + 右側藍底徽章標題，底為白色 */
+.sub-header.sub-header-style5 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 440px;
+  margin: 0 auto;
+  padding: 20px 0;
+  justify-content: space-between;
+  z-index: 900;
+  overflow: hidden;
+  background: var(--color-white);
+}
+
+.sub-header.sub-header-style5 .sub-header-icon {
+  background-color: var(--footer-bg);
+  color: var(--color-blue);
+  box-shadow: 0 5px 13px rgba(97, 97, 97, 0.25);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+
+.sub-header.sub-header-style5 .sub-header-badge {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  font-size: 15px;
+  font-weight: 700;
+  padding: 11px 22px;
+  border-radius: 25px 0 0 25px;
+}

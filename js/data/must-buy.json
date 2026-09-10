@@ -1,0 +1,796 @@
+{
+ "member": {
+  "label": "樂天會員 (L.POINT )",
+  "url": "https://m.lpoint.com/app/global/LHGA100100.do?globalFlag=CH",
+  "note": "樂天會員可用於樂天超市、7-11、樂天免稅店等等"
+ },
+ "offlineCoupons": [
+  {
+   "label": "KKDAY 樂天超市 COUPON",
+   "url": "https://www.kkday.com/zh-tw",
+   "note": "1. APP 登入\n2. 滿₩100,000才能折扣₩6,000"
+  },
+  {
+   "label": "Creatrip 各個免稅店 COUPON",
+   "url": "https://creatrip.com/",
+   "note": "1. 用LINE登入\n2. 有滿額才有折扣"
+  }
+ ],
+ "customsCheck": {
+  "label": "AI入境物品檢查",
+  "url": "https://ai-customs.tw/"
+ },
+ "shoppingTip": "1. 刷卡幣別選擇：韓幣 > 美金 > 台幣(最好不要選)\n2. 有時候台灣網購買比韓國買便宜，記得購買前先查看網購價格",
+ "items": [
+  {
+   "store": "Olive Young",
+   "no": 1,
+   "nameZh": "Lilyeve 頭皮養髮精華梳",
+   "nameKr": "릴리이브 그로우턴 엑소좀 브러쉬 앰플",
+   "image": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0021/A00000021884560ko.jpg?l=ko&QT=85&SF=webp&sharpen=1x0.5",
+   "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000218845",
+   "price": 34800,
+   "currency": "KRW",
+   "taxRefund": "立即退稅",
+   "twShops": [
+    "屈臣氏",
+    "蝦皮",
+    "酷澎"
+   ],
+   "note": "要比價一下"
+  },
+  {
+   "store": "Olive Young",
+   "no": 2,
+   "nameZh": "About Tone Skin Layer Fit 腮紅液 C06/C07/C08",
+   "nameKr": "어바웃톤 스킨 레이어 핏 블러셔",
+   "image": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0025/A00000025941611ko.jpg?l=ko&QT=85&SF=webp&sharpen=1x0.5",
+   "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000259416",
+   "price": 14000,
+   "currency": "KRW",
+   "taxRefund": "立即退稅",
+   "twShops": [
+    "蝦皮"
+   ],
+   "note": "價格相差不大"
+  },
+  {
+   "store": "Olive Young",
+   "no": 3,
+   "nameZh": "Re:Brush 亮白光澤雙件組 / 2入套裝",
+   "nameKr": "리브러쉬 광채 미백 2종 키트",
+   "image": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0021/A00000021716027ko.png?l=ko&QT=100&SF=webp&sharpen=1x0.5",
+   "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000217160",
+   "price": 26900,
+   "currency": "KRW",
+   "taxRefund": "立即退稅",
+   "twShops": [
+    "蝦皮",
+    "酷澎",
+    "台灣授權官網"
+   ],
+   "note": "韓打折通常比較便宜"
+  },
+  {
+   "store": "Olive Young",
+   "no": 4,
+   "nameZh": "VT Reedle Shot 頭髮促進安瓶 (老虎PDRN微晶頭髮安瓶) 100DL",
+   "nameKr": "VT 리들샷 헤어 부스팅 앰플 100디엘",
+   "image": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023114648ko.jpg?l=ko&QT=85&SF=webp&sharpen=1x0.5",
+   "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000231146",
+   "price": 45000,
+   "currency": "KRW",
+   "taxRefund": "立即退稅",
+   "twShops": [
+    "蝦皮",
+    "MOMO"
+   ],
+   "note": "1. 韓打折通常比較便宜\n2. 還有300DL與700DL的\n3. 100DL(初次嘗試)：微針濃度最低，可每天日常使用；300DL(進階調理)：中等濃度微針，間隔幾天使用；700DL(頭皮耐受力佳)：高濃度微針，刺痛感較明顯，低頻率使用"
+  },
+  {
+   "store": "Olive Young",
+   "no": 5,
+   "nameZh": "Cosnori 強效睫毛精華營養液",
+   "nameKr": "코스노리 인텐시브 아이래쉬 세럼 속눈썹영양제",
+   "image": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0020/A00000020776957ko.jpg?l=ko&QT=85&SF=webp&sharpen=1x0.5",
+   "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000207769",
+   "price": 28000,
+   "currency": "KRW",
+   "taxRefund": "立即退稅",
+   "twShops": [
+    "蝦皮",
+    "酷澎"
+   ],
+   "note": "9/1台灣蝦皮買比較便宜"
+  },
+  {
+   "store": "Olive Young",
+   "no": 6,
+   "nameZh": "Cosnori 長效睫毛精華液 (黑/白)",
+   "nameKr": "코스노리 아이래쉬 세럼 속눈썹영양제 9g (클리어/블랙)",
+   "image": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0014/A000000140618150ko.jpg?l=ko&QT=85&SF=webp&sharpen=1x0.5",
+   "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000140618",
+   "price": 18000,
+   "currency": "KRW",
+   "taxRefund": "立即退稅",
+   "twShops": [
+    "蝦皮",
+    "酷澎"
+   ],
+   "note": "9/1台灣蝦皮買比較便宜"
+  },
+  {
+   "store": "Olive Young",
+   "no": 7,
+   "nameZh": "Teazen 康普茶 (10包)",
+   "nameKr": "티젠 콤부차",
+   "image": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0012/A00000012448161ko.jpg?l=ko&QT=85&SF=webp&sharpen=1x0.5",
+   "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000124481&t_page=%ED%86%B5%ED%95%A9%EA%B2%80%EC%83%89%EA%B2%B0%EA%B3%BC%ED%8E%98%EC%9D%B4%EC%A7%80&t_click=%EA%B2%80%EC%83%89%EC%83%81%ED%92%88%EC%83%81%EC%84%B8&t_search_name=%ED%8B%B0%EC%A0%A0%20%EC%BD%A4%EB%B6%80%EC%B0%A8&t_number=1&dispCatNo=1000002000200200009&trackingCd=Result_1",
+   "price": 8000,
+   "currency": "KRW",
+   "taxRefund": "立即退稅",
+   "twShops": [
+    "蝦皮",
+    "MOMO",
+    "很多地方都買得到"
+   ],
+   "note": "也有賣30包入的，還有多種口味的盒裝版"
+  },
+  {
+   "store": "SEOMYEON JJANG PHARMACY DRUGSTORE 藥局",
+   "no": 1,
+   "nameZh": "RE4DAY All-in-One PDRN Women Plus 膠原蛋白飲(紫 - 15入)",
+   "nameKr": "리포데이 올인원 PDRN 우먼플러스 ",
+   "image": "https://godomall.speedycdn.net/81549af84fd956723ecfc8dfc62873d9/goods/1000000144/image/detail/1000000144_detail_050.jpg",
+   "url": null,
+   "price": 39500,
+   "currency": "KRW",
+   "taxRefund": "立即退稅",
+   "twShops": [
+    "蝦皮",
+    "MOMO"
+   ],
+   "note": "蝦皮代購可能比較便宜"
+  },
+  {
+   "store": "SEOMYEON JJANG PHARMACY DRUGSTORE 藥局",
+   "no": 2,
+   "nameZh": "RE4DAY PDRN Glow Fit 膠原蛋白果凍條(紅 - 15入)",
+   "nameKr": "리포데이 올인원 PDRN 글로우 핏",
+   "image": "https://godomall.speedycdn.net/81549af84fd956723ecfc8dfc62873d9/goods/1000000173/image/main/1000000173_main_067.jpg",
+   "url": null,
+   "price": 39500,
+   "currency": "KRW",
+   "taxRefund": "立即退稅",
+   "twShops": [
+    "蝦皮",
+    "MOMO"
+   ],
+   "note": "蝦皮代購可能比較便宜"
+  },
+  {
+   "store": "大創",
+   "no": 1,
+   "nameZh": "無痕內褲",
+   "nameKr": "심리스 팬티",
+   "image": "https://cdn.daisomall.co.kr/file/resize/PD/20260603/review/300/kTCOWw8wpE1sNUpDWOCIkTCOWw8wpE1sNUpDWOCI.jpg",
+   "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=O202505165520&recmYn=N",
+   "price": 2000,
+   "currency": "KRW",
+   "taxRefund": "事後退稅(機場退)",
+   "twShops": [],
+   "note": "款式有很多種，不同品牌都有出，還有yes code、Pandora by Vivian"
+  },
+  {
+   "store": "大創",
+   "no": 2,
+   "nameZh": "舌苔刷 2入",
+   "nameKr": "브러시형 혀 클리너 2개입",
+   "image": "https://cdn.daisomall.co.kr/file/resize/PD/20240122/thumbnail/850/HTUCeQK6TFI1nZgXXNyo1026809_00_00HTUCeQK6TFI1nZgXXNyo.jpg",
+   "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1026809&recmYn=N",
+   "price": 1000,
+   "currency": "KRW",
+   "taxRefund": "事後退稅(機場退)",
+   "twShops": [],
+   "note": "蝦皮貴很多"
+  },
+  {
+   "store": "大創",
+   "no": 3,
+   "nameZh": "蠟筆小新柔軟搓澡巾",
+   "nameKr": "짱구 소프트 샤워 타월",
+   "image": "https://cdn.daisomall.co.kr/file/resize/PD/20250221/thumbnail/850/G1mXNMshov9q2aTi9gd51049427_00_03G1mXNMshov9q2aTi9gd5.jpg",
+   "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049427&recmYn=N",
+   "price": 2000,
+   "currency": "KRW",
+   "taxRefund": "事後退稅(機場退)",
+   "twShops": [],
+   "note": null
+  },
+  {
+   "store": "大創",
+   "no": 4,
+   "nameZh": "蠟筆小新硬質搓澡巾",
+   "nameKr": "짱구 하드 샤워 타월",
+   "image": "https://cdn.daisomall.co.kr/file/resize/PD/20250221/thumbnail/850/QRGglkRoXxYz8VnbhD0X1043167_00_05QRGglkRoXxYz8VnbhD0X.jpg",
+   "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1043167&recmYn=N",
+   "price": 2000,
+   "currency": "KRW",
+   "taxRefund": "事後退稅(機場退)",
+   "twShops": [],
+   "note": null
+  },
+  {
+   "store": "大創",
+   "no": 5,
+   "nameZh": "蠟筆小新襪子",
+   "nameKr": "짱구 여성 골지 양말",
+   "image": "https://cdn.daisomall.co.kr/file/resize/PD/20231204/thumbnail/850/GPurJ2L2zUkzjsmAz6Of1044698_00_03GPurJ2L2zUkzjsmAz6Of.jpg",
+   "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044698&recmYn=N",
+   "price": 2000,
+   "currency": "KRW",
+   "taxRefund": "事後退稅(機場退)",
+   "twShops": [],
+   "note": null
+  },
+  {
+   "store": "大創",
+   "no": 6,
+   "nameZh": "蠟筆小新 UNO (韓國one card)",
+   "nameKr": "원카드 라이트 짱구는 못말려",
+   "image": "https://cdn.daisomall.co.kr/file/resize/PD/20260730/thumbnail/850/NqrIaSq0qMctgqnlsaE81081464_00_00NqrIaSq0qMctgqnlsaE8.jpg",
+   "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1081464",
+   "price": 2000,
+   "currency": "KRW",
+   "taxRefund": "事後退稅(機場退)",
+   "twShops": [],
+   "note": null
+  },
+  {
+   "store": "大創",
+   "no": 7,
+   "nameZh": "蠟筆小新 99",
+   "nameKr": "99 라이트 짱구는 못말려",
+   "image": "https://cdn.daisomall.co.kr/file/resize/PD/20251216/thumbnail/850/5GGyRv9yau5EV6P51ZiU1073179_00_005GGyRv9yau5EV6P51ZiU.jpg",
+   "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1073179&recmYn=N",
+   "price": 2000,
+   "currency": "KRW",
+   "taxRefund": "事後退稅(機場退)",
+   "twShops": [],
+   "note": null
+  },
+  {
+   "store": "大創",
+   "no": 8,
+   "nameZh": "更多蠟筆小新周邊(如：拖鞋、收納袋、貼紙、髮夾等等)",
+   "nameKr": null,
+   "image": "https://cdn.daisomall.co.kr/file/resize/DS/20260804/description/1280/R6LWZd8NLWTJNzT6nFSR%EC%A7%B1%EA%B5%AC_%EC%97%AC%ED%96%89%EC%9A%A9%ED%92%88_%EA%B8%B0%ED%9A%8D%EC%A0%84_%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80R6LWZd8NLWTJNzT6nFSR.jpg",
+   "url": "https://www.daisomall.co.kr/ds/spexhbt/C211?exbtNo=1678",
+   "price": null,
+   "currency": "KRW",
+   "taxRefund": "事後退稅(機場退)",
+   "twShops": [],
+   "note": null
+  },
+  {
+   "store": "大創",
+   "no": 9,
+   "nameZh": "Daily Comma 香氛噴霧嬰兒爽身粉 15 毫升",
+   "nameKr": "데일리콤마 향기 미스트 베이비파우더 15 ml",
+   "image": "https://cdn.daisomall.co.kr/file/resize/PD/20260709/thumbnail/850/Nt5NuKRx3v5Ba69mQGUy1004450_00_01Nt5NuKRx3v5Ba69mQGUy.jpg",
+   "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1004450&recmYn=N",
+   "price": 1000,
+   "currency": "KRW",
+   "taxRefund": "事後退稅(機場退)",
+   "twShops": [],
+   "note": null
+  },
+  {
+   "store": "大創",
+   "no": 10,
+   "nameZh": "Haserin痘痘貼(紅腫 - 未擠痘痘前)",
+   "nameKr": "해서린 스팟 케어패치 붉은 스팟",
+   "image": "https://cdn.daisomall.co.kr/file/resize/PD/20260402/thumbnail/850/SsnG4z7AZUkKnaC9doNA1001264_00_00SsnG4z7AZUkKnaC9doNA.jpg",
+   "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1001264&recmYn=N",
+   "price": 1000,
+   "currency": "KRW",
+   "taxRefund": "事後退稅(機場退)",
+   "twShops": [],
+   "note": null
+  },
+  {
+   "store": "大創",
+   "no": 11,
+   "nameZh": "Haserin痘痘貼(修復 - 擠痘痘後)",
+   "nameKr": "해서린 스팟 케어패치 노란 스팟",
+   "image": "https://cdn.daisomall.co.kr/file/resize/PD/20260402/thumbnail/850/iyxsx4WK85KKZiSNTCwY1001263_00_00iyxsx4WK85KKZiSNTCwY.jpg",
+   "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1001263&recmYn=N",
+   "price": 1000,
+   "currency": "KRW",
+   "taxRefund": "事後退稅(機場退)",
+   "twShops": [],
+   "note": null
+  },
+  {
+   "store": "大創",
+   "no": 12,
+   "nameZh": "A-Solution痘痘貼(未擠痘痘前)",
+   "nameKr": "에이솔루션 트러블 스팟패치(짜기전)",
+   "image": "https://cdn.daisomall.co.kr/file/resize/PD/20251202/thumbnail/850/NIcIc4ZvZs8Aaehyezgn1072624_00_00NIcIc4ZvZs8Aaehyezgn.jpg",
+   "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072624",
+   "price": 2000,
+   "currency": "KRW",
+   "taxRefund": "事後退稅(機場退)",
+   "twShops": [],
+   "note": null
+  },
+  {
+   "store": "大創",
+   "no": 13,
+   "nameZh": "A-Solution痘痘貼(擠痘痘後)",
+   "nameKr": "에이솔루션 트러블 클리어패치(짜고난후)",
+   "image": "https://cdn.daisomall.co.kr/file/resize/PD/20250716/thumbnail/850/Xof2GoxQ4pAyzqiQVisS1067026_00_05Xof2GoxQ4pAyzqiQVisS.jpg",
+   "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067026&recmYn=N",
+   "price": 2000,
+   "currency": "KRW",
+   "taxRefund": "事後退稅(機場退)",
+   "twShops": [],
+   "note": null
+  },
+  {
+   "store": "大創",
+   "no": 14,
+   "nameZh": "二合一果蠅誘捕器套裝",
+   "nameKr": "2in1 초파리트랩 세트",
+   "image": "https://cdn.daisomall.co.kr/file/resize/PD/20260526/thumbnail/850/y7jOk5mAEwvLxxljPGVV1044462_00_01y7jOk5mAEwvLxxljPGVV.jpg",
+   "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044462&recmYn=N",
+   "price": 2000,
+   "currency": "KRW",
+   "taxRefund": "事後退稅(機場退)",
+   "twShops": [],
+   "note": null
+  },
+  {
+   "store": "大創",
+   "no": 15,
+   "nameZh": "東亞污漬去除筆",
+   "nameKr": "동아 싹스틱",
+   "image": "https://cdn.daisomall.co.kr/file/resize/PD/20260402/thumbnail/850/bKWqXMhyGPuwXZ1gsvT968169_00_02bKWqXMhyGPuwXZ1gsvT9.jpg",
+   "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=68169&recmYn=N",
+   "price": 1500,
+   "currency": "KRW",
+   "taxRefund": "事後退稅(機場退)",
+   "twShops": [],
+   "note": null
+  },
+  {
+   "store": "大創",
+   "no": 16,
+   "nameZh": "可愛菜瓜布",
+   "nameKr": "개수세미",
+   "image": "https://cdn.daisomall.co.kr/file/resize/PD/20251208/thumbnail/850/yy4svAaglWdKMP1KNNAj1050747_00_00yy4svAaglWdKMP1KNNAj.jpg",
+   "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1050747&recmYn=N",
+   "price": 1000,
+   "currency": "KRW",
+   "taxRefund": "事後退稅(機場退)",
+   "twShops": [],
+   "note": "除了微笑的，還有西瓜片、草莓、檸檬片、蘋果片"
+  },
+  {
+   "store": "大創",
+   "no": 17,
+   "nameZh": "Banggeuri Choco 臉掛娃娃",
+   "nameKr": "빵그리 쵸코 얼굴 걸이인형",
+   "image": "https://cdn.daisomall.co.kr/file/resize/PD/20260826/thumbnail/850/RbVkIBbtzT4rsyCpoO501077308_00_00RbVkIBbtzT4rsyCpoO50.jpg",
+   "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1077308&recmYn=N",
+   "price": 1000,
+   "currency": "KRW",
+   "taxRefund": "事後退稅(機場退)",
+   "twShops": [],
+   "note": "還有很多其他的可愛娃娃吊飾"
+  },
+  {
+   "store": "大創",
+   "no": 18,
+   "nameZh": "CW 軟心巧克力咖啡口味巧克力豆 90克 (5入)",
+   "nameKr": "청우 쫀득 초코칩 커피 맛 90 g",
+   "image": "https://cdn.daisomall.co.kr/file/resize/PD/20240604/thumbnail/850/xtTJlsXiLQmkOaogAHMI120420584_00_00xtTJlsXiLQmkOaogAHMI.jpg",
+   "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=120420584&recmYn=N",
+   "price": 1500,
+   "currency": "KRW",
+   "taxRefund": "事後退稅(機場退)",
+   "twShops": [],
+   "note": "比任何地方都便宜"
+  },
+  {
+   "store": "大創",
+   "no": 19,
+   "nameZh": "CROWN 皇冠巧克力之家威化餅 142g(9入)",
+   "nameKr": "크라운 쵸코하임 142g",
+   "image": "https://cdn.daisomall.co.kr/file/resize/PD/20231205/thumbnail/850/wZLRvFeezj68kjGrKYL9111118621_00_00wZLRvFeezj68kjGrKYL9.jpg",
+   "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=111118621&recmYn=N",
+   "price": 2000,
+   "currency": "KRW",
+   "taxRefund": "事後退稅(機場退)",
+   "twShops": [],
+   "note": "1. 比任何地方都便宜\n2. 蛋奶素可食"
+  },
+  {
+   "store": "CU",
+   "no": 1,
+   "nameZh": "I'MINT 義式濃縮木糖醇咖啡糖",
+   "nameKr": "대경)자일리톨커피캔디",
+   "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLhRRgw1XPpJ2w1GIKGC19602GB5HtjdkDaccBucgtR9PVwa2L90r4eTk&s=10",
+   "url": "https://cu.bgfretail.com/product/view.do?gdIdx=26030&category=product",
+   "price": 3800,
+   "currency": "KRW",
+   "taxRefund": null,
+   "twShops": [],
+   "note": "有淺咖啡(美式)、深咖啡(義式濃縮 - 推薦)與綠盒(抹茶拿鐵)"
+  },
+  {
+   "store": "CU",
+   "no": 2,
+   "nameZh": "All The）迪拜風味Q彈餅乾",
+   "nameKr": "올더)두바이식쫀득쿠키",
+   "image": "https://tqklhszfkvzk6518638.edge.naverncp.com/product/8809411845079.jpg",
+   "url": "https://cu.bgfretail.com/product/view.do?gdIdx=26549&category=product",
+   "price": 4700,
+   "currency": "KRW",
+   "taxRefund": null,
+   "twShops": [],
+   "note": null
+  },
+  {
+   "store": "CU",
+   "no": 3,
+   "nameZh": "延世大學生乳包 牛奶口味",
+   "nameKr": "연세)냉동생크림빵우유",
+   "image": "https://tqklhszfkvzk6518638.edge.naverncp.com/product/8801753114738.jpg",
+   "url": "https://cu.bgfretail.com/product/view.do?gdIdx=24325&category=product",
+   "price": 2800,
+   "currency": "KRW",
+   "taxRefund": null,
+   "twShops": [],
+   "note": "還有巧克力、紅豆等季節限定的口味"
+  },
+  {
+   "store": "GS25",
+   "no": 1,
+   "nameZh": "雙重起司香腸海苔飯捲",
+   "nameKr": "더블치즈 소시지김밥",
+   "image": "https://zukkykorea.com/wp-content/uploads/2026/06/S__101490691_0-1024x768.jpg",
+   "url": "https://www.instagram.com/p/DWvS0YkESmo/?utm_source=ig_web_button_share_sheet",
+   "price": 3600,
+   "currency": "KRW",
+   "taxRefund": null,
+   "twShops": [],
+   "note": "要微波"
+  },
+  {
+   "store": "GS25",
+   "no": 2,
+   "nameZh": "Yoajung 藍莓優格聖代(優格冰)",
+   "nameKr": "요아정)블루베리요거트파르페",
+   "image": "https://img1.kakaocdn.net/thumb/C375x375@2x.fwebp.q82/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fproduct%2Fgift%2Fproduct%2F20241212172544_22c4c67e12f64b2c9a4a9a69675e0bff.png",
+   "url": "https://gift.kakao.com/product/10903081",
+   "price": 3500,
+   "currency": "KRW",
+   "taxRefund": null,
+   "twShops": [],
+   "note": null
+  },
+  {
+   "store": "Emart24",
+   "no": 1,
+   "nameZh": "瘋狂起司 切達Two Much年糕",
+   "nameKr": "크레이지치즈 체다Two머치떡볶이",
+   "image": "https://msave.emart24.co.kr/cmsbo/upload/nHq/plu_image/500x500/8809528240897.JPG",
+   "url": null,
+   "price": 4500,
+   "currency": "KRW",
+   "taxRefund": null,
+   "twShops": [],
+   "note": "要微波"
+  },
+  {
+   "store": "Emart24",
+   "no": 2,
+   "nameZh": "東源 香濃起司杯裝年糕",
+   "nameKr": "동원 고소한치즈컵떡볶이",
+   "image": "https://static.megamart.com/product/image/1289/12898633/12898633_1_960.jpg",
+   "url": null,
+   "price": 3900,
+   "currency": "KRW",
+   "taxRefund": null,
+   "twShops": [],
+   "note": "要微波"
+  },
+  {
+   "store": "Emart24",
+   "no": 3,
+   "nameZh": "起司香腸熱狗棒",
+   "nameKr": "치즈핫도그",
+   "image": "https://sahubconn001.blob.core.windows.net/ct-sahubconn001/img/newshop/goods/028573/028573_1.jpg",
+   "url": null,
+   "price": 2500,
+   "currency": "KRW",
+   "taxRefund": null,
+   "twShops": [],
+   "note": "1. 位於冷凍微波食品處\n2. 不同品牌價格不一樣，價錢大概在 ₩2,200 ~ ₩2,800 之間\n3. 要微波"
+  },
+  {
+   "store": "CU、GS25、7-11、Emart24",
+   "no": 1,
+   "nameZh": "希臘優格 to go",
+   "nameKr": "그릭요거트 to go",
+   "image": "https://directcdn.maeil.com/UploadedFiles/direct/product/188d6364-6741-4fa3-b2ae-9a3baf4a602e.jpg",
+   "url": "https://www.threads.com/@lisu_622/post/DTiXPESk4qV?xmt=AQG0K15fCnJBSWGCgoseHlL0aOA_muO-0eI05HCOzCp-GA",
+   "price": 2900,
+   "currency": "KRW",
+   "taxRefund": null,
+   "twShops": [],
+   "note": "1. 有原味與蜂蜜口味\n2. CU最常推出1+1或2+1的優惠"
+  },
+  {
+   "store": "CU、GS25、7-11、Emart24",
+   "no": 2,
+   "nameZh": "希臘優格(藍莓果醬)",
+   "nameKr": "YOZM 요즘 그릭요거트 블루베리 콩포트",
+   "image": "https://yozmgreek.cafe24.com/web/product/big/202604/98b3baa0a9293d5fa27b95c0da2b79e4.jpg",
+   "url": "https://www.threads.com/@e.e_sharing/post/DSFZmbJkzug?xmt=AQG0p90qnx9VSvFkZkAKgcBrChVryChNMHqcX84uNWWl4w",
+   "price": 4900,
+   "currency": "KRW",
+   "taxRefund": null,
+   "twShops": [],
+   "note": "1. 也有蜂蜜、草莓口味，但最推薦藍莓\n2. CU與GS25最常推出1+1或2+1的優惠"
+  },
+  {
+   "store": "CU、GS25、7-11、Emart24",
+   "no": "3-1",
+   "nameZh": "樂天榛果咖啡",
+   "nameKr": "롯데)칸타타헤이즐넛 320ml",
+   "image": "https://tqklhszfkvzk6518638.edge.naverncp.com/product/8801056233433.jpg",
+   "url": "https://cu.bgfretail.com/product/view.do?gdIdx=23594&category=product",
+   "price": 1700,
+   "currency": "KRW",
+   "taxRefund": null,
+   "twShops": [],
+   "note": "買400g的(大約可裝500ml)冰塊杯，兩個加在一起喝"
+  },
+  {
+   "store": "CU、GS25、7-11、Emart24",
+   "no": "3-2",
+   "nameZh": "賓格瑞無糖香蕉牛奶(黑蓋)",
+   "nameKr": "빙그레)바나나우유무가당 240ml",
+   "image": "https://tqklhszfkvzk6518638.edge.naverncp.com/product/8801104948272.jpg",
+   "url": "https://cu.bgfretail.com/product/view.do?gdIdx=23249&category=product",
+   "price": 1800,
+   "currency": "KRW",
+   "taxRefund": null,
+   "twShops": [],
+   "note": "買400g的(大約可裝500ml)冰塊杯，兩個加在一起喝"
+  },
+  {
+   "store": "CU、GS25、7-11、Emart24",
+   "no": "4",
+   "nameZh": "Nerds Gummy Clusters 軟糖 45g",
+   "nameKr": "너드 구미 클러스터 45g",
+   "image": "https://directcdn.maeil.com/UploadedFiles/direct/product/45fccdfb-353c-4f1f-8828-b316fad62bff.png",
+   "url": "",
+   "price": 2400,
+   "currency": "KRW",
+   "taxRefund": null,
+   "twShops": [],
+   "note": "經典彩虹 與 綜合莓果 兩種口味"
+  },
+  {
+   "store": "CU、GS25、7-11、Emart24",
+   "no": "5",
+   "nameZh": "好麗友 Swing Chip 波浪洋芋片炒辣椒醬風味 60g",
+   "nameKr": "스윙칩 볶음고추장맛 60g",
+   "image": "https://tqklhszfkvzk6518638.edge.naverncp.com/product/8801117775001.jpg",
+   "url": "https://cu.bgfretail.com/product/view.do?gdIdx=5227&category=product",
+   "price": 1700,
+   "currency": "KRW",
+   "taxRefund": null,
+   "twShops": [],
+   "note": null
+  },
+  {
+   "store": "釜山塔 伴手禮店",
+   "no": 1,
+   "nameZh": "幫黑黑代購",
+   "nameKr": null,
+   "image": null,
+   "url": null,
+   "price": null,
+   "currency": "KRW",
+   "taxRefund": "事後退稅(機場退)",
+   "twShops": [],
+   "note": null
+  },
+  {
+   "store": "X the sky 伴手禮店(X the Gift)",
+   "no": 1,
+   "nameZh": "釜山冰箱磁鐵 (3個)",
+   "nameKr": null,
+   "image": "https://img.alicdn.com/imgextra/i2/2220114293561/O1CN01EAvxww1cAzTXgzyl3_!!2220114293561.jpg",
+   "url": "https://www.threads.com/share/BAYoniVrUO/",
+   "price": 36300,
+   "currency": "KRW",
+   "taxRefund": "事後退稅(機場退)",
+   "twShops": [],
+   "note": "₩12,100/1個"
+  },
+  {
+   "store": "樂天超市",
+   "no": 1,
+   "nameZh": "LOTTE 樂天 杜拜巧克力Q餅",
+   "nameKr": null,
+   "image": "https://shoplineimg.com/564f1ecee36c8e5662000012/69db37069ddde17846d69476/800x.webp?source_format=jpg",
+   "url": null,
+   "price": 10000,
+   "currency": "KRW",
+   "taxRefund": "立即退稅",
+   "twShops": [
+    "蝦皮",
+    "MOMO"
+   ],
+   "note": null
+  },
+  {
+   "store": "樂天超市",
+   "no": 2,
+   "nameZh": "Maxim KANU 雙倍濃縮拿鐵 (10包)",
+   "nameKr": "맥심 카누 더블샷 라떼",
+   "image": "https://lottemartzetta.com/images-v3/932dcbc7-fca8-4d43-bcde-f73d1ce3cc7d/52c33333-ed58-4e24-a839-276348b719f7/1280x1280.webp",
+   "url": "https://lottemartzetta.com/products/OS8801037069013/details",
+   "price": 5510,
+   "currency": "KRW",
+   "taxRefund": "立即退稅",
+   "twShops": [
+    "蝦皮",
+    "酷澎",
+    "MOMO"
+   ],
+   "note": "也有賣30包入的"
+  },
+  {
+   "store": "樂天超市",
+   "no": 3,
+   "nameZh": "Maxim KANU 淡烘焙黑咖啡 (1.6G/10包)",
+   "nameKr": "동서 카누 미니 마일드로스트 아메리카노",
+   "image": "https://lottemartzetta.com/images-v3/932dcbc7-fca8-4d43-bcde-f73d1ce3cc7d/eeffdf3a-734c-48ea-8cf7-2570d8cb9ecf/1280x1280.webp",
+   "url": "https://lottemartzetta.com/products/OS8801037049589/details",
+   "price": 4590,
+   "currency": "KRW",
+   "taxRefund": "立即退稅",
+   "twShops": [
+    "蝦皮",
+    "酷澎",
+    "MOMO"
+   ],
+   "note": "1. 要記得是買1.6G的，他還有另一款只有0.9G的\n2. 也有賣30包與100包入的"
+  },
+  {
+   "store": "樂天超市",
+   "no": 4,
+   "nameZh": "Crown 皇冠華夫餅乾 (12包)",
+   "nameKr": "크라운 버터와플",
+   "image": "https://lottemartzetta.com/images-v3/932dcbc7-fca8-4d43-bcde-f73d1ce3cc7d/6e9cbb75-6cfa-4da0-ad1a-b7c54b1b7e4d/1280x1280.webp",
+   "url": "https://lottemartzetta.com/products/OS8801111113229/details",
+   "price": 4580,
+   "currency": "KRW",
+   "taxRefund": "立即退稅",
+   "twShops": [
+    "蝦皮",
+    "酷澎",
+    "MOMO"
+   ],
+   "note": null
+  },
+  {
+   "store": "樂天超市",
+   "no": 5,
+   "nameZh": "好麗友原味洋芋片 (12入)",
+   "nameKr": "오리온 예감 치즈맛",
+   "image": "https://lottemartzetta.com/images-v3/932dcbc7-fca8-4d43-bcde-f73d1ce3cc7d/adea8cdd-3fbd-423d-964e-69fcd6ddaa23/1280x1280.webp",
+   "url": "https://lottemartzetta.com/products/OS8801117282707/details",
+   "price": 3580,
+   "currency": "KRW",
+   "taxRefund": "立即退稅",
+   "twShops": [
+    "蝦皮",
+    "酷澎",
+    "MOMO"
+   ],
+   "note": null
+  },
+  {
+   "store": "樂天超市",
+   "no": 6,
+   "nameZh": "Nerds Gummy Clusters 軟糖 85g",
+   "nameKr": "너드 구미 클러스터 85g",
+   "image": "https://lottemartzetta.com/images-v3/932dcbc7-fca8-4d43-bcde-f73d1ce3cc7d/7f9f8adf-d3b6-4e5f-924a-7e35464217dc/1280x1280.webp",
+   "url": "https://lottemartzetta.com/products/OS1230000131513/details",
+   "price": 3900,
+   "currency": "KRW",
+   "taxRefund": "立即退稅",
+   "twShops": [
+    "蝦皮",
+    "酷澎",
+    "MOMO"
+   ],
+   "note": "1. 經典彩虹 與 綜合莓果 兩種口味\n2. 也有141g - ₩5,600"
+  },
+  {
+   "store": "樂天超市",
+   "no": 7,
+   "nameZh": "好麗友 Swing Chip 波浪洋芋片炒辣椒醬風味 124g",
+   "nameKr": "스윙칩 볶음고추장맛 124g",
+   "image": "https://lottemartzetta.com/images-v3/932dcbc7-fca8-4d43-bcde-f73d1ce3cc7d/79eda1ea-895f-4ccc-ae26-c01adf8391a7/1280x1280.webp",
+   "url": "https://lottemartzetta.com/products/OS8801117775209/details",
+   "price": 2890,
+   "currency": "KRW",
+   "taxRefund": "立即退稅",
+   "twShops": [
+    "蝦皮",
+    "酷澎",
+    "MOMO"
+   ],
+   "note": null
+  },
+  {
+   "store": "樂天超市",
+   "no": 8,
+   "nameZh": "ARIH 現代泡麵 (4包入)",
+   "nameKr": "팔도 아리 모던누들 후추라볶이 (140G*4)",
+   "image": "https://i8.momoshop.com.tw/1785750337/goodsimg/TP000/7787/0000/021/TP00077870000021_O.webp",
+   "url": "https://lottemartzetta.com/products/OS8809695257728/details",
+   "price": 5980,
+   "currency": "KRW",
+   "taxRefund": "立即退稅",
+   "twShops": [
+    "蝦皮",
+    "酷澎",
+    "MOMO"
+   ],
+   "note": "1. 辣度與口味：韓式超辣海苔(紅) > 香辣海苔(綠) > 黑胡椒炒年糕(灰咖)、韓式辣醬奶油(橘) > 白酒蛤蠣義大利麵(湖水綠) > 松露韓式烤肉(米白)、醬油奶油(膚)\n2. 還有碗裝的，價格₩1,780"
+  },
+  {
+   "store": "樂天超市",
+   "no": 9,
+   "nameZh": "ARIH 乳酸氣泡飲",
+   "nameKr": "한국야쿠르트 아리 듀얼바이오소다 피치망고 (355ML)",
+   "image": "https://img.1shop.tw/e2mJZnvrG0rg7v5AKPba5qkd/DPq15dgL3PqvJz7ylrBbJ2am/original.png",
+   "url": "https://lottemartzetta.com/products/OS8801128284516/details",
+   "price": 2000,
+   "currency": "KRW",
+   "taxRefund": "立即退稅",
+   "twShops": [
+    "蝦皮",
+    "酷澎",
+    "MOMO"
+   ],
+   "note": "1. 口味：BERRY BLISS (莓果風)、CLEAR LEMON (清爽檸檬)、PINEAPPLE DRIFT (多汁鳳梨)、POSITIVE ORANGE (活力柳橙)、PEACH MANGO HORIZON (水蜜桃芒果)、APPLE FLARE (蘋果風)、RED RUBY GALORE (葡萄柚紅寶石風)\n2. 主打無咖啡因、低糖"
+  },
+  {
+   "store": "樂天超市",
+   "no": 10,
+   "nameZh": "ARIH 后生元能量飲",
+   "nameKr": "팔도 아리 에너지드링크 오렌지아워 (355ML)",
+   "image": "https://img.1shop.tw/e2mJZnvrG0rg7v5AKPba5qkd/BoQZq74kYmWoGgkKl5PMywAK/original.png",
+   "url": "https://lottemartzetta.com/products/OS8809695255472/details",
+   "price": 2000,
+   "currency": "KRW",
+   "taxRefund": "立即退稅",
+   "twShops": [
+    "蝦皮",
+    "酷澎",
+    "MOMO"
+   ],
+   "note": "1. 口味：CHERRY NOVA (新星櫻桃風)、BLUSH BERRY (羞紅莓果風)、JOLLY STRAWBERRY (歡樂草莓風)、LEMON CREST (浪尖檸檬風)、ORANGE HOUR (魔幻時刻柳橙風)、PEACHY SUNSHINE (陽光蜜桃風)、TROPICAL WAVE (熱帶衝浪風)\n2. 為零糖、含咖啡因"
+  }
+ ]
+}

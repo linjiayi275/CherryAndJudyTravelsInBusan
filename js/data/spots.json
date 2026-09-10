@@ -1,0 +1,3268 @@
+{
+ "areaColors": {
+  "金海機場": "#9B59D6",
+  "西面": "#FF8C3D",
+  "奧西利亞": "#3B5B9B",
+  "廣安里": "#4CAF50",
+  "海雲台": "#2D8CE0",
+  "影島": "#2E7D32",
+  "南浦洞": "#C0202D",
+  "東大新洞": "#F06BA8",
+  "甘川洞": "#A08500",
+  "松島": "#00BFA5"
+ },
+ "metroColors": {
+  "Ⓖ": "#924BDD",
+  "➀": "#F7752D",
+  "Ⓚ": "#3356B4",
+  "➁": "#3CB44A"
+ },
+ "spots": [
+  {
+   "zh": "192階梯(索芒階梯單軌列車)",
+   "kr": "소망계단 모노레일",
+   "category": "列車",
+   "indoor": "室外",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": "免門票",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "07:30 - 20:00(平日) / 10:00 - 17:30(假日) 開放搭乘",
+   "website": null,
+   "sns": [],
+   "region": "東大新洞",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "東大新站 동대신역"
+    }
+   ],
+   "navermap": "https://naver.me/FXwoZh8d",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day3-2"
+  },
+  {
+   "zh": "ARTE MUSEUM BUSAN",
+   "kr": "아르떼뮤지엄 부산",
+   "category": "美術館",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": "免費",
+   "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000001236",
+   "fee": "持釜山pass 無須額外費用",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "10:00 - 20:00 (最後入場 19:00)",
+   "website": "https://cn.artemuseum.com/?redirect=no",
+   "sns": [],
+   "region": "影島",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "南浦站 남포역"
+    }
+   ],
+   "navermap": "https://naver.me/FIfsvnna",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day2-12"
+  },
+  {
+   "zh": "All Sunday 廣安店",
+   "kr": "올선데이 광안점",
+   "category": "麵包店",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": ["https://lizzzstyle.tw/all-sunday/#rtoc-8"],
+   "menuAsLink": true,
+   "hours": "08:00-22:00(最後點餐21:30)",
+   "website": null,
+   "sns": [],
+   "region": "廣安里",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "廣安站 광안역"
+    }
+   ],
+   "navermap": "https://naver.me/5WOQqri9",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day2-3"
+  },
+  {
+   "zh": "CLUB D OASIS",
+   "kr": "클럽디오아시스 스파&워터파크",
+   "category": "汗蒸幕",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": "免費",
+   "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000001112",
+   "fee": "持釜山pass 無須額外費用",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "https://www.clubdoasis.com/guide/cn/guideV2",
+   "website": "https://www.clubdoasis.com/cn",
+   "sns": [],
+   "region": "海雲台",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "中洞站 중동역"
+    },
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "海雲台站 해운대역"
+    }
+   ],
+   "navermap": "https://naver.me/F9N4ni3R",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day2-11"
+  },
+  {
+   "zh": "CORALANI",
+   "kr": "코랄라니",
+   "category": "咖啡廳",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [
+    "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260713_299%2F1783916708924Xnrux_JPEG%2F20260713_%25C4%25BF%25C7%25C7.jpg",
+    "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260713_174%2F1783916704890ry4Js_JPEG%2F20260713_%25C1%25D6%25BD%25BA.jpg",
+    "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260713_13%2F17839167010972LEJR_JPEG%2F20260713_%25BF%25A1%25C0%25CC%25B5%25E5.jpg"
+   ],
+   "menuAsLink": false,
+   "hours": "10:00 - 22:00 (最後點餐 21:20)",
+   "website": null,
+   "sns": [],
+   "region": "海雲台",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "Ⓚ",
+       "color": "#3356B4"
+      }
+     ],
+     "name": "松亭站 송정역"
+    }
+   ],
+   "navermap": "https://naver.me/GALRIqNv",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day2-5"
+  },
+  {
+   "zh": "CU凡內谷店",
+   "kr": "CU 범내골점",
+   "category": "便利商店",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "24hr",
+   "website": null,
+   "sns": [],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "凡內谷站 범내골역"
+    }
+   ],
+   "navermap": "https://naver.me/G9pUKK3J",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day2-14"
+  },
+  {
+   "zh": "Compose咖啡 西面學園街店",
+   "kr": "컴포즈커피 서면학원가점",
+   "category": "咖啡廳",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [
+    "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230426_184%2F16824773840976TJLm_JPEG%2FIN%253AOUT.jpeg"
+   ],
+   "menuAsLink": false,
+   "hours": "07:00 - 21:30 (六 07:30- / 日08:30-)",
+   "website": null,
+   "sns": [],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      },
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "西面站 서면역"
+    },
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "田浦站 전포역"
+    }
+   ],
+   "navermap": "https://naver.me/GxkMXuPD",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day1-9"
+  },
+  {
+   "zh": "DIART COFFEE",
+   "kr": "디아트커피",
+   "category": "咖啡廳",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [
+    "https://ak-d.tripcdn.com/images/1mi2d224x92z1t2l8EF84_W_640_0_R5_Q80.jpg?proc=source/trip",
+    "https://anise.tw/wp-content/uploads/2026/01/1768309561-d15ac06b49562148161ddb596bb221fd.jpg",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkCpBFNQOUgtCjaIq84-2QvvbuUxNXLyL1TZ5ZqHzs7st0-YJ0ffaGEmAPJsvk7d7eD26YifaZzd_0NRjVmKh0wCQpH4tyzyFSP7CH8FASsACPslK9zfmkCGkX2GLQd9RqUm5z5iTTxC20=s680-w680-h510-rw"
+   ],
+   "menuAsLink": false,
+   "hours": "09:30 - 17:00 (最後點餐 16:30 / 假日到 19:00 最後點餐 18:30)",
+   "website": null,
+   "sns": [],
+   "region": "海雲台",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "萇山站 장산역"
+    }
+   ],
+   "navermap": "https://naver.me/Gxk1OJez",
+   "note": "推薦 蜂蜜奶油麵包(有人說好吃有人說普通)",
+   "links": [],
+   "inItinerary": null
+  },
+  {
+   "zh": "DIAegg",
+   "kr": "다이아에그",
+   "category": "密室逃脫",
+   "indoor": "室內",
+   "rainBackup": true,
+   "vbp": "免費",
+   "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000001042",
+   "fee": "持釜山pass，Red Room 或 時間巡航 或 無聊的一天，三者擇一，免費體驗。",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "11:00 - 21:00 (假日12:00 - 22:00)",
+   "website": null,
+   "sns": [],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      },
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "西面站 서면역"
+    },
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "田浦站 전포역"
+    }
+   ],
+   "navermap": "https://naver.me/xDJuABIQ",
+   "note": null,
+   "links": [],
+   "inItinerary": null
+  },
+  {
+   "zh": "DOCO 城市農家咖啡",
+   "kr": "도시농가코페도코",
+   "category": "咖啡廳",
+   "indoor": "室內",
+   "rainBackup": true,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [
+    "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260715_290%2F1784082702329j7O0T_JPEG%2F%25B8%25DE%25B4%25BA%25C6%25C7260715.jpg"
+   ],
+   "menuAsLink": false,
+   "hours": "10:30 - 21:30(平日) / 12:00 - 21:30(假日) (最後點餐 21:00)",
+   "website": null,
+   "sns": [
+    {
+     "url": "https://www.instagram.com/doco_cafe/",
+     "icon": "fa-brands fa-instagram"
+    }
+   ],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "凡內谷站 범내골역"
+    },
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "田浦站 전포역"
+    }
+   ],
+   "navermap": "https://naver.me/FfeO0m5d",
+   "note": null,
+   "links": [],
+   "inItinerary": null
+  },
+  {
+   "zh": "Egg Drop 南浦洞店",
+   "kr": "에그드랍 남포동점",
+   "category": "三明治",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [
+    "https://img.bigfang.tw/2024/01/1761372714-ec2d2ceb2ce1241b66d2f8eb660d9702.jpg"
+   ],
+   "menuAsLink": false,
+   "hours": "08:00 - 20:00",
+   "website": null,
+   "sns": [],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      },
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "西面站 서면역"
+    }
+   ],
+   "navermap": "https://naver.me/F5Drg1dP",
+   "note": null,
+   "links": [],
+   "inItinerary": null
+  },
+  {
+   "zh": "GOWON 燒肉",
+   "kr": "고원",
+   "category": "餐廳",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [
+    "https://qrcodethumb-phinf.pstatic.net//20260508_23/1778168308550WAing_JPEG/%BF%AD%B9%AB%B1%B9%BC%F6%C1%DF%B1%B9%BE%EE001.jpg",
+    "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260602_64%2F1780333778362v2AYt_JPEG%2FIMG_6928.jpg"
+   ],
+   "menuAsLink": false,
+   "hours": "17:00 - 01:00 (最後點餐 00:00)",
+   "website": null,
+   "sns": [],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "田浦站 전포역"
+    }
+   ],
+   "navermap": "https://naver.me/F2ZuWhXc",
+   "note": null,
+   "links": [],
+   "inItinerary": null
+  },
+  {
+   "zh": "GS25 西面儒城店",
+   "kr": "GS25 서면유성점",
+   "category": "便利商店",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "24hr",
+   "website": null,
+   "sns": [],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "凡內谷站 범내골역"
+    }
+   ],
+   "navermap": "https://naver.me/GtUs3l0v",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day2-14"
+  },
+  {
+   "zh": "Hillspa",
+   "kr": "힐스파",
+   "category": "汗蒸幕",
+   "indoor": "室內",
+   "rainBackup": true,
+   "vbp": "免費",
+   "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000001160",
+   "fee": "持釜山pass 免費使用四小時",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "24hr",
+   "website": null,
+   "sns": [],
+   "region": "海雲台",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "中洞站 중동역"
+    }
+   ],
+   "navermap": "https://naver.me/FZ275N7M",
+   "note": null,
+   "links": [],
+   "inItinerary": null
+  },
+  {
+   "zh": "Hotel Aqua Palace Spa & Sauna",
+   "kr": "호텔아쿠아펠리스 찜질방 해수온천사우나 인피니티 풀",
+   "category": "汗蒸幕",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": "免費",
+   "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000000061",
+   "fee": "持釜山pass 無須額外費用",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "24hr",
+   "website": null,
+   "sns": [],
+   "region": "廣安里",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "廣安站 광안역"
+    }
+   ],
+   "navermap": "https://naver.me/IxsqbXEH",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day2-4"
+  },
+  {
+   "zh": "Liberta 青沙浦店",
+   "kr": "리베르타 청사포점",
+   "category": "咖啡廳",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [
+    "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260703_228%2F1783008744410IwY1R_JPEG%2FIMG_2360.jpg",
+    "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260629_170%2F1782699863889foqcO_JPEG%2FIMG_2067.jpg"
+   ],
+   "menuAsLink": false,
+   "hours": "09:30 - 19:30 (最後點餐 19:00)",
+   "website": null,
+   "sns": [],
+   "region": "海雲台",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "萇山站 장산역"
+    }
+   ],
+   "navermap": "https://naver.me/FIfsazLx",
+   "note": null,
+   "links": [],
+   "inItinerary": null
+  },
+  {
+   "zh": "Little Prince House",
+   "kr": "리틀프린스하우스",
+   "category": "展覽",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": "折扣",
+   "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000001377",
+   "fee": "現場1樓(禮品店)購買門票 釜山pass 85折 ➝  14000*0.85=11900韓元",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "09:30 - 18:30 (最後入場 18:00)",
+   "website": "https://www.littleprincehouse.kr/",
+   "sns": [],
+   "region": "甘川洞",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "土城站 토성역"
+    }
+   ],
+   "navermap": "https://naver.me/574BeJcZ",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day3-5"
+  },
+  {
+   "zh": "MEGA Coffee 凡川店",
+   "kr": "메가MGC커피 범천점",
+   "category": "飲料店",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [
+    "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240911_284%2F1726033003960DfMW9_JPEG%2F1.%25B8%25DE%25B4%25BA%25C6%25C71.jpg",
+    "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240911_70%2F1726033008968QsiEn_JPEG%2F2.%25B8%25DE%25B4%25BA%25C6%25C72.jpg"
+   ],
+   "menuAsLink": false,
+   "hours": "08:00 - 22:00 (假日到 21:00)",
+   "website": null,
+   "sns": [],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "凡內谷站 범내골역"
+    },
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "田浦站 전포역"
+    }
+   ],
+   "navermap": "https://naver.me/xa5bqZnz",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day1-5"
+  },
+  {
+   "zh": "Minx 西面地下購物中心",
+   "kr": "Minx 서면지하도상가 서면몰13번출구",
+   "category": "服飾",
+   "indoor": "室內",
+   "rainBackup": true,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "可能 10:00 - 22:00",
+   "website": null,
+   "sns": [],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      },
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "西面站 서면역"
+    },
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "田浦站 전포역"
+    }
+   ],
+   "navermap": "https://naver.me/GcAHD9JM",
+   "note": "西面地下購物中心 13號(15號)出口",
+   "links": [
+    {
+     "label": "介紹",
+     "url": "https://bobbytravel.tw/lotte-mart-busan/",
+     "internal": false
+    }
+   ],
+   "inItinerary": null
+  },
+  {
+   "zh": "Moneybox 金海機場分店",
+   "kr": "머니박스 김해공항지점",
+   "category": "換匯所",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "06:00 - 22:00",
+   "website": null,
+   "sns": [
+    {
+     "url": "https://www.instagram.com/moneybox_busan/",
+     "icon": "fa-brands fa-instagram"
+    },
+    {
+     "url": "https://www.threads.com/@moneybox_busan",
+     "icon": "fa-brands fa-threads"
+    }
+   ],
+   "region": "金海機場",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "Ⓖ",
+       "color": "#924BDD"
+      }
+     ],
+     "name": "機場站 공항역"
+    }
+   ],
+   "navermap": "https://naver.me/xzxwVFcz",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day1-2"
+  },
+  {
+   "zh": "Museum One",
+   "kr": "뮤지엄 원",
+   "category": "美術館",
+   "indoor": "室內",
+   "rainBackup": true,
+   "vbp": "免費",
+   "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000000040",
+   "fee": "持釜山pass 無須額外費用",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "10:00 - 19:00",
+   "website": "https://museum1.co.kr/",
+   "sns": [],
+   "region": "海雲台",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "Centum City站 센텀시티역"
+    }
+   ],
+   "navermap": "https://naver.me/GHvq813a",
+   "note": null,
+   "links": [],
+   "inItinerary": null
+  },
+  {
+   "zh": "Musinsa standard 西面",
+   "kr": "무신사 스탠다드 서면점",
+   "category": "服飾",
+   "indoor": "室內",
+   "rainBackup": true,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "11:00 - 22:00",
+   "website": null,
+   "sns": [],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      },
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "西面站 서면역"
+    },
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "田浦站 전포역"
+    }
+   ],
+   "navermap": "https://naver.me/5oE5YTxg",
+   "note": "韓國版 Uniqlo，滿15,000韓元可立即退稅",
+   "links": [],
+   "inItinerary": null
+  },
+  {
+   "zh": "Olive Young 釜山田浦站店",
+   "kr": "올리브영 부산전포역점",
+   "category": "藥妝",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "10:00 - 22:30",
+   "website": "https://www.oliveyoung.co.kr/store/main/main.do?oy=0",
+   "sns": [],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "田浦站 전포역"
+    }
+   ],
+   "navermap": "https://naver.me/5uI7mezJ",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day4-4"
+  },
+  {
+   "zh": "PAIK's Coffee 釜山西面樂天后門店",
+   "kr": "빽다방 부산서면롯데후문점",
+   "category": "飲料店",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [
+    "https://paikdabang.com/menu/menu_coffee/"
+    ],
+   "menuAsLink": true,
+   "hours": "08:00 - 22:00",
+   "website": null,
+   "sns": [],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      },
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "西面站 서면역"
+    }
+   ],
+   "navermap": "https://naver.me/GyY5aQfX",
+   "note": null,
+   "links": [
+    {
+     "label": "點餐機使用方式與推薦",
+     "url": "https://www.instagram.com/reel/C8dp2tsPW1Z/",
+     "internal": false
+    }
+   ],
+   "inItinerary": null
+  },
+  {
+   "zh": "Paik's Coffee釜山西面A1廣場店",
+   "kr": "빽다방 부산서면에이원프라자점",
+   "category": "飲料店",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [
+    "https://paikdabang.com/menu/menu_coffee/"
+   ],
+   "menuAsLink": true,
+   "hours": "07:00 - 22:00(假日 08:00 - 22:00)",
+   "website": null,
+   "sns": [],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "凡內谷站 범내골역"
+    },
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      },
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "西面站 서면역"
+    }
+   ],
+   "navermap": "https://naver.me/FRLkS6Wa",
+   "note": null,
+   "links": [
+   {
+    "label": "點餐機使用方式與推薦",
+    "url": "https://www.instagram.com/reel/C8dp2tsPW1Z/",
+    "internal": false
+   }],
+   "inItinerary": "Day4-2"
+  },
+  {
+   "zh": "Running Man 釜山店",
+   "kr": "런닝맨 부산점",
+   "category": "互動體驗",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": "免費",
+   "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000000047",
+   "fee": "持釜山pass 無須額外費用",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "11:00 - 20:00 (最後入場19:00)",
+   "website": null,
+   "sns": [],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      },
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "西面站 서면역"
+    },
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "田浦站 전포역"
+    }
+   ],
+   "navermap": "https://naver.me/x9BN6Lg5",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day1-8"
+  },
+  {
+   "zh": "SEOMYEON JJANG PHARMACY DRUGSTORE",
+   "kr": "서면짱약국",
+   "category": "藥妝",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "09:00 - 23:00",
+   "website": null,
+   "sns": [],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      },
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "西面站 서면역"
+    }
+   ],
+   "navermap": "https://naver.me/FLEiHr2d",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day4-3"
+  },
+  {
+   "zh": "西面365藥局",
+   "kr": "서면365약국",
+   "category": "藥妝",
+   "indoor": "室內",
+   "rainBackup": true,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "09:00 - 23:00",
+   "website": null,
+   "sns": [],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      },
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "西面站 서면역"
+    }
+   ],
+   "navermap": "https://naver.me/FnmEg1bm",
+   "note": "滿15,000韓元可立即退稅",
+   "links": [],
+   "inItinerary": null
+  },
+  {
+   "zh": "SPAO 西面",
+   "kr": "스파오 서면중앙점",
+   "category": "服飾",
+   "indoor": "室內",
+   "rainBackup": true,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "10:30 - 22:00",
+   "website": null,
+   "sns": [],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      },
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "西面站 서면역"
+    },
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "田浦站 전포역"
+    }
+   ],
+   "navermap": "https://naver.me/GCvqO93r",
+   "note": "滿15,000韓元可立即退稅",
+   "links": [],
+   "inItinerary": null
+  },
+  {
+   "zh": "Samjeong Tower 雷射槍競技場",
+   "kr": "레이저아레나 부산삼정타워",
+   "category": "射擊體驗",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": "免費",
+   "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000000219",
+   "fee": "持釜山pass 兩場遊戲無須額外費用",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "11:00 - 22:00 (五六到 22:30)",
+   "website": null,
+   "sns": [],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      },
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "西面站 서면역"
+    },
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "田浦站 전포역"
+    }
+   ],
+   "navermap": "https://naver.me/5ch6nqas",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day1-8"
+  },
+  {
+   "zh": "Skyline Luge 釜山",
+   "kr": "스카이라인루지 부산",
+   "category": "斜坡滑車",
+   "indoor": "室外",
+   "rainBackup": false,
+   "vbp": "免費",
+   "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000000268",
+   "fee": "持釜山pass 無須額外費用",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "https://busan.skylineluge.kr/en/visiting-us/open-hours/?week=1788105600",
+   "website": "https://busan.skylineluge.kr/en/",
+   "sns": [],
+   "region": "奧西利亞",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "Ⓚ",
+       "color": "#3356B4"
+      }
+     ],
+     "name": "奧西利亞站 오시리아역"
+    }
+   ],
+   "navermap": "https://naver.me/IDFUcLWo",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day1-7"
+  },
+  {
+   "zh": "Spa Land Centum City",
+   "kr": "센텀 스파랜드",
+   "category": "汗蒸幕",
+   "indoor": "室內",
+   "rainBackup": true,
+   "vbp": "免費",
+   "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000000094",
+   "fee": "持釜山pass 三溫暖 & 汗蒸幕 四小時 免費入場",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "09:00 - 22:00 (最後入場 21:00)",
+   "website": "https://shinsegae.cn/store/entertainment/centum-spaland.do?storeSeq=3#focus_move",
+   "sns": [],
+   "region": "海雲台",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "Centum City站 센텀시티역"
+    }
+   ],
+   "navermap": "https://naver.me/5Q372Aqt",
+   "note": null,
+   "links": [],
+   "inItinerary": null
+  },
+  {
+   "zh": "The Bay 101",
+   "kr": "더베이101",
+   "category": "夜景",
+   "indoor": "室外",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": "免門票",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "24hr",
+   "website": null,
+   "sns": [],
+   "region": "海雲台",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "冬柏站 동백역"
+    }
+   ],
+   "navermap": "https://naver.me/59vo1yZU",
+   "note": null,
+   "links": [],
+   "inItinerary": null
+  },
+  {
+   "zh": "URBAN GROOVE HOTEL SEOMYEON",
+   "kr": "어반그루브호텔 서면점",
+   "category": "住宿",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "24hr",
+   "website": null,
+   "sns": [],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "凡內谷站 범내골역"
+    },
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "田浦站 전포역"
+    }
+   ],
+   "navermap": "https://naver.me/GPdHlOfc",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day1-4&10、Day2-1&15、Day3-1&17、Day4-1&11"
+  },
+  {
+   "zh": "Umsa (動態照片)",
+   "kr": "움직이는사진책 송도타임스",
+   "category": "拍攝",
+   "indoor": "室內",
+   "rainBackup": true,
+   "vbp": "折扣",
+   "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000001317",
+   "fee": "釜山pass 手翻書照片 (8秒影片·20幀): 8,000  ➝  6,000韓元\n釜山pass 報紙照片 (A3 尺寸印刷): 5,000  ➝  3,000韓元",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "24hr",
+   "website": null,
+   "sns": [],
+   "region": "松島",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "札嘎其站 자갈치역"
+    },
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "南浦站 남포역"
+    }
+   ],
+   "navermap": "https://naver.me/FTMU1PS1",
+   "note": "位於松島海上纜車附近",
+   "links": [],
+   "inItinerary": null
+  },
+  {
+   "zh": "clam sand 釜山",
+   "kr": "클램샌드 부산",
+   "category": "複合式咖啡廳",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [
+    "https://chatgpt.com/share/6a7bdb90-cd60-83e8-a2f9-46e71e4937c4"
+   ],
+   "menuAsLink": true,
+   "hours": "09:30 - 19:00",
+   "website": null,
+   "sns": [
+    {
+     "url": "https://www.instagram.com/clamsandbusan",
+     "icon": "fa-brands fa-instagram"
+    }
+   ],
+   "region": "海雲台",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "萇山站 장산역"
+    }
+   ],
+   "navermap": "https://naver.me/FPnrR9xj",
+   "note": null,
+   "links": [],
+   "inItinerary": null
+  },
+  {
+   "zh": "emart 輕軌機場站店",
+   "kr": "이마트24 S경전철공항역점",
+   "category": "便利商店",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "09:00 - 22:00",
+   "website": null,
+   "sns": [],
+   "region": "金海機場",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "Ⓖ",
+       "color": "#924BDD"
+      }
+     ],
+     "name": "機場站 공항역"
+    }
+   ],
+   "navermap": "https://naver.me/FetkY3GH",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day1-3"
+  },
+  {
+   "zh": "flipbookstudio 手翻書",
+   "kr": "움직이는사진상점",
+   "category": "拍攝",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": "免費",
+   "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000001111",
+   "fee": "持2張釜山pass 無須額外費用，可拍一次，獲得一本手翻書。",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "10:00 - 17:30 (每月第二、日個星期三無營業) / 雨天暫停營業",
+   "website": null,
+   "sns": [],
+   "region": "甘川洞",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "土城站 토성역"
+    }
+   ],
+   "navermap": "https://naver.me/xyTGIESn",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day3-5"
+  },
+  {
+   "zh": "scentica",
+   "kr": "센티카 전포",
+   "category": "香水",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "11:00 - 21:00",
+   "website": null,
+   "sns": [],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "田浦站 전포역"
+    }
+   ],
+   "navermap": "https://naver.me/xLs7kjhl",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day4-8"
+  },
+  {
+   "zh": "stickers 貼紙拍貼機 西面(田浦)店",
+   "kr": "스티커즈 서면전포점",
+   "category": "拍攝",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": "單張(6個貼紙) 6,000韓元",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "24hr",
+   "website": null,
+   "sns": [],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "田浦站 전포역"
+    }
+   ],
+   "navermap": "https://naver.me/FvTKGXRz",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day4-5"
+  },
+  {
+   "zh": "Photo Lab Plus 釜山田浦店",
+   "kr": "포토랩플러스 부산전포점",
+   "category": "拍攝",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": "基本4格/6格 (1+1兩張)：₩4,000；全身/特殊大尺寸/多格 (1+1兩張)：₩5,000；特殊限定版邊框/聯名款：₩5,000~₩6,000",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "24hr",
+   "website": null,
+   "sns": [],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "田浦站 전포역"
+    }
+   ],
+   "navermap": "https://naver.me/GG7tXk85",
+   "note": "1. 加印費用：如果人數較多需要加印張數，通常每加印 2 張需多付 ₩1,000 ~ ₩2,000 韓元\n2. 免費附贈數位檔：拍照時記得勾選同意「QR Code(QR 코드)」功能，免費下載高畫質照片電子檔與側拍動態小影片 (GIF/MP4)",
+   "links": [],
+   "inItinerary": null
+  },
+  {
+   "zh": "wannabe 釜山西面",
+   "kr": "워너비 서면점",
+   "category": "服飾",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "10:30 - 22:30",
+   "website": null,
+   "sns": [
+    {
+     "url": "https://www.instagram.com/wannabe._official/",
+     "icon": "fa-brands fa-instagram"
+    }
+   ],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      },
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "西面站 서면역"
+    }
+   ],
+   "navermap": "https://naver.me/5D843OO8",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day4-9"
+  },
+  {
+   "zh": "一花亭 炭火烤章魚 西面",
+   "kr": "일화정연탄쭈꾸미 서면",
+   "category": "餐廳",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [
+    "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260629_48%2F1782720601527GCGBO_JPEG%2F%25B8%25DE%25B4%25BA%25C6%25C7ai.jpg",
+    "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250702_261%2F175143764737839udk_PNG%2FKakaoTalk_20250702_144645824.png"
+   ],
+   "menuAsLink": false,
+   "hours": "11:30 - 22:30 (最後點餐 21:40)",
+   "website": null,
+   "sns": [],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      },
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "西面站 서면역"
+    }
+   ],
+   "navermap": "https://naver.me/FhfI4uTA",
+   "note": null,
+   "links": [],
+   "inItinerary": null
+  },
+  {
+   "zh": "傳聞中好吃 糖餅 西面",
+   "kr": "소문난맛집",
+   "category": "餐車",
+   "indoor": "室外",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "12:00後 - 午夜",
+   "website": null,
+   "sns": [],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      },
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "西面站 서면역"
+    }
+   ],
+   "navermap": "https://naver.me/5fIprHLC",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day4-10"
+  },
+  {
+   "zh": "南浦雪濃湯",
+   "kr": "남포설렁탕",
+   "category": "餐廳",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "24hr",
+   "website": null,
+   "sns": [],
+   "region": "南浦洞",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "南浦站 남포역"
+    }
+   ],
+   "navermap": "https://naver.me/GctrSsLb",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day3-15"
+  },
+  {
+   "zh": "古來思魚糕 樂天百貨光復店",
+   "kr": "고래사어묵 롯데백화점 광복점",
+   "category": "餐廳",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "10:30 - 20:00",
+   "website": null,
+   "sns": [],
+   "region": "南浦洞",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "南浦站 남포역"
+    }
+   ],
+   "navermap": "https://naver.me/GYGkltUy",
+   "note": "位於百貨 B1，與超市連通",
+   "links": [
+    {
+     "label": "介紹",
+     "url": "https://bobbytravel.tw/lotte-mart-busan/",
+     "internal": false
+    }
+   ],
+   "inItinerary": null
+  },
+  {
+   "zh": "味贊王鹽烤肉 富平店",
+   "kr": "맛찬들왕소금구이 부평점",
+   "category": "餐廳",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [
+    "https://gowithmarkhazyl.com/wp-content/uploads/2020/02/%E5%91%B3%E8%B4%8A%E7%8E%8B%E9%B9%BD%E7%83%A4%E8%82%892-1024x768.jpg",
+    "https://bobbytravel.tw/wp-content/uploads/2026/01/20260126012934_0_481ec1.jpg"
+   ],
+   "menuAsLink": false,
+   "hours": "11:30 - 23:00 (15:00 - 17:00 休息)",
+   "website": null,
+   "sns": [],
+   "region": "南浦洞",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "札嘎其站 자갈치역"
+    }
+   ],
+   "navermap": "https://naver.me/502MzKou",
+   "note": "低消：3份肉",
+   "links": [
+    {
+     "label": "介紹",
+     "url": "https://bobbytravel.tw/matchandeul/",
+     "internal": false
+    }
+   ],
+   "inItinerary": null
+  },
+  {
+   "zh": "味贊王鹽烤肉 西面店",
+   "kr": "맛찬들왕소금구이 서면점",
+   "category": "餐廳",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [
+    "https://gowithmarkhazyl.com/wp-content/uploads/2020/02/%E5%91%B3%E8%B4%8A%E7%8E%8B%E9%B9%BD%E7%83%A4%E8%82%892-1024x768.jpg",
+    "https://bobbytravel.tw/wp-content/uploads/2026/01/20260126012934_0_481ec1.jpg"
+   ],
+   "menuAsLink": false,
+   "hours": null,
+   "website": null,
+   "sns": [],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      },
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "西面站 서면역"
+    },
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "釜岩站 부암역"
+    }
+   ],
+   "navermap": "https://naver.me/IxsqWm5D",
+   "note": "低消：3份肉",
+   "links": [
+    {
+     "label": "介紹",
+     "url": "https://bobbytravel.tw/matchandeul/",
+     "internal": false
+    }
+   ],
+   "inItinerary": null
+  },
+  {
+   "zh": "哲秀與英熙 韓服租賃",
+   "kr": "철수와영희 한복대여",
+   "category": "韓服",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": "免費",
+   "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000001157",
+   "fee": "持釜山pass 基本韓服無須額外費用(可租借1小時)，含簡易編髮與免費配件",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "09:00 - 19:00 (最後入場17:00) / 雨天暫停營業",
+   "website": null,
+   "sns": [],
+   "region": "甘川洞",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "土城站 토성역"
+    }
+   ],
+   "navermap": "https://naver.me/5WOQlWQy",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day3-4"
+  },
+  {
+   "zh": "國立海洋博物館",
+   "kr": "국립해양박물관",
+   "category": "博物館",
+   "indoor": "室內",
+   "rainBackup": true,
+   "vbp": "免費",
+   "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000000119",
+   "fee": "持釜山pass 無須額外費用",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "09:00 - 18:00 (一公休)",
+   "website": null,
+   "sns": [],
+   "region": "影島",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "南浦站 남포역"
+    }
+   ],
+   "navermap": "https://naver.me/GCvqKdq6",
+   "note": null,
+   "links": [],
+   "inItinerary": null
+  },
+  {
+   "zh": "國立釜山科學館",
+   "kr": "국립부산과학관",
+   "category": "科學館",
+   "indoor": "室內",
+   "rainBackup": true,
+   "vbp": "免費",
+   "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000000106",
+   "fee": "持釜山pass 無須額外費用",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "09:30 - 17:30 (最後購票16:30 / 一公休)",
+   "website": "https://www.sciport.or.kr/",
+   "sns": [],
+   "region": "奧西利亞",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "Ⓚ",
+       "color": "#3356B4"
+      }
+     ],
+     "name": "奧西利亞站 오시리아역"
+    }
+   ],
+   "navermap": "https://naver.me/FtTh69DT",
+   "note": null,
+   "links": [],
+   "inItinerary": null
+  },
+  {
+   "zh": "大創 釜山西面2號店",
+   "kr": "다이소 부산서면2호점",
+   "category": "生活",
+   "indoor": "室內",
+   "rainBackup": true,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "10:00 - 22:00",
+   "website": null,
+   "sns": [],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      },
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "西面站 서면역"
+    }
+   ],
+   "navermap": "https://naver.me/59vo6vvC",
+   "note": "滿15,000韓元可機場退稅",
+   "links": [],
+   "inItinerary": null
+  },
+  {
+   "zh": "大創 釜山西面店",
+   "kr": "다이소 부산서면점",
+   "category": "生活百貨",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "09:00 - 22:00",
+   "website": null,
+   "sns": [],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      },
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "西面站 서면역"
+    },
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "田浦站 전포역"
+    }
+   ],
+   "navermap": "https://naver.me/F74V6Inz",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day4-7"
+  },
+  {
+   "zh": "岩南公園",
+   "kr": "암남공원",
+   "category": "公園",
+   "indoor": "室外",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": "免門票",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "24hr",
+   "website": null,
+   "sns": [],
+   "region": "松島",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "札嘎其站 자갈치역"
+    },
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "南浦站 남포역"
+    }
+   ],
+   "navermap": "https://naver.me/GV2kdvD8",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day3-11"
+  },
+  {
+   "zh": "廣安里海水浴場",
+   "kr": "광안리해수욕장",
+   "category": "海邊",
+   "indoor": "室外",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": "免門票",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "24hr",
+   "website": null,
+   "sns": [],
+   "region": "廣安里",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "廣安站 광안역"
+    }
+   ],
+   "navermap": "https://naver.me/xzxmzK1j",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day2-2"
+  },
+  {
+   "zh": "新世界百貨公司Centum City店",
+   "kr": "신세계백화점 센텀시티점",
+   "category": "百貨",
+   "indoor": "室內",
+   "rainBackup": true,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "10:00 - 20:00 (五六日到 20:30)",
+   "website": "https://shinsegae.cn/store/introduce.do?storeSeq=3",
+   "sns": [],
+   "region": "海雲台",
+   "metroGroups": [],
+   "navermap": "https://naver.me/5chuGOAf",
+   "note": null,
+   "links": [
+    {
+     "label": "介紹",
+     "url": "https://bobbytravel.tw/shinsegae-centum-city/",
+     "internal": false
+    }
+   ],
+   "inItinerary": null
+  },
+  {
+   "zh": "松島港灣站 (松島海上纜車 入口)",
+   "kr": "송도해상케이블카입구",
+   "category": "纜車",
+   "indoor": "室外",
+   "rainBackup": false,
+   "vbp": "免費",
+   "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000000267",
+   "fee": "持釜山pass 可搭乘水晶車廂，無須額外費用",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "09:00 - 21:00",
+   "website": "https://zh.busanaircruise.co.kr/main/main.html",
+   "sns": [],
+   "region": "松島",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "札嘎其站 자갈치역"
+    },
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "南浦站 남포역"
+    }
+   ],
+   "navermap": "https://naver.me/xa5RBXes",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day3-6&13"
+  },
+  {
+   "zh": "松島纜車Sky Park站 (松島天空公園)",
+   "kr": "송도해상케이블카송도스카이파크",
+   "category": "纜車",
+   "indoor": "室外",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "09:00 - 21:00",
+   "website": "https://zh.busanaircruise.co.kr/main/main.html",
+   "sns": [],
+   "region": "松島",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "札嘎其站 자갈치역"
+    },
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "南浦站 남포역"
+    }
+   ],
+   "navermap": "https://naver.me/xCB7Ujqk",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day3-7&12"
+  },
+  {
+   "zh": "松島纜車Sky Park站 1F 美食廣場",
+   "kr": "송도해상케이블카송도스카이파크 1층 푸드코트",
+   "category": "美食廣場",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "09:00 - 21:00",
+   "website": "https://zh.busanaircruise.co.kr/main/main.html",
+   "sns": [],
+   "region": "松島",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "札嘎其站 자갈치역"
+    },
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "南浦站 남포역"
+    }
+   ],
+   "navermap": "https://naver.me/xCB7Ujqk",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day3-8"
+  },
+  {
+   "zh": "松島纜車Sky Park站 3F 景觀台",
+   "kr": "송도해상케이블카송도스카이파크 3층 전망대",
+   "category": "景觀台",
+   "indoor": "室外",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": "免門票",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "09:00 - 21:00",
+   "website": "https://zh.busanaircruise.co.kr/main/main.html",
+   "sns": [],
+   "region": "松島",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "札嘎其站 자갈치역"
+    },
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "南浦站 남포역"
+    }
+   ],
+   "navermap": "https://naver.me/xCB7Ujqk",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day3-9"
+  },
+  {
+   "zh": "松島雷射槍競技場",
+   "kr": "레이저아레나 송도점",
+   "category": "射擊體驗",
+   "indoor": "室內",
+   "rainBackup": true,
+   "vbp": "免費",
+   "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000001369",
+   "fee": "持釜山pass 免費體驗遊戲 3 次",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "10:00 - 20:00 (六到 21:00)",
+   "website": null,
+   "sns": [],
+   "region": "松島",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "札嘎其站 자갈치역"
+    },
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "南浦站 남포역"
+    }
+   ],
+   "navermap": "https://naver.me/GFBd0Nj8",
+   "note": null,
+   "links": [],
+   "inItinerary": null
+  },
+  {
+   "zh": "松島龍宮空中步道",
+   "kr": "송도용궁구름다리",
+   "category": "景點",
+   "indoor": "室外",
+   "rainBackup": false,
+   "vbp": "免費",
+   "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000000051",
+   "fee": "持釜山pass 無須額外費用",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "09:00 - 17:30 (最後入場 17:00)",
+   "website": null,
+   "sns": [],
+   "region": "松島",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "札嘎其站 자갈치역"
+    },
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "南浦站 남포역"
+    }
+   ],
+   "navermap": "https://naver.me/5T4AUbEV",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day3-10"
+  },
+  {
+   "zh": "樂天百貨(免稅店) 釜山店",
+   "kr": "롯데면세점 부산점",
+   "category": "百貨、免稅店",
+   "indoor": "室內",
+   "rainBackup": true,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "10:30 - 20:00",
+   "website": "https://global.lotteshopping.com/cht/store/main?cstrCd=0005",
+   "sns": [],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      },
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "西面站 서면역"
+    }
+   ],
+   "navermap": "https://naver.me/5uIYe7Vy",
+   "note": "1F 有 tamburins 香水",
+   "links": [
+    {
+     "label": "樓層介紹",
+     "url": "https://global.lotteshopping.com/cht/store/floor?cstrCd=0005",
+     "internal": false
+    }
+   ],
+   "inItinerary": null
+  },
+  {
+   "zh": "樂天 Premium Outlet 東釜山店",
+   "kr": "롯데프리미엄아울렛 동부산점",
+   "category": "Outlet",
+   "indoor": "室內",
+   "rainBackup": true,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "10:30 - 21:00",
+   "website": "hhttps://global.lotteshopping.com/cht/store/main?cstrCd=0352",
+   "sns": [],
+   "region": "奧西利亞",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "Ⓚ",
+       "color": "#3356B4"
+      }
+     ],
+     "name": "奧西利亞站 오시리아역"
+    }
+   ],
+   "navermap": "https://naver.me/GwpMkOIT",
+   "note": null,
+   "links": [
+    {
+     "label": "樓層介紹",
+     "url": "https://global.lotteshopping.com/cht/store/floor?cstrCd=0352",
+     "internal": false
+    }
+   ],
+   "inItinerary": null
+  },
+  {
+   "zh": "水邊最高豬肉湯飯廣安店",
+   "kr": "수변최고돼지국밥 광안점",
+   "category": "餐廳",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [
+    "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260606_24%2F1780723044050EuBWc_JPEG%2F%25B8%25DE%25B4%25BA%25C6%25C7%2528%25BC%25BC%25B7%25CEA3%2529_%25B1%25A4%25BE%25C8_%25BE%25C6%25BF%25F4%25B6%25F3%25C0%25CE_%25281%2529.jpg",
+    "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260715_218%2F1784105525594tc63F_JPEG%2F%25BC%25F6%25BA%25AF_%25BC%25BC%25C6%25AE%25B8%25DE%25B4%25BA%2528A3%25BC%25BC%25B7%25CE%2529_%25B1%25E2%25C5%25B8.jpg"
+   ],
+   "menuAsLink": false,
+   "hours": "24hr",
+   "website": null,
+   "sns": [],
+   "region": "廣安里",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "廣安站 광안역"
+    }
+   ],
+   "navermap": "https://naver.me/5wWgvTZ6",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day2-3"
+  },
+  {
+   "zh": "海東龍宮寺",
+   "kr": "해동용궁사",
+   "category": "寺廟",
+   "indoor": "室外",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": "免門票",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "04:30 - 19:20 (最後入場 18:50)",
+   "website": null,
+   "sns": [],
+   "region": "奧西利亞",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "Ⓚ",
+       "color": "#3356B4"
+      }
+     ],
+     "name": "奧西利亞站 오시리아역"
+    }
+   ],
+   "navermap": "https://naver.me/58NdWaSm",
+   "note": "搭計程車下車處請定位在停車場",
+   "links": [
+    {
+     "label": "介紹",
+     "url": "https://bobbytravel.tw/haedong-yonggung/",
+     "internal": false
+    }
+   ],
+   "inItinerary": null
+  },
+  {
+   "zh": "海雲臺藍線公園 尾浦站",
+   "kr": "해운대블루라인파크 미포정거장",
+   "category": "膠囊列車",
+   "indoor": "室外",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "https://www.bluelinepark.com/chn/skyCapsuleTime.do",
+   "website": "https://www.bluelinepark.com/chn/skyCapsuleCourse.do",
+   "sns": [],
+   "region": "海雲台",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "中洞站 중동역"
+    },
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "海雲台站 해운대역"
+    }
+   ],
+   "navermap": "https://naver.me/FafyrnAe",
+   "note": null,
+   "links": [],
+   "inItinerary": null
+  },
+  {
+   "zh": "海雲臺藍線公園 尾浦站 隱藏版打卡點",
+   "kr": null,
+   "category": "拍照點",
+   "indoor": "室外",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "24hr",
+   "website": null,
+   "sns": [],
+   "region": "海雲台",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "中洞站 중동역"
+    },
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "海雲台站 해운대역"
+    }
+   ],
+   "navermap": null,
+   "note": null,
+   "links": [],
+   "inItinerary": "Day2-8"
+  },
+  {
+   "zh": "海雲臺藍線公園 松亭站",
+   "kr": "해운대블루라인파크 송정정거장",
+   "category": "海岸列車",
+   "indoor": "室外",
+   "rainBackup": false,
+   "vbp": "免費",
+   "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000000042",
+   "fee": "持釜山pass 無須額外費用",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "https://www.bluelinepark.com/chn/beachTramTime.do",
+   "website": "https://www.bluelinepark.com/chn/beachTramCourse.do",
+   "sns": [],
+   "region": "海雲台",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "Ⓚ",
+       "color": "#3356B4"
+      }
+     ],
+     "name": "松亭站 송정역"
+    }
+   ],
+   "navermap": "https://naver.me/GEXhttm0",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day2-6"
+  },
+  {
+   "zh": "海雲臺藍線公園 迎月隧道站",
+   "kr": "해운대블루라인파크 달맞이터널 정거장",
+   "category": "海岸列車",
+   "indoor": "室外",
+   "rainBackup": false,
+   "vbp": "免費",
+   "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000000042",
+   "fee": "持釜山pass 無須額外費用",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "https://www.bluelinepark.com/chn/beachTramTime.do",
+   "website": "https://www.bluelinepark.com/chn/beachTramCourse.do",
+   "sns": [],
+   "region": "海雲台",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "中洞站 중동역"
+    },
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "海雲台站 해운대역"
+    }
+   ],
+   "navermap": "https://naver.me/GCvpLtc3",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day2-7"
+  },
+  {
+   "zh": "老虎冰淇淋大福",
+   "kr": "호랑이젤라떡 부산해운대본점",
+   "category": "冰淇淋",
+   "indoor": "室外",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": ["https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260511_62%2F1778502224063pwBcw_JPEG%2FIMG_3318.jpg"],
+   "menuAsLink": false,
+   "hours": "12:00 - 21:30 (16:00 - 17:30休息)",
+   "website": null,
+   "sns": [],
+   "region": "海雲台",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "中洞站 중동역"
+    },
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "海雲台站 해운대역"
+    }
+   ],
+   "navermap": "https://naver.me/GeURWn5w",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day2-9"
+  },
+  {
+   "zh": "海雲臺藍線公園 青沙浦站",
+   "kr": "해운대블루라인파크 청사포정거장",
+   "category": "海岸/膠囊列車",
+   "indoor": "室外",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": "膠囊列車線上購票官網或旅遊平台(Trip.com)",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "https://www.bluelinepark.com/chn/skyCapsuleTime.do",
+   "website": "https://www.bluelinepark.com/chn/booking.do",
+   "sns": [],
+   "region": "海雲台",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "萇山站 장산역"
+    }
+   ],
+   "navermap": "https://naver.me/F8luCRFz",
+   "note": null,
+   "links": [],
+   "inItinerary": null
+  },
+  {
+   "zh": "甘川洞文化村",
+   "kr": "감천문화마을입구",
+   "category": "紀念品、咖啡廳、餐廳、拍攝",
+   "indoor": "室外",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": "免門票",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "24hr",
+   "website": "https://www.gamcheon.or.kr/?param=index#",
+   "sns": [],
+   "region": "甘川洞",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "土城站 토성역"
+    }
+   ],
+   "navermap": "https://naver.me/FPn5Lbco",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day3-3"
+  },
+  {
+   "zh": "生活達人 糖餅 西面",
+   "kr": "생활의달인",
+   "category": "餐車",
+   "indoor": "室外",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "12:00後 - 午夜",
+   "website": null,
+   "sns": [],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      },
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "西面站 서면역"
+    }
+   ],
+   "navermap": "https://naver.me/5fIprHLC",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day4-10"
+  },
+  {
+   "zh": "白淺灘文化村",
+   "kr": "흰여울문화마을",
+   "category": "景點",
+   "indoor": "室外",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": "免門票",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "24hr",
+   "website": null,
+   "sns": [],
+   "region": "影島",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "南浦站 남포역"
+    }
+   ],
+   "navermap": "https://naver.me/xLWAPvjS",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day3-14"
+  },
+  {
+   "zh": "神殿辣炒年糕 西面店",
+   "kr": "신전떡볶이 서면점",
+   "category": "餐廳",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [
+    "https://chatgpt.com/share/6a7984cc-7574-83ee-b9e5-c731a7577786"
+   ],
+   "menuAsLink": true,
+   "hours": "11:00 - 23:00",
+   "website": null,
+   "sns": [],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      },
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "西面站 서면역"
+    },
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "田浦站 전포역"
+    }
+   ],
+   "navermap": "https://naver.me/59vYhgyC",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day1-9"
+  },
+  {
+   "zh": "自然島鹽麵包",
+   "kr": "자연도소금빵&자연도해",
+   "category": "麵包店",
+   "indoor": "室外",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "09:00 - 22:00",
+   "website": null,
+   "sns": [
+    {
+     "url": "https://www.instagram.com/saltbread.in.seaside",
+     "icon": "fa-brands fa-instagram"
+    }
+   ],
+   "region": "海雲台",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "中洞站 중동역"
+    },
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "海雲台站 해운대역"
+    }
+   ],
+   "navermap": "https://naver.me/xrSQSF2f",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day2-10"
+  },
+  {
+   "zh": "金海國際機場",
+   "kr": "김해국제공항",
+   "category": "機場",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "04:00 - 23:00",
+   "website": "https://www.airport.co.kr/gimhaechn/index.do",
+   "sns": [],
+   "region": "金海機場",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "Ⓖ",
+       "color": "#924BDD"
+      }
+     ],
+     "name": "機場站 공항역"
+    }
+   ],
+   "navermap": "https://naver.me/GNRjwFwb",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day1-1、Day4-12"
+  },
+  {
+   "zh": "釜山 Brick Campus",
+   "kr": "브릭캠퍼스 부산",
+   "category": "積木樂園",
+   "indoor": "室內",
+   "rainBackup": true,
+   "vbp": "免費",
+   "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000000086",
+   "fee": "持釜山pass 無須額外費用",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "10:30 - 20:00 (假日到 20:30)",
+   "website": "http://www.brickcampus.com",
+   "sns": [],
+   "region": "奧西利亞",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "Ⓚ",
+       "color": "#3356B4"
+      }
+     ],
+     "name": "奧西利亞站 오시리아역"
+    }
+   ],
+   "navermap": "https://naver.me/GI3J7IRq",
+   "note": null,
+   "links": [],
+   "inItinerary": null
+  },
+  {
+   "zh": "釜山 X the sky",
+   "kr": "부산엑스더스카이",
+   "category": "景觀台",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": "免費",
+   "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000000269",
+   "fee": "持釜山pass 無須額外費用",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "09:30 - 21:30 (20:30截止售票)",
+   "website": "http://www.busanxthesky.com",
+   "sns": [
+    {
+     "url": "https://www.instagram.com/busanxthesky/",
+     "icon": "fa-brands fa-instagram"
+    }
+   ],
+   "region": "海雲台",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "中洞站 중동역"
+    },
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "海雲台站 해운대역"
+    }
+   ],
+   "navermap": "https://naver.me/5IS92bMA",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day2-11"
+  },
+  {
+   "zh": "釜山塔(龍頭山公園入口)",
+   "kr": "부산타워(용두산공원입구)",
+   "category": "景觀台",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": "免費",
+   "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000000273",
+   "fee": "持釜山pass 無須額外費用",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "10:00 - 22:00 (最後售票 21:30)",
+   "website": null,
+   "sns": [],
+   "region": "南浦洞",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "南浦站 남포역"
+    },
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "中央站 중앙역"
+    }
+   ],
+   "navermap": "https://naver.me/G65JM8n7",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day2-13"
+  },
+  {
+   "zh": "釜山樂天世界冒險樂園",
+   "kr": "롯데월드 어드벤처 부산",
+   "category": "遊樂園",
+   "indoor": "室外",
+   "rainBackup": false,
+   "vbp": "免費",
+   "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000000270",
+   "fee": "持釜山pass 無須額外費用",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "https://adventurebusan.lotteworld.com/usage-guide/service/closed",
+   "website": "https://adventurebusan.lotteworld.com/",
+   "sns": [],
+   "region": "奧西利亞",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "Ⓚ",
+       "color": "#3356B4"
+      }
+     ],
+     "name": "奧西利亞站 오시리아역"
+    }
+   ],
+   "navermap": "https://naver.me/x9BN8XXI",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day1-6"
+  },
+  {
+   "zh": "釜山樂天超市 LOTTE MART / 樂天百貨光復店",
+   "kr": "롯데마트 광복점",
+   "category": "超市/百貨",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "10:00 - 23:00",
+   "website": "https://global.lotteshopping.com/cht/store/type?cstrCd=0333",
+   "sns": [],
+   "region": "南浦洞",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "南浦站 남포역"
+    }
+   ],
+   "navermap": "https://naver.me/FlZns9hH",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day3-16"
+  },
+  {
+   "zh": "釜山電影體驗博物館",
+   "kr": "부산영화체험박물관",
+   "category": "博物館",
+   "indoor": "室內",
+   "rainBackup": true,
+   "vbp": "免費",
+   "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000000259",
+   "fee": "持釜山pass 無須額外費用",
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "10:00-18:00 (最後入場 17:00) / 周一及國定假日休館",
+   "website": "https://busanbom.kr/",
+   "sns": [],
+   "region": "南浦洞",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "南浦站 남포역"
+    },
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "中央站 중앙역"
+    }
+   ],
+   "navermap": "https://naver.me/GhbuSjbh",
+   "note": null,
+   "links": [],
+   "inItinerary": null
+  },
+  {
+   "zh": "青沙浦公共停車場入口",
+   "kr": "청사포 공영 주차장입구",
+   "category": "拍照點",
+   "indoor": "室外",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": null,
+   "website": null,
+   "sns": [],
+   "region": "海雲台",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "萇山站 장산역"
+    }
+   ],
+   "navermap": "https://naver.me/Faf7IJXO",
+   "note": null,
+   "links": [],
+   "inItinerary": null
+  },
+  {
+   "zh": "香港飯店0410 西面店",
+   "kr": "홍콩반점0410 서면점",
+   "category": "餐廳",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [
+    "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260707_186%2F1783404204965Hg65V_JPEG%2F260629_%25C8%25AB%25C4%25E1%25B9%25DD%25C1%25A1_%25C0%25FC%25C3%25BC%25B8%25DE%25B4%25BA%25C6%25C7_%25C5%25D7%25C0%25CC%25BA%25ED%25BD%25C3%25C6%25AE%25C1%25F6_A4.jpg"
+   ],
+   "menuAsLink": false,
+   "hours": "11:30 - 22:00 (最後點餐 21:15)",
+   "website": null,
+   "sns": [],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      },
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "西面站 서면역"
+    },
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "田浦站 전포역"
+    }
+   ],
+   "navermap": "https://naver.me/FG7YGWdv",
+   "note": null,
+   "links": [],
+   "inItinerary": "Day4-6"
+  },
+  {
+   "zh": "香港飯店0410 釜山西面樂天店",
+   "kr": "홍콩반점0410 부산서면롯데점",
+   "category": "餐廳",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [
+    "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260707_186%2F1783404204965Hg65V_JPEG%2F260629_%25C8%25AB%25C4%25E1%25B9%25DD%25C1%25A1_%25C0%25FC%25C3%25BC%25B8%25DE%25B4%25BA%25C6%25C7_%25C5%25D7%25C0%25CC%25BA%25ED%25BD%25C3%25C6%25AE%25C1%25F6_A4.jpg"
+   ],
+   "menuAsLink": false,
+   "hours": "11:00 - 21:00 (最後點餐 20:30)",
+   "website": null,
+   "sns": [],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      },
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "西面站 서면역"
+    }
+   ],
+   "navermap": "https://naver.me/5fIprHLC",
+   "note": null,
+   "links": [],
+   "inItinerary": null
+  },
+  {
+   "zh": "龍頭山炭火烤肉(龍頭山排骨)",
+   "kr": "용두산갈비",
+   "category": "餐廳",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [
+    "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220810_252%2F1660143125046cHATK_JPEG%2F20220730_143058.jpg"
+   ],
+   "menuAsLink": false,
+   "hours": "11:00~22:30",
+   "website": null,
+   "sns": [],
+   "region": "南浦洞",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      }
+     ],
+     "name": "南浦站 남포역"
+    }
+   ],
+   "navermap": "https://naver.me/FTXmYPjT",
+   "note": "低消：3份肉",
+   "links": [
+    {
+     "label": "介紹",
+     "url": "https://www.facebook.com/watch/?v=1562220018114511",
+     "internal": false
+    }
+   ],
+   "inItinerary": null
+  }
+ ]
+}

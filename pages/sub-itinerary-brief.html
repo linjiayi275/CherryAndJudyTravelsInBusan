@@ -1,0 +1,639 @@
+<!-- ============================================
+     pages/sub-itinerary-brief.html
+     子頁面：簡要行程
+     依照使用者提供的地區配色（css/itinerary.css 內
+     的 --area-* 變數）與每日主題色（--day-color，
+     由每個 .day-block 用 inline style 帶入）繪製時間軸。
+     ============================================ -->
+
+<div class="sub-page itinerary-page" data-header-style="style3" data-header-title="簡要行程">
+  <div id="header-container"></div>
+
+<section class="day-block" style="--day-color: #f0404e;">
+  <div class="day-header">
+    <span class="day-label">Day 1</span>
+    <span class="day-date">10/1 (THU.)</span>
+  </div>
+  <ul class="timeline">
+  <li class="timeline-item">
+    <span class="timeline-num">1</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">金海機場</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #9B59D6;">金海機場</span>
+        <span class="tag tag-category">機場</span>
+      </div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">2</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">Moneybox</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #9B59D6;">金海機場</span>
+        <span class="tag tag-category">換匯所</span>
+      </div>
+      <div class="timeline-note"><i class="fa-solid fa-pen"></i><span>換錢</span></div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">3</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">emart</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #9B59D6;">金海機場</span>
+        <span class="tag tag-category">便利商店</span>
+      </div>
+      <div class="timeline-note"><i class="fa-solid fa-pen"></i><span>買T-money交通卡並儲值</span></div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">4</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">URBAN GROOVE HOTEL</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #FF8C3D;">西面</span>
+        <span class="tag tag-category">飯店</span>
+      </div>
+      <div class="timeline-note"><i class="fa-solid fa-pen"></i><span>寄放行李</span></div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">5</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">MEGA Coffee</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #FF8C3D;">西面</span>
+        <span class="tag tag-category">飲料店</span>
+      </div>
+      <div class="timeline-note"><i class="fa-solid fa-pen"></i><span>外帶午餐</span></div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">6</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">樂天世界樂園</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #3B5B9B;">奧西利亞</span>
+        <span class="tag tag-category">遊樂園</span>
+      </div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">7</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">Skyline Luge</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #3B5B9B;">奧西利亞</span>
+        <span class="tag tag-category">斜坡滑車</span>
+      </div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">8</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">Running Man</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #FF8C3D;">西面</span>
+        <span class="tag tag-category">互動體驗</span>
+      </div>
+    </div>
+  </li>
+  <li class="timeline-item timeline-item--backup">
+    <span class="timeline-num timeline-num--backup">8</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">Samjeong Tower 雷射槍競技場</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #FF8C3D;">西面</span>
+        <span class="tag tag-category">射擊體驗</span>
+        <span class="timeline-backup-label">Running Man備案</span>
+      </div>
+      <div class="timeline-note"><i class="fa-solid fa-pen"></i><span>Running Man同棟樓下</span></div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">9</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">神殿辣炒年糕</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #FF8C3D;">西面</span>
+        <span class="tag tag-category">餐廳</span>
+      </div>
+      <div class="timeline-note"><i class="fa-solid fa-pen"></i><span>外帶晚餐</span></div>
+    </div>
+    <div class="mt-2 mb-1 fw-bold">+</div>
+    <div class="timeline-content">
+      <h4 class="timeline-title">Compose Coffee</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #FF8C3D;">西面</span>
+        <span class="tag tag-category">飲料店</span>
+      </div>
+      <div class="timeline-note"><i class="fa-solid fa-pen"></i><span>外帶飲料</span></div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">10</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">URBAN GROOVE HOTEL</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #FF8C3D;">西面</span>
+        <span class="tag tag-category">飯店</span>
+      </div>
+      <div class="timeline-note"><i class="fa-solid fa-pen"></i><span>check-in並領行李</span></div>
+    </div>
+  </li>
+  </ul>
+</section>
+
+<section class="day-block" style="--day-color: #2ca2aa;">
+  <div class="day-header">
+    <span class="day-label">Day 2</span>
+    <span class="day-date">10/2 (FRI.)</span>
+  </div>
+  <ul class="timeline">
+  <li class="timeline-item">
+    <span class="timeline-num">1</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">URBAN GROOVE HOTEL</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #FF8C3D;">西面</span>
+        <span class="tag tag-category">飯店</span>
+      </div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">2</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">廣安里海水浴場</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #4CAF50;">廣安里</span>
+        <span class="tag tag-category">海邊</span>
+      </div>
+      <div class="timeline-note"><i class="fa-solid fa-pen"></i><span>看日出</span></div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">3</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">水邊最高豬肉湯飯</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #4CAF50;">廣安里</span>
+        <span class="tag tag-category">餐廳</span>
+      </div>
+      <div class="timeline-note"><i class="fa-solid fa-pen"></i><span>內用早餐</span></div>
+    </div>
+  </li>
+  <li class="timeline-item timeline-item--backup">
+    <span class="timeline-num timeline-num--backup">3</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">All Sunday</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #4CAF50;">廣安里</span>
+        <span class="tag tag-category">麵包店</span>
+        <span class="timeline-backup-label">水邊最高豬肉湯飯備案</span>
+      </div>
+      <div class="timeline-note"><i class="fa-solid fa-pen"></i><span>可外帶貝果當點心</span></div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">4</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">Hotel Aqua Palace Spa &amp; Sauna</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #4CAF50;">廣安里</span>
+        <span class="tag tag-category">汗蒸幕</span>
+      </div>
+      <div class="timeline-note"><i class="fa-solid fa-pen"></i><span>休息睡覺</span></div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">5</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">CORALANI</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #2D8CE0;">海雲台</span>
+        <span class="tag tag-category">咖啡廳</span>
+      </div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">6-7</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">松亭 → 迎月隧道站</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #2D8CE0;">海雲台</span>
+        <span class="tag tag-category">海岸列車</span>
+      </div>
+      <div class="timeline-note"><i class="fa-solid fa-pen"></i><span>搭乘海岸列車</span></div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">8</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">尾浦 隱藏版打卡點</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #2D8CE0;">海雲台</span>
+        <span class="tag tag-category">拍照點</span>
+      </div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">9</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">老虎冰淇淋大福</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #2D8CE0;">海雲台</span>
+        <span class="tag tag-category">冰淇淋</span>
+      </div>
+      <div class="timeline-note"><i class="fa-solid fa-pen"></i><span>外帶冰淇淋當午餐</span></div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">10</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">自然島鹽麵包</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #2D8CE0;">海雲台</span>
+        <span class="tag tag-category">麵包店</span>
+      </div>
+      <div class="timeline-note"><i class="fa-solid fa-pen"></i><span>外帶麵包當午餐</span></div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">11</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">X the sky</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #2D8CE0;">海雲台</span>
+        <span class="tag tag-category">景觀台</span>
+      </div>
+    </div>
+    <div class="mt-2 mb-1 fw-bold">+</div>
+    <div class="timeline-content">
+      <h4 class="timeline-title">CLUB D OASIS</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #2D8CE0;">海雲台</span>
+        <span class="tag tag-category">汗蒸幕</span>
+      </div>
+      <div class="timeline-note"><i class="fa-solid fa-pen"></i><span>體驗汗蒸幕</span></div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">12</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">ARTE MUSEUM</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #2E7D32;">影島</span>
+        <span class="tag tag-category">美術館</span>
+      </div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">13</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">釜山塔</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #C0202D;">南浦洞</span>
+        <span class="tag tag-category">景觀台</span>
+      </div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">14</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">CU + GS25</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #FF8C3D;">西面</span>
+        <span class="tag tag-category">便利商店</span>
+      </div>
+      <div class="timeline-note"><i class="fa-solid fa-pen"></i><span>購買隔日早餐與零食</span></div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">15</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">URBAN GROOVE HOTEL</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #FF8C3D;">西面</span>
+        <span class="tag tag-category">飯店</span>
+      </div>
+      <div class="timeline-note"><i class="fa-solid fa-pen"></i><span>櫃台訂購PURADAK炸雞外送當晚餐</span></div>
+    </div>
+  </li>
+  </ul>
+</section>
+
+<section class="day-block" style="--day-color: #da819c;">
+  <div class="day-header">
+    <span class="day-label">Day 3</span>
+    <span class="day-date">10/3 (SAT.)</span>
+  </div>
+  <ul class="timeline">
+  <li class="timeline-item">
+    <span class="timeline-num">1</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">URBAN GROOVE HOTEL</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #FF8C3D;">西面</span>
+        <span class="tag tag-category">飯店</span>
+      </div>
+      <div class="timeline-note"><i class="fa-solid fa-pen"></i><span>吃完早餐再出門</span></div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">2</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">192階梯(索芒階梯單軌列車)</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #F06BA8;">東大新洞</span>
+        <span class="tag tag-category">單軌列車</span>
+      </div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">3</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">甘川洞文化村</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #A08500;">甘川洞</span>
+        <span class="tag tag-category">文化村莊</span>
+      </div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">4</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">哲秀與英熙</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #A08500;">甘川洞</span>
+        <span class="tag tag-category">韓服</span>
+      </div>
+      <div class="timeline-note"><i class="fa-solid fa-pen"></i><span>韓服體驗</span></div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">5</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">flipbookstudio</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #A08500;">甘川洞</span>
+        <span class="tag tag-category">拍攝</span>
+      </div>
+      <div class="timeline-note"><i class="fa-solid fa-pen"></i><span>拍攝手翻書</span></div>
+    </div>
+  </li>
+  <li class="timeline-item timeline-item--backup">
+    <span class="timeline-num timeline-num--backup">5</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">Little Prince House</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #A08500;">甘川洞</span>
+        <span class="tag tag-category">展覽</span>
+        <span class="timeline-backup-label">哲秀與英熙與flipbookstudio備案</span>
+      </div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">6-7</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">松島港灣站 → 松島纜車Sky Park站</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #008c96;">松島</span>
+        <span class="tag tag-category">纜車</span>
+      </div>
+      <div class="timeline-note"><i class="fa-solid fa-pen"></i><span>搭乘海上纜車</span></div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">8</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">松島纜車Sky Park站 1F 美食廣場</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #008c96;">松島</span>
+        <span class="tag tag-category">美食廣場</span>
+      </div>
+      <div class="timeline-note"><i class="fa-solid fa-pen"></i><span>內用午餐</span></div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">9</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">松島纜車Sky Park站 3F 景觀台</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #008c96;">松島</span>
+        <span class="tag tag-category">景觀台</span>
+      </div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">10</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">松島龍宮空中步道</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #008c96;">松島</span>
+        <span class="tag tag-category">景點</span>
+      </div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">11</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">岩南公園</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #008c96;">松島</span>
+        <span class="tag tag-category">公園</span>
+      </div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">12-13</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">松島纜車Sky Park站 → 松島港灣站</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #008c96;">松島</span>
+        <span class="tag tag-category">纜車</span>
+      </div>
+      <div class="timeline-note"><i class="fa-solid fa-pen"></i><span>返回原站</span></div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">14</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">白淺灘文化村</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #2E7D32;">影島</span>
+        <span class="tag tag-category">景點</span>
+      </div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">15</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">南浦雪濃湯</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #C0202D;">南浦洞</span>
+        <span class="tag tag-category">餐廳</span>
+      </div>
+      <div class="timeline-note"><i class="fa-solid fa-pen"></i><span>內用晚餐</span></div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">16</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">樂天超市 + 樂天百貨</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #C0202D;">南浦洞</span>
+        <span class="tag tag-category">超市/百貨</span>
+      </div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">17</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">URBAN GROOVE HOTEL</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #FF8C3D;">西面</span>
+        <span class="tag tag-category">飯店</span>
+      </div>
+    </div>
+  </li>
+  </ul>
+</section>
+
+<section class="day-block" style="--day-color: #4350c5;">
+  <div class="day-header">
+    <span class="day-label">Day 4</span>
+    <span class="day-date">10/4 (SUN.)</span>
+  </div>
+  <ul class="timeline">
+  <li class="timeline-item">
+    <span class="timeline-num">1</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">URBAN GROOVE HOTEL</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #FF8C3D;">西面</span>
+        <span class="tag tag-category">飯店</span>
+      </div>
+      <div class="timeline-note"><i class="fa-solid fa-pen"></i><span>check-out並寄放行李</span></div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">2</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">Paik's Coffee</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #FF8C3D;">西面</span>
+        <span class="tag tag-category">飲料店</span>
+      </div>
+      <div class="timeline-note"><i class="fa-solid fa-pen"></i><span>外帶早餐</span></div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">3</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">SEOMYEON JJANG PHARMACY DRUGSTORE</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #FF8C3D;">西面</span>
+        <span class="tag tag-category">藥妝</span>
+      </div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">4</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">Olive Young</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #FF8C3D;">西面</span>
+        <span class="tag tag-category">藥妝</span>
+      </div>
+      <div class="timeline-note"><i class="fa-solid fa-pen"></i><span>色彩檢測(2F)、肌膚檢測(1F)</span></div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">5</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">stickers</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #FF8C3D;">西面</span>
+        <span class="tag tag-category">拍攝</span>
+      </div>
+      <div class="timeline-note"><i class="fa-solid fa-pen"></i><span>貼紙拍貼機</span></div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">6</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">香港飯店0410</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #FF8C3D;">西面</span>
+        <span class="tag tag-category">餐廳</span>
+      </div>
+      <div class="timeline-note"><i class="fa-solid fa-pen"></i><span>內用午餐(炸醬麵)</span></div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">7</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">大創</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #FF8C3D;">西面</span>
+        <span class="tag tag-category">生活</span>
+      </div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">8</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">scentica</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #FF8C3D;">西面</span>
+        <span class="tag tag-category">香水</span>
+      </div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">9</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">wannabe</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #FF8C3D;">西面</span>
+        <span class="tag tag-category">服飾</span>
+      </div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">10</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">生活達人 + 傳聞中好吃</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #FF8C3D;">西面</span>
+        <span class="tag tag-category">餐車</span>
+      </div>
+      <div class="timeline-note"><i class="fa-solid fa-pen"></i><span>外帶糖餅當點心</span></div>
+    </div>
+  </li>
+  <li class="timeline-item">
+    <span class="timeline-num">11</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">URBAN GROOVE HOTEL</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #FF8C3D;">西面</span>
+        <span class="tag tag-category">飯店</span>
+      </div>
+      <div class="timeline-note"><i class="fa-solid fa-pen"></i><span>領行李</span></div>
+    </div>
+  </li>
+    <li class="timeline-item">
+    <span class="timeline-num">12</span>
+    <div class="timeline-content">
+      <h4 class="timeline-title">金海機場</h4>
+      <div class="timeline-tags">
+        <span class="tag tag-area" style="--area-color: #9B59D6;">金海機場</span>
+        <span class="tag tag-category">機場</span>
+      </div>
+    </div>
+  </li>
+  </ul>
+</section>
+
+</div>

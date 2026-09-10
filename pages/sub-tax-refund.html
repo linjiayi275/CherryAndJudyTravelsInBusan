@@ -1,0 +1,75 @@
+<!-- ============================================
+     pages/sub-tax-refund.html
+     子頁面：關於退稅
+     data-header-title 會被 js/common.js 的
+     initSubPageHeader() 讀取，自動載入
+     components/header/sub-header-style3.html
+     並帶入標題文字
+
+     表格橫向捲動：
+     - 手機/平板：.tax-table-scroll 本身 overflow-x:auto，
+       手指直接滑動即可（原生支援，不需要額外 JS）
+     - 桌機：js/common.js 的 initAllDragScrollAreas() 會找
+       所有 .js-drag-scroll 並綁定滑鼠拖曳捲動（見 initDragScroll()）
+     ============================================ -->
+
+<div class="sub-page tax-refund-page" data-header-style="style3" data-header-title="關於退稅">
+  <div id="header-container"></div>
+
+  <div class="tax-notes-card">
+    <ol class="tax-notes-list">
+      <li>分為<span class="fw-bold text-danger">立即退稅</span>與<span class="fw-bold text-danger">事後退稅</span> 
+      </li>
+      <li>若要退稅，在結帳時須告知並<span class="fw-bold text-danger">出示護照</span></li>
+      <li>
+        單筆退稅金額在 75,000 韓元以下（約單筆消費 <span class="fw-bold text-danger">100 萬韓元以內</span>）可
+        <ul class="tax-subnotes">
+          <li><span class="subnote-mark">a.</span>立即退稅</li>
+          <li><span class="subnote-mark">b.</span>事後退稅：在機場刷完退稅機後，可直接托運行李，不需要給海關檢查商品</li>
+        </ul>
+      </li>
+      <li>
+        <a href="https://blog.jesselin.com/archives/114168/busan-airport-tax-refund-guide-tips/" target="_blank" rel="noopener noreferrer">
+          詳細退稅介紹
+        </a>
+      </li>
+    </ol>
+  </div>
+
+  <div class="tax-table-wrap">
+    <div class="tax-table-title">退稅級距表 (韓元)</div>
+    <div class="tax-table-scroll js-drag-scroll">
+      <table class="tax-table">
+        <thead>
+          <tr>
+            <th class="col-range">消費金額 (含稅)</th>
+            <th class="col-blue">藍標退稅金額</th>
+            <th class="col-orange">橘標退稅金額</th>
+            <th class="col-green">綠標退稅金額</th>
+            <th class="col-purple">紫標退稅金額</th>
+            <th class="col-yellow">黃標退稅金額</th>
+          </tr>
+        </thead>
+        <tbody>
+        <tr><td class="col-range">15,000 ~ 29,999</td><td class="col-blue">500</td><td class="col-orange">500</td><td class="col-green">500</td><td class="col-purple">500</td><td class="col-yellow">500</td></tr>
+        <tr><td class="col-range">30,000 ~ 49,999</td><td class="col-blue">1,500</td><td class="col-orange">2,000</td><td class="col-green">1,500 ~ 2,000</td><td class="col-purple">1,500 ~ 2,000</td><td class="col-yellow">1,500 ~ 2,000</td></tr>
+        <tr><td class="col-range">50,000 ~ 74,999</td><td class="col-blue">3,500</td><td class="col-orange">3,000</td><td class="col-green">3,000 ~ 3,500</td><td class="col-purple">3,000 ~ 3,500</td><td class="col-yellow">3,000 ~ 3,500</td></tr>
+        <tr><td class="col-range">75,000 ~ 99,999</td><td class="col-blue">5,000</td><td class="col-orange">5,000</td><td class="col-green">5,000</td><td class="col-purple">5,000</td><td class="col-yellow">5,000</td></tr>
+        <tr><td class="col-range">100,000 ~ 124,999</td><td class="col-blue">6,000</td><td class="col-orange">7,000</td><td class="col-green">6,000 ~ 7,000</td><td class="col-purple">6,000 ~ 7,000</td><td class="col-yellow">6,000 ~ 7,000</td></tr>
+        <tr><td class="col-range">125,000 ~ 149,999</td><td class="col-blue">8,000</td><td class="col-orange">8,000</td><td class="col-green">8,000</td><td class="col-purple">8,000</td><td class="col-yellow">8,000</td></tr>
+        <tr><td class="col-range">150,000 ~ 174,999</td><td class="col-blue">9,500</td><td class="col-orange">9,000</td><td class="col-green">9,000 ~ 9,500</td><td class="col-purple">9,000 ~ 9,500</td><td class="col-yellow">9,000 ~ 9,500</td></tr>
+        <tr><td class="col-range">175,000 ~ 199,999</td><td class="col-blue">11,000</td><td class="col-orange">10,000</td><td class="col-green">10,000 ~ 11,000</td><td class="col-purple">10,000 ~ 11,000</td><td class="col-yellow">10,000 ~ 11,000</td></tr>
+        <tr><td class="col-range">200,000 ~ 224,999</td><td class="col-blue">12,500</td><td class="col-orange">12,000</td><td class="col-green">12,000 ~ 12,500</td><td class="col-purple">12,000 ~ 12,500</td><td class="col-yellow">12,000 ~ 12,500</td></tr>
+        <tr><td class="col-range">225,000 ~ 249,999</td><td class="col-blue">14,000</td><td class="col-orange">13,000</td><td class="col-green">13,000 ~ 14,000</td><td class="col-purple">13,000 ~ 14,000</td><td class="col-yellow">13,000 ~ 14,000</td></tr>
+        <tr><td class="col-range">250,000 ~ 274,999</td><td class="col-blue">16,000</td><td class="col-orange">15,000</td><td class="col-green">15,000 ~ 16,000</td><td class="col-purple">15,000 ~ 16,000</td><td class="col-yellow">15,000 ~ 16,000</td></tr>
+        <tr><td class="col-range">275,000 ~ 299,999</td><td class="col-blue">17,000</td><td class="col-orange">17,000</td><td class="col-green">17,000</td><td class="col-purple">17,000</td><td class="col-yellow">17,000</td></tr>
+        <tr><td class="col-range">300,000 ~ 324,999</td><td class="col-blue">19,000</td><td class="col-orange">19,000</td><td class="col-green">19,000</td><td class="col-purple">19,000</td><td class="col-yellow">19,000</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- <div class="tax-scroll-hint">
+      <i class="fa-solid fa-arrows-left-right"></i>
+      <span>左右滑動查看完整表格</span>
+    </div> -->
+  </div>
+</div>

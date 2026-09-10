@@ -1,0 +1,256 @@
+<!-- ============================================
+     pages/sub-departure.html
+     子頁面：出入境（footer「出入境」分頁）
+     資料來源：使用者提供的 出入境.xlsx
+
+     分為 5 個區塊：機票訊息、必填資料與規定、
+     機場訊息、出入境步驟、相關連結
+
+     大量重用既有 class（.stop-card / .link-btn /
+     .copy-icon / .itin-item 時間軸樣式 / .tax-notes-list
+     紅字編號清單），詳見 css/departure.css 開頭註解
+     ============================================ -->
+
+<div class="sub-page departure-page" data-header-style="style4" data-header-title="出入境" data-header-icon="fa-solid fa-plane">
+  <div id="header-container"></div>
+
+  <!-- ========== 1. 機票訊息 ========== -->
+  <section class="dep-section">
+    <h3 class="section-title"><i class="fa-solid fa-bookmark"></i>機票訊息</h3>
+
+    <div class="stop-card">
+      <div class="entity-title-row">
+        <h4 class="entity-title">中華航空 China Airlines</h4>
+        <a class="entity-link-icon" href="https://www.china-airlines.com/tw/zh" target="_blank" rel="noopener noreferrer">
+          <i class="fa-solid fa-link"></i>
+        </a>
+      </div>
+
+      <div class="stop-field"><span class="field-label">訂位代號</span><span class="field-value">請查看email</span></div>
+      <div class="stop-field"><span class="field-label">艙等</span><span class="field-value">經濟艙</span></div>
+      <div class="stop-field"><span class="field-label">票價</span><span class="field-value">NT$ 10,767</span></div>
+
+      <ul class="itin-list" style="--day-color: var (--color-blue) ; margin-top: 14px;">
+        <li class="itin-item itin-item--transit">
+          <span class="itin-transit-icon">去</span>
+          <div class="transit-card">
+            <div class="transit-head">
+              <span class="transit-label">TPE - PUS</span>
+              <span class="flight-code-pill">
+                CI188
+                <button type="button" class="js-copy copy-icon" data-copy-text="CI188" aria-label="複製航班編號"><i class="fa-solid fa-copy"></i></button>
+              </span>
+            </div>
+            <div class="d-flex">
+              <div class="flight-datetime">2026/10/1&emsp;07:55 – 11:15</div>
+              <div class="flight-duration">飛行2小時20分</div>
+            </div>
+          </div>
+        </li>
+        <li class="itin-item itin-item--transit">
+          <span class="itin-transit-icon">回</span>
+          <div class="transit-card">
+            <div class="transit-head">
+              <span class="transit-label">PUS - TPE</span>
+              <span class="flight-code-pill">
+                CI187
+                <button type="button" class="js-copy copy-icon" data-copy-text="CI187" aria-label="複製航班編號"><i class="fa-solid fa-copy"></i></button>
+              </span>
+            </div>
+            <div class="d-flex">
+              <div class="flight-datetime">2026/10/4&emsp;20:00 – 21:20</div>
+              <div class="flight-duration">飛行2小時20分</div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ========== 2. 必填資料與規定 ========== -->
+  <section class="dep-section">
+    <h3 class="section-title"><i class="fa-solid fa-bookmark"></i>必填資料與規定</h3>
+
+    <div class="stop-card">
+      <div class="dep-links-row">
+        <a class="link-btn" href="https://airportservice.china-airlines.com/eCheckin/eCheckin_home?country=tw&locale=zh" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-link"></i>中華航空線上報到</a>
+        <a class="link-btn" href="https://www.e-arrivalcard.go.kr/portal/main/index.do?locale=CH" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-link"></i>韓國電子入境申報</a>
+        <a class="link-btn" href="https://www.china-airlines.com/tw/zh/prepare-for-the-fly/information/baggage/carry-on-baggage?tab=BasicRegulationsTab" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-link"></i>中華航空隨身行李基本規定</a>
+        <a class="link-btn" href="https://www.skyscanner.com.tw/flights/advice/things-that-cant-be-brought-on-flight" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-link"></i>2026手提行李規定大全</a>
+      </div>
+
+      <div class="leg-block d-flex">
+        <div class="leg-header"><span class="leg-badge">去</span></div>
+        <ol class="tax-notes-list leg-notes">
+            <li>
+              <span class="text-danger fw-bold">線上報到劃位：</span>
+              起飛前 48hr~60min (<span class="text-danger fw-bold">開放 - 9/29 07:55 / 截止 - 10/1 06:55</span>) 華航線上報到，盡量選靠前座位，可較早下機</li>
+            <li>
+              <span class="text-danger fw-bold">填寫電子入境單：</span>
+              抵達前48hr (原72hr) ~ (怕過早填寫會失效，所以改成前48hr前再填寫，
+              <span class="text-danger fw-bold">開放 - 9/29 10:15 / 截止 - 10/1 入境韓國前</span>) 填寫韓國電子入境申報單</li>
+            <li>線上報到取得的<span class="text-danger fw-bold">登機證QR Code、電子機票、護照與電子入境單QR 截圖在手機並列印下來</span>備用</li>
+        </ol>
+      </div>
+
+      <div class="leg-block d-flex">
+        <div class="leg-header"><span class="leg-badge">回</span></div>
+        <ol class="tax-notes-list leg-notes">
+            <li>
+              <span class="text-danger fw-bold">線上報到劃位：</span>
+              起飛前 48hr~60min (<span class="text-danger fw-bold">開放 - 10/2  20:00 / 截止 - 10/4 19:00</span>) 華航線上報到，盡量選靠前座位，可較早下機</li>
+            <li>線上報到取得的<span class="text-danger fw-bold">登機證QR Code截圖在手機</span>備用</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 3. 機場訊息 ========== -->
+  <section class="dep-section">
+    <h3 class="section-title"><i class="fa-solid fa-bookmark"></i>機場訊息</h3>
+
+    <div class="stop-card dep-card">
+      <div class="entity-title-row">
+        <h4 class="entity-title">桃園機場 Taoyuan</h4>
+        <a class="entity-link-icon" href="https://www.taoyuan-airport.com/" target="_blank" rel="noopener noreferrer">
+          <i class="fa-solid fa-link"></i>
+        </a>
+      </div>
+      <div class="stop-field align-items-center"><span class="field-label">機場代號</span><span class="field-value">TPE</span></div>
+      <div class="stop-field"><span class="field-label">航廈</span><span class="field-value">T1</span></div>
+      <div class="stop-field align-items-center">
+        <span class="field-label mt-1">報到櫃台</span>
+        <span class="field-value"> (10/1)  <a class="link-btn ms-2" href="https://www.taoyuan-airport.com/flight_depart" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-link"></i>桃園機場客機起飛</a></span>
+      </div>
+      <div class="stop-field align-items-center">
+        <span class="field-label mt-1">登機門</span>
+        <span class="field-value"> (10/1)  <a class="link-btn ms-2" href="https://www.taoyuan-airport.com/flight_depart" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-link"></i>桃園機場客機起飛</a></span>
+      </div>
+      <div class="stop-field align-items-center">
+        <span class="field-label mt-1">行李領取</span>
+        <span class="field-value"> (10/4)  <a class="link-btn ms-2" href="https://www.taoyuan-airport.com/flight_arrival" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-link"></i>桃園機場客機抵達</a></span>
+      </div>
+    </div>
+
+    <div class="stop-card dep-card">
+      <div class="entity-title-row">
+        <h4 class="entity-title">金海機場 Gimhae</h4>
+        <a class="entity-link-icon" href="https://www.airport.co.kr/gimhaechn/index.do" target="_blank" rel="noopener noreferrer">
+          <i class="fa-solid fa-link"></i>
+        </a>
+      </div>
+      <div class="stop-field"><span class="field-label">機場代號</span><span class="field-value">PUS</span></div>
+      <div class="stop-field"><span class="field-label">航廈</span><span class="field-value">國際航線航站樓</span></div>
+      <div class="stop-field">
+        <span class="field-label">報到櫃台</span>
+        <span class="field-value"> (10/4) 　金海機場 A區12-16</span>
+      </div>
+      <div class="stop-field align-items-center">
+        <span class="field-label mt-1">登機門</span>
+        <span class="field-value"> (10/4)  <a class="link-btn ms-2" href="https://www.airport.co.kr/gimhaechn/cms/frCon/index.do?MENU_ID=80&CONTENTS_NO=1" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-link"></i>金海機場出發信息</a></span>
+      </div>
+      <div class="stop-field align-items-center">
+        <span class="field-label mt-1">行李領取</span>
+        <span class="field-value"> (10/1)  <a class="link-btn ms-2" href="https://www.airport.co.kr/gimhaechn/cms/frCon/index.do?MENU_ID=80&CONTENTS_NO=2" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-link"></i>金海機場到達信息</a></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 4. 出入境步驟 ========== -->
+  <section class="dep-section">
+    <h3 class="section-title"><i class="fa-solid fa-bookmark"></i>出入境步驟</h3>
+
+    <div class="stop-card">
+      <div class="transit-card">
+        <div class="transit-head">
+          <span class="leg-badge">去</span>
+          <span class="transit-label ms-3 me-2">TPE - PUS</span>
+          <span class="flight-datetime mt-0">2026/10/1&emsp;07:55 – 11:15</span>
+        </div>
+
+        <div class="proc-card">
+          <h5 class="proc-title">TPE 出境 (1F&3F第一航廈) ：</h5>
+          <ol class="tax-notes-list proc-notes">
+          <li>
+            <span class="fw-bold">線上報到劃位：</span>依<span class="text-danger fw-bold">必填資料與規定</span>辦理</li>
+          <li>
+            <span class="fw-bold">托運行李：</span>
+            起飛前 3~1hr (<span class="text-danger fw-bold">開放 - 10/1 04:55 / 截止 - 10/1 06:55</span>) 前往1F華航報到櫃台托運行李，務必先<span class="text-danger fw-bold">拍下行李條卡貼紙、行李重量、行李外觀與行李收據</span>
+            ，並在現場
+            <span class="text-danger fw-bold">確認行李通過X光機</span>
+            檢查</li>
+          <li>
+            <span class="fw-bold">安檢：</span>
+            前往<span class="text-danger fw-bold">3F過安檢</span>，將身上包包、手機、外套等物品放置安檢置物籃，並過安檢門，務必遵守華航隨身行李規定及2026手提行李規定大全</li>
+          <li>
+            <span class="fw-bold">護照查驗：</span>
+            安檢後直接走自動查驗通關e-Gate (有辦理才可快速通關) ，掃描<span class="text-danger fw-bold">護照</span>並進行人臉辨識或指紋 (須<span class="text-danger fw-bold">露出五官，避免戴美瞳或眼鏡</span>) </li>
+          <li>
+            <span class="fw-bold">登機 (護照、登機證檢查) ：</span>
+            起飛前 45~30min (
+            <span class="text-danger fw-bold">抵達 - 7:10 / 登機截止 - 7:25</span>) 抵達登機門並查驗護照及登機證</li>
+          </ol>
+        </div>
+
+        <div class="proc-card">
+          <h5 class="proc-title">PUS 入境 (1F國際線入境大廳) ：</h5>
+          <ol class="tax-notes-list proc-notes">
+          <li><span class="fw-bold">填寫電子入境單：</span>依<span class="text-danger fw-bold">必填資料與規定</span>辦理</li>
+          <li><span class="fw-bold">檢疫：</span>走<span class="text-danger fw-bold">免填</span>通道 (台灣直飛且無感冒發燒症狀，免填健康申報) </li>
+          <li><span class="fw-bold">外國人護照查驗：</span>走<span class="text-danger fw-bold">外國人護照人工查驗</span>，準備<span class="text-danger fw-bold">護照及電子入境單 (截圖或列印) </span>，雙手食指指紋掃描後進行臉部辨識 (須<span class="text-danger fw-bold">露出五官，避免戴美瞳</span>) </li>
+          <li><span class="fw-bold">提取行李：</span>前往提取行李</li>
+          <li><span class="fw-bold">海關檢查：</span>走<span class="text-danger fw-bold">綠色無申報通道 (無超過免稅額) </span>，無須填寫紙本海關申報單</li>
+          </ol>
+          <div class="proc-bonus-note">
+            <i class="fa-solid fa-star mt-1"></i>
+            <span>有空：辦理SES入境通關 (下次入境韓國可用，效期與護照一樣) ，前往外國人事務所 (2F-C區往D區右側，藍色字招牌，平日9點-12點/13點-18點) ，準備護照及按壓手指與臉部掃描即可</span>
+          </div>
+        </div>
+      </div>
+      <div class="transit-card">
+        <div class="transit-head">
+          <span class="leg-badge">回</span>
+          <span class="transit-label ms-3 me-2">PUS - TPE</span>
+          <span class="flight-datetime mt-0">2026/10/4&emsp;20:00 – 21:20</span>
+        </div>
+
+        <div class="proc-card">
+          <h5 class="proc-title">PUS 出境 (2F國際線出境大廳) ：</h5>
+          <ol class="tax-notes-list proc-notes">
+          <li><span class="fw-bold">線上報到劃位：</span>依<span class="text-danger fw-bold">必填資料與規定</span>辦理</li>
+          <li><span class="fw-bold">退稅：</span>前往<span class="text-danger fw-bold">2F Gate4 (C區往D區) </span>，使用自助退稅機，掃描護照後再逐一掃描每張退稅單上的條碼，畫面顯示「O」代表免驗，顯示「X」或單筆退稅額超過 75,000 韓元，必須帶著「未拆封使用的退稅商品」與「護照、單據」，前往機台對面的海關申報櫃檯檢查並蓋章</li>
+          <li><span class="fw-bold">托運行李：</span>起飛前 3~1hr (<span class="text-danger fw-bold">開放 - 10/4 17:00 / 截止 - 10/4 19:00</span>) 前往<span class="text-danger fw-bold">2F A區12-16 (Gate1,2) </span>華航 (CI187) 報到櫃台托運行李 (托運行李前可到KIOSK自助報到機補印實體登機證) ，務必先<span class="text-danger fw-bold">拍下行李條卡貼紙、行李重量、行李外觀與行李收據</span>，並在現場<span class="text-danger fw-bold">確認行李通過X光機</span>檢查</li>
+          <li><span class="fw-bold">安檢：</span>前往<span class="text-danger fw-bold">2F A與B區之間</span>過安檢，將身上包包、手機、外套等物品放置安檢置物籃，並過安檢門，務必遵守華航隨身行李規定及2026手提行李規定大全</li>
+          <li><span class="fw-bold">護照查驗：</span>過安檢後排<span class="text-danger fw-bold">外國人查驗通道</span>，準備<span class="text-danger fw-bold">護照、登機證</span>並進行按壓指紋與人臉辨識 (須<span class="text-danger fw-bold">露出五官，避免戴美瞳或眼鏡</span>) </li>
+          <li><span class="fw-bold">領取退稅現金：</span>過海關後<span class="text-danger fw-bold">右轉</span>走到<span class="text-danger fw-bold">登機門4號斜對面</span>下方樓梯的<span class="text-danger fw-bold">NICE TAX FREE</span>領取，出示護照與退稅單</li>
+          <li><span class="fw-bold">領線上免稅品：</span>往<span class="text-danger fw-bold">12/12A/13登機口</span>，會看到<span class="text-danger fw-bold">免稅品領取處指引</span>，<span class="text-danger fw-bold">往裡走</span>看到免稅品領取處後在各別<span class="text-danger fw-bold">對應的自助機台掃描護照 (訂單QRcode備用) </span>，抽號碼牌等叫號，至櫃台核對護照與商品即可領取</li>
+          <li><span class="fw-bold">登機 (護照、登機證檢查) ：</span>起飛前 45~30min (<span class="text-danger fw-bold">抵達 - 19:15 / 登機截止 - 19:30</span>)  抵達登機門並查驗護照及登機證</li>
+          </ol>
+        </div>
+
+        <div class="proc-card">
+          <h5 class="proc-title">TPE 入境：</h5>
+          <ol class="tax-notes-list proc-notes">
+          <li><span class="fw-bold">檢疫：</span>配合機場動線進通過檢疫</li>
+          <li><span class="fw-bold">護照查驗：</span>直接走自動查驗通關e-Gate (有辦理才可快速通關) ，掃描<span class="text-danger fw-bold">護照</span>並進行人臉辨識或指紋 (須<span class="text-danger fw-bold">露出五官，避免戴美瞳或眼鏡</span>) </li>
+          <li><span class="fw-bold">提取行李：</span>前往提取行李</li>
+          <li><span class="fw-bold">海關檢查：</span>走<span class="text-danger fw-bold">綠色無申報通道 (無超過免稅額) </span></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 5. 相關連結 ========== -->
+  <section class="dep-section">
+    <h3 class="section-title"><i class="fa-solid fa-bookmark"></i>相關連結</h3>
+    <div class="stop-card">
+      <div class="dep-links-row">
+        <a class="link-btn" href="https://www.instagram.com/reel/DUK1QpCEw5a/?utm_source=ig_web_button_share_sheet" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-link"></i>如何填寫電子入境單？</a>
+        <a class="link-btn" href="https://www.instagram.com/reel/DV4EKdVEoe1/?utm_source=ig_web_button_share_sheet" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-link"></i>如何退稅？</a>
+        <a class="link-btn" href="https://www.threads.com/@shin_shinyi/post/DIbL-Klzl9W?xmt=AQG04tAGpJeWFF3fSHr1fexgGndP7vK8C1wlajvBZG2WkQ" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-link"></i>如何領取線上免稅品？</a>
+        <a class="link-btn" href="https://www.threads.com/@firstmeetwithkorea/post/DV01VjZir-D?xmt=AQG0kLNbk71ACCUqnIIKp5fKBPO-ca--b4POpF2YqDny4A" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-link"></i>如何辦理 SES 入境通關？</a>
+      </div>
+    </div>
+  </section>
+</div>

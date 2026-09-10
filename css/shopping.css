@@ -1,0 +1,276 @@
+/* ============================================
+   shopping.css
+   pages/sub-duty-free.html（線上免稅店）與
+   pages/sub-must-buy.html（必買推薦(實體店)）共用樣式
+
+   重用既有 class：
+   - .dep-section / .section-title（departure.css）
+   - .stop-card / .link-btn / .tax-notes-list（itinerary-full.css / tax-refund.css）
+
+   購物清單表格採用「表頭凍結 + 第一欄凍結」的雙向凍結窗格，
+   跟 tax-refund.css 的退稅級距表同一套手法，但因為購物清單
+   筆數很多（最多 47 筆），這裡額外把表格容器限制高度並開放
+   垂直捲動，讓表頭凍結才有意義
+   ============================================ */
+
+.shop-btn{
+  margin-top: 1rem;
+  margin-bottom: 1.15rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+/* ---------- 店家分組標題（不列在表格內，純文字標題） ---------- */
+.shop-group {
+  margin-bottom: 22px;
+  scroll-margin-top: 80px;
+}
+
+.shop-group:last-child {
+  margin-bottom: 0;
+}
+
+.shop-group-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14.5px;
+  font-weight: 700;
+  color: var(--color-black);
+  margin-bottom: 10px;
+}
+
+.shop-group-title i {
+  color: var(--color-blue);
+  font-size: 12px;
+}
+
+/* ---------- 表格容器：雙向凍結窗格 ---------- */
+.shop-table-wrap {
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid rgba(89, 89, 89, 0.14);
+}
+
+.shop-table-scroll {
+  overflow: auto;
+  /* max-height: 500px; */
+  -webkit-overflow-scrolling: touch;
+  cursor: grab;
+  user-select: none;
+  scrollbar-width: thin;
+}
+
+.shop-table-scroll.grabbing {
+  cursor: grabbing;
+}
+
+.shop-table-scroll::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+.shop-table-scroll::-webkit-scrollbar-thumb {
+  background-color: rgba(89, 89, 89, 0.25);
+  border-radius: 999px;
+}
+
+.shop-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: max-content;
+  min-width: 100%;
+}
+
+.shop-table th,
+.shop-table td {
+  padding: 8px 10px;
+  font-size: 12px;
+  text-align: center;
+  white-space: nowrap;
+  border-bottom: 1px solid rgba(89, 89, 89, 0.1);
+  border-right: 1px solid rgba(89, 89, 89, 0.08);
+  background-color: var(--color-white);
+  vertical-align: middle;
+}
+
+.shop-table th:last-child,
+.shop-table td:last-child {
+  border-right: none;
+}
+
+/* 表頭：垂直凍結（捲動時停留在容器頂端） */
+.shop-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: #f5f6f8;
+  font-weight: 700;
+  color: var(--color-black);
+  border-bottom: 1.5px solid rgba(89, 89, 89, 0.2);
+}
+
+/* 第一欄（NO.）：水平凍結（捲動時停留在容器左側） */
+.shop-table th.col-no,
+.shop-table td.col-no {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  font-weight: 700;
+  color: var(--color-gray);
+  box-shadow: 1px 0 0 rgba(89, 89, 89, 0.1);
+}
+
+/* 表頭 + 第一欄 交會的左上角：兩個方向都要凍結，層級最高 */
+.shop-table thead th.col-no {
+  z-index: 3;
+  background-color: #f5f6f8;
+}
+
+.shop-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* ---------- 各欄位寬度與對齊 ---------- */
+.shop-table .col-no {
+  min-width: 48px;
+}
+
+.shop-table .col-name {
+  min-width: 220px;
+  max-width: 260px;
+  white-space: normal;
+  text-align: left;
+}
+
+.shop-name-zh {
+  font-weight: 700;
+  color: var(--color-black);
+  line-height: 1.4;
+}
+
+.shop-name-kr {
+  font-size: 11px;
+  color: var(--color-gray);
+  margin-top: 2px;
+  line-height: 1.4;
+}
+
+.shop-table .col-image {
+  min-width: 66px;
+}
+
+.shop-product-img {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+}
+
+/* 商品縮圖外層的 PhotoSwipe 觸發連結：拿掉底線、放大鏡游標 */
+.pswp-trigger {
+  display: inline-block;
+  cursor: zoom-in;
+  line-height: 0;
+}
+
+.shop-table .col-url {
+  min-width: 44px;
+}
+
+.shop-url-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: #eef4ff;
+  color: var(--color-blue);
+  font-size: 11px;
+}
+
+.shop-table .col-price {
+  min-width: 78px;
+  text-align: right;
+  font-family: var(--font-serif);
+  font-weight: 700;
+  color: var(--color-black);
+}
+
+.shop-table .col-tax {
+  min-width: 96px;
+}
+
+.shop-tax-tag {
+  display: inline-block;
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 600;
+  border: 1.3px solid var(--color-blue);
+  color: var(--color-blue);
+  white-space: nowrap;
+}
+
+.shop-table .col-shops {
+  min-width: 120px;
+  text-align: left;
+}
+
+.shop-tw-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  margin: 1px 2px 1px 0;
+  border-radius: 999px;
+  font-size: 10.5px;
+  font-weight: 600;
+  border: 1.2px solid rgba(89, 89, 89, 0.3);
+  color: var(--color-gray);
+  white-space: nowrap;
+}
+
+.shop-table .col-note {
+  min-width: 200px;
+  max-width: 280px;
+  white-space: pre-line;
+  text-align: left;
+  color: var(--color-gray);
+  line-height: 1.6;
+}
+
+.shop-scroll-hint {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 0 0;
+  font-size: 11px;
+  color: var(--color-gray);
+}
+
+.shop-scroll-hint i {
+  font-size: 10px;
+}
+
+/* ---------- EXIM PAY+ / 會員 等小提示標籤（線上免稅店店家卡片用） ---------- */
+.shop-store-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 600;
+  border: 1.3px solid #b8860b;
+  color: #b8860b;
+  margin-top: 8px;
+}
+
+.pswp--click-to-zoom.pswp--zoom-allowed .pswp__img{
+  object-fit: contain;
+}

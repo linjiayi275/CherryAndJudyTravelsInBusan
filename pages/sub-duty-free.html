@@ -1,0 +1,76 @@
+<!-- ============================================
+     pages/sub-duty-free.html
+     子頁面：線上免稅店（從首頁選單點進來）
+     資料來源：使用者提供的 Excel「線上免稅店」工作表
+
+     購物清單表格由 js/shopping-render.js 讀取
+     js/data/duty-free.json 動態渲染（表頭凍結 + 第一欄凍結，
+     支援滑鼠拖曳橫向捲動）；其餘介紹區塊資料量小，直接寫死
+     ============================================ -->
+
+<div class="sub-page shopping-page" data-header-style="style3" data-header-title="線上免稅店" data-shopping-mode="duty-free">
+  <div id="header-container"></div>
+
+  <!-- ========== 線上免稅店（店家列表） ========== -->
+  <section class="dep-section">
+    <h3 class="section-title"><i class="fa-solid fa-bookmark"></i>線上免稅店</h3>
+
+    <div class="stop-card dep-card">
+      <div class="entity-title-row">
+        <h4 class="entity-title">樂天</h4>
+        <a class="entity-link-icon" href="https://chn.lottedfs.cn/kr/shopmain/home?changeLang=ZH" target="_blank" rel="noopener noreferrer">
+          <i class="fa-solid fa-link"></i>
+        </a>
+      </div>
+      <div class="stop-actions">
+        <a class="link-btn" href="https://m.lpoint.com/app/global/LHGA100100.do?globalFlag=CH" target="_blank" rel="noopener noreferrer">
+          <i class="fa-solid fa-link"></i>會員申辦
+        </a>
+      </div>
+      <div class="stop-note"><i class="fa-solid fa-pen"></i><span>請先申辦後再前往線上免稅店</span></div>
+      <span class="shop-store-tag"><i class="fa-solid fa-credit-card"></i>需以 EXIM PAY+ 刷卡（填寫護照、EMAIL、信用卡資料）</span>
+    </div>
+
+    <div class="stop-card dep-card">
+      <div class="entity-title-row mb-0">
+        <h4 class="entity-title">新世界</h4>
+        <a class="entity-link-icon" href="https://www.ssgdfs.com/cn/main/initMain" target="_blank" rel="noopener noreferrer">
+          <i class="fa-solid fa-link"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="stop-card dep-card">
+      <div class="entity-title-row">
+        <h4 class="entity-title">新羅</h4>
+        <a class="entity-link-icon" href="https://www.shilladutyfree.cn/estore/kr/zh/?uiel=Desktop" target="_blank" rel="noopener noreferrer">
+          <i class="fa-solid fa-link"></i>
+        </a>
+      </div>
+      <span class="shop-store-tag"><i class="fa-solid fa-credit-card"></i>需以 EXIM PAY+ 刷卡（填寫護照、EMAIL、信用卡資料）</span>
+    </div>
+  </section>
+
+  <!-- ========== 免稅訂購與取貨說明 ========== -->
+  <section class="dep-section">
+    <h3 class="section-title"><i class="fa-solid fa-bookmark"></i>免稅訂購與取貨說明</h3>
+    <div class="stop-card">
+      <div class="stop-actions mt-0">
+        <a class="link-btn" href="https://www.dcard.tw/f/korea_travel/p/257406719" target="_blank" rel="noopener noreferrer">
+          <i class="fa-solid fa-link"></i>查看訂購與取貨教學
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 購物清單（JSON 動態渲染） ========== -->
+  <section class="dep-section">
+    <h3 class="section-title"><i class="fa-solid fa-bookmark"></i>購物清單</h3>
+    <div id="shop-btn" class="shop-btn">
+      <!-- js/shopping-render.js 會讀取 js/data/duty-free.json 動態渲染 -->
+    </div>
+    <div id="shop-list">
+      <!-- js/shopping-render.js 會讀取 js/data/duty-free.json 動態渲染 -->
+    </div>
+  </section>
+</div>

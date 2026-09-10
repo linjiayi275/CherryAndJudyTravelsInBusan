@@ -1,0 +1,220 @@
+<!-- ============================================
+     pages/sub-exchange.html
+     子頁面：換匯 (footer「換匯」分頁) 
+
+     因為是 footer 主分頁 (不是從別的頁面點進來的下層頁) ，
+     跟行程／出入境頁一樣用 style4 (圖示+右側徽章) ，
+     不用返回鍵
+
+     互動邏輯 (換算試算、自訂匯率) 都在 js/exchange-render.js
+     ============================================ -->
+
+<div class="sub-page exchange-page" data-header-style="style4" data-header-title="換匯" data-header-icon="fa-solid fa-money-bill-transfer">
+  <div id="header-container"></div>
+
+  <!-- ========== 1+2. 換匯試算 (含自訂匯率)  ========== -->
+  <section class="dep-section">
+    <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:12px;">
+      <h3 class="section-title" style="margin-bottom:0;"><i class="fa-solid fa-bookmark"></i>換匯試算</h3>
+      <button type="button" class="fx-rate-btn" data-bs-toggle="modal" data-bs-target="#fxRateModal">
+        <i class="fa-solid fa-pen"></i>自訂匯率
+      </button>
+    </div>
+
+    <div class="fx-converter-card">
+      <div class="fx-box">
+        <div class="fx-box-label">從</div>
+        <div class="fx-box-row">
+          <input type="text" inputmode="decimal" class="fx-amount-input" id="fx-from-amount" value="1,000" aria-label="輸入金額" />
+          <div class="fx-currency-select-wrap">
+            <select class="fx-currency-select" data-side="from" aria-label="從幣別">
+              <option value="KRW">🇰🇷 KRW - 韓元</option>
+              <option value="TWD">🇹🇼 TWD - 台幣</option>
+              <option value="USD">🇺🇸 USD - 美金</option>
+            </select>
+            <i class="fa-solid fa-chevron-down fx-select-chevron"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="fx-swap-row">
+        <button type="button" class="fx-swap-btn" id="fx-swap-btn" aria-label="左右調換">
+          <i class="fa-solid fa-right-left"></i>
+        </button>
+      </div>
+
+      <div class="fx-box">
+        <div class="fx-box-label">兌換為</div>
+        <div class="fx-box-row">
+          <span class="fx-amount-display" id="fx-to-amount">NT$23.00</span>
+          <div class="fx-currency-select-wrap">
+            <select class="fx-currency-select" data-side="to" aria-label="兌換為幣別">
+              <option value="KRW">🇰🇷 KRW - 韓元</option>
+              <option value="TWD" selected>🇹🇼 TWD - 台幣</option>
+              <option value="USD">🇺🇸 USD - 美金</option>
+            </select>
+            <i class="fa-solid fa-chevron-down fx-select-chevron"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="fx-rate-caption" id="fx-rate-caption">參考匯率載入中…</div>
+    </div>
+  </section>
+
+  <!-- ========== 3. 匯率優惠券 ========== -->
+  <section class="dep-section">
+    <h3 class="section-title"><i class="fa-solid fa-bookmark"></i>匯率優惠券</h3>
+    <div class="stop-card">
+      <div class="entity-title-row">
+        <h4 class="entity-title">Creatrip COUPON</h4>
+      </div>
+      <div class="stop-actions">
+        <a class="link-btn" href="https://creatrip.com/mypage/coupon?type=offlineCoupon&offlineCouponTab=usable" target="_blank" rel="noopener noreferrer">
+          <i class="fa-solid fa-link"></i>領取優惠券
+        </a>
+      </div>
+      <div class="stop-note"><i class="fa-solid fa-pen"></i><span>LINE登入</span></div>
+    </div>
+    <div class="stop-card mt-3">
+      <div class="entity-title-row">
+        <h4 class="entity-title">Klook COUPON</h4>
+      </div>
+      <div class="stop-actions">
+        <a class="link-btn" href="https://www.klook.com/zh-TW/" target="_blank" rel="noopener noreferrer">
+          <i class="fa-solid fa-link"></i>領取優惠券
+        </a>
+      </div>
+      <div class="stop-note"><i class="fa-solid fa-pen"></i><span>Klook登入 - 訂單頁面</span></div>
+    </div>
+  </section>
+
+  <!-- ========== 4. 更多換匯地點 ========== -->
+  <section class="dep-section">
+    <h3 class="section-title"><i class="fa-solid fa-bookmark"></i>更多換匯地點</h3>
+
+    <div class="fx-region-block">
+      <div class="fx-region-header"><span class="tag tag-area" style="--area-color:#C0202D;">南浦洞</span></div>
+      <div class="stop-card">
+        <div class="fx-place-row">
+          <div class="fx-place-info">
+            <div class="fx-place-name">友利換錢所</div>
+            <div class="fx-place-kr">우리환전 부산남포점</div>
+          </div>
+          <div class="fx-place-side">
+            <div class="fx-place-hours">08:30 - 19:30</div>
+            <a class="pin-btn" href="https://naver.me/5k7fFTvF" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-location-dot"></i></a>
+          </div>
+        </div>
+        <div class="fx-place-row">
+          <div class="fx-place-info">
+            <div class="fx-place-name">MONEYBOX 釜山南浦店</div>
+            <div class="fx-place-kr">머니박스 남포점</div>
+          </div>
+          <div class="fx-place-side">
+            <div class="fx-place-hours">09:00 - 20:00</div>
+            <a class="pin-btn" href="https://naver.me/xVBxrGfa" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-location-dot"></i></a>
+          </div>
+        </div>
+        <div class="fx-place-row">
+          <div class="fx-place-info">
+            <div class="fx-place-name">MONEYBOX BIFF廣場店</div>
+            <div class="fx-place-kr">머니박스 비프광장점</div>
+          </div>
+          <div class="fx-place-side">
+            <div class="fx-place-hours">09:00 - 21:00</div>
+            <a class="pin-btn" href="https://naver.me/5HyUdNaL" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-location-dot"></i></a>
+          </div>
+        </div>
+        <div class="fx-place-row">
+          <div class="fx-place-info">
+            <div class="fx-place-name">MONEY PLANET 南浦店</div>
+            <div class="fx-place-kr">머니플래닛 부산</div>
+          </div>
+          <div class="fx-place-side">
+            <div class="fx-place-hours">09:00 - 20:00<br>(日到18:00) </div>
+            <a class="pin-btn" href="https://naver.me/GbymM0Af" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-location-dot"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fx-region-block">
+      <div class="fx-region-header"><span class="tag tag-area" style="--area-color:#FF8C3D;">西面</span></div>
+      <div class="stop-card">
+        <div class="fx-place-row">
+          <div class="fx-place-info">
+            <div class="fx-place-name">西面老奶奶 (那英) 換錢所</div>
+            <div class="fx-place-kr">나영환전소</div>
+          </div>
+          <div class="fx-place-side">
+            <div class="fx-place-hours">09:00 - 19:00<br>(日休) </div>
+            <a class="pin-btn" href="https://naver.me/5CFCnNjI" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-location-dot"></i></a>
+          </div>
+        </div>
+        <div class="fx-place-row">
+          <div class="fx-place-info">
+            <div class="fx-place-name">MONEYBOX 西面店</div>
+            <div class="fx-place-kr">머니박스 서면지점</div>
+          </div>
+          <div class="fx-place-side">
+            <div class="fx-place-hours">08:00 - 20:00<br>(假日到18:00) </div>
+            <a class="pin-btn" href="https://naver.me/5l7vHy5w" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-location-dot"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fx-region-block">
+      <div class="fx-region-header"><span class="tag tag-area" style="--area-color:#2D8CE0;">海雲台</span></div>
+      <div class="stop-card">
+        <div class="fx-place-row">
+          <div class="fx-place-info">
+            <div class="fx-place-name">MONEYBOX 海雲台店</div>
+            <div class="fx-place-kr">머니박스 해운대점</div>
+          </div>
+          <div class="fx-place-side">
+            <div class="fx-place-hours">09:00 - 19:00</div>
+            <a class="pin-btn" href="https://naver.me/FuzrqSsK" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-location-dot"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ============================================
+     自訂匯率 Modal
+     ============================================ -->
+<div class="modal fade app-modal fx-rate-modal" id="fxRateModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="fxRateModalTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="fxRateModalTitle">自訂匯率</h5>
+        <button type="button" class="app-modal-close" data-bs-dismiss="modal" aria-label="關閉">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="fx-rate-field">
+          <label for="fx-rate-input-twd">1 韓元 (KRW) ＝ ? 台幣 (TWD) </label>
+          <div class="fx-rate-input-row">
+            <input type="number" step="0.0001" min="0" id="fx-rate-input-twd" />
+          </div>
+        </div>
+        <div class="fx-rate-field">
+          <label for="fx-rate-input-usd">1 韓元 (KRW) ＝ ? 美金 (USD) </label>
+          <div class="fx-rate-input-row">
+            <input type="number" step="0.00001" min="0" id="fx-rate-input-usd" />
+          </div>
+        </div>
+        <div class="w-100 d-flex justify-content-center">
+          <button type="button" class="fx-rate-reset-btn" id="fx-rate-reset-btn">恢復預設參考匯率</button>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="app-modal-btn" id="fx-rate-apply-btn" data-bs-dismiss="modal">套用</button>
+      </div>
+    </div>
+  </div>
+</div>

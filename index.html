@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Visit BUSAN | Cherry & Judy</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Limelight&family=Noto+Serif:ital,wght@0,400;0,600;0,700;1,400&family=Noto+Sans+TC:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- 第三方套件 -->
+  <link rel="stylesheet" href="third-party/bootstrap-5.3.8-dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="third-party/fontawesome-free-7.3.1-web/css/all.min.css" />
+  <link rel="stylesheet" href="third-party/photoswipe/photoswipe.css" />
+
+  <!-- 全站共用樣式 -->
+  <link rel="stylesheet" href="css/common.css" />
+  <link rel="stylesheet" href="css/header.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+
+  <!-- 頁面專用樣式（先全部載入，各頁面用各自的 class 隔開即可） -->
+  <link rel="stylesheet" href="css/home.css" />
+  <link rel="stylesheet" href="css/sub.css" />
+  <link rel="stylesheet" href="css/itinerary.css" />
+  <link rel="stylesheet" href="css/itinerary-full.css" />
+  <link rel="stylesheet" href="css/tax-refund.css" />
+  <link rel="stylesheet" href="css/departure.css" />
+  <link rel="stylesheet" href="css/hotel.css" />
+  <link rel="stylesheet" href="css/spots.css" />
+  <link rel="stylesheet" href="css/exchange.css" />
+  <link rel="stylesheet" href="css/shopping.css" />
+</head>
+<body>
+
+  <div class="app-container">
+    <!-- 頁面內容（home.html / sub-XXX.html）會被動態載入到這裡 -->
+    <div id="page-container"></div>
+  </div>
+
+  <!-- 固定於畫面下方的 footer，寬度同樣鎖定 440px -->
+  <div class="footer-fixed-wrapper">
+    <div id="footer-container"></div>
+  </div>
+
+  <!-- 第三方套件 JS -->
+  <script src="third-party/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- 全站共用 JS -->
+  <script src="js/component-loader.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/itinerary-render.js"></script>
+  <script src="js/spots-render.js"></script>
+  <script src="js/exchange-render.js"></script>
+  <script src="js/shopping-render.js"></script>
+  <script src="js/app.js"></script>
+
+  <!-- PhotoSwipe 是 ES module 格式，跟其他 script 不同支載入方式；
+       module script 預設就是 deferred，不用擔心載入順序 -->
+  <script type="module" src="js/shopping-lightbox.js"></script>
+</body>
+</html>

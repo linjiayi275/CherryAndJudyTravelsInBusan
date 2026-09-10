@@ -1,0 +1,408 @@
+<!-- ============================================
+     pages/home.html
+     首頁內容片段（由 component-loader.js 載入到
+     index.html 的 #page-container 中）
+
+     16 個選單項目連結規則：
+     - 內部頁面：<a class="js-nav-link" data-page-url="..." data-page-key="...">
+       由 js/common.js 攔截點擊 → navigateTo () （SPA 換頁，不整頁重新整理）
+     - 外部連結（直接開新分頁）：<a target="_blank" rel="noopener noreferrer">
+     - 手機 App 優先開啟，沒安裝才改開網頁：
+       <a class="js-open-app" data-app-url="xxx://" data-web-url="https://...">
+       由 js/common.js 的 openAppOrWeb ()  處理
+     - 需要跳出說明視窗（Uber / Kakao T / Kakao Bus）：
+       <button data-bs-toggle="modal" data-bs-target="#modalXxx">
+       使用 Bootstrap 5 內建 Modal
+     ============================================ -->
+
+<section class="banner">
+  <div class="banner-bg"></div>
+
+  <div class="banner-photo">
+    <!-- 圖片路徑先寫好，檔名之後再補上 -->
+    <img src="../images/home/index_bg.png" alt="釜山纜車" />
+  </div>
+
+  <div class="banner-content">
+    <div class="banner-title">
+      <span class="script">Visit</span>
+      <span class="banner-title-tag">Cherry &amp; Judy</span>
+      <h1>BUSAN.</h1>
+    </div>
+
+    <div class="banner-dates">
+      <div class="date-start">
+        <span class="date-num">10.01</span>
+        <span class="date-sub">2026&nbsp;Thu.</span>
+      </div>
+      <div class="date-divider"></div>
+      <div class="date-end">
+        <span class="date-num">10.04</span>
+        <span class="date-sub">2026&nbsp;Sun.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<nav class="menu-grid">
+
+  <!-- 飯店詳情：內部頁面 -->
+  <a href="#" class="menu-item js-nav-link" data-page-url="pages/sub-hotel.html" data-page-key="home">
+    <div class="menu-icon"><img src="../images/home/hotel.png" alt="飯店詳情" /></div>
+    <span class="menu-label">飯店詳情</span>
+  </a>
+
+  <!-- 景點與餐廳：內部頁面 -->
+  <a href="#" class="menu-item js-nav-link" data-page-url="pages/sub-spots.html" data-page-key="home">
+    <div class="menu-icon"><img src="../images/home/spots.png" alt="景點與餐廳" /></div>
+    <span class="menu-label">景點與餐廳</span>
+  </a>
+
+  <!-- 簡要行程：內部頁面 -->
+  <a href="#" class="menu-item js-nav-link" data-page-url="pages/sub-itinerary-brief.html" data-page-key="home">
+    <div class="menu-icon"><img src="../images/home/itinerary-brief.png" alt="簡要行程" /></div>
+    <span class="menu-label">簡要行程</span>
+  </a>
+
+  <!-- 雨天備案：內部頁面 -->
+  <a href="#" class="menu-item js-nav-link" data-page-url="pages/sub-rain-plan.html" data-page-key="home">
+    <div class="menu-icon"><img src="../images/home/rain.png" alt="雨天備案" /></div>
+    <span class="menu-label">雨天備案</span>
+  </a>
+
+  <!-- 地鐵路線圖：外部 PDF，開新分頁 -->
+  <a
+    href="https://www.hanchao.com/vardata/download/subway_busan_cn_kr.pdf"
+    class="menu-item"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <div class="menu-icon"><img src="../images/home/metro.png" alt="地鐵路線圖" /></div>
+    <span class="menu-label">地鐵路線圖</span>
+  </a>
+
+  <!-- Uber：跳出說明 modal -->
+  <button type="button" class="menu-item" data-bs-toggle="modal" data-bs-target="#modalUber">
+    <div class="menu-icon"><img src="../images/home/uber.png" alt="Uber" /></div>
+    <span class="menu-label">Uber</span>
+  </button>
+
+  <!-- Kakao T：跳出說明 modal -->
+  <button type="button" class="menu-item" data-bs-toggle="modal" data-bs-target="#modalKakaoT">
+    <div class="menu-icon"><img src="../images/home/kakaoT.png" alt="Kakao T" /></div>
+    <span class="menu-label">Kakao T</span>
+  </button>
+
+  <!-- Kakao Bus：跳出說明 modal -->
+  <button type="button" class="menu-item" data-bs-toggle="modal" data-bs-target="#modalKakaoBus">
+    <div class="menu-icon"><img src="../images/home/kakaobus.png" alt="Kakao Bus" /></div>
+    <span class="menu-label">Kakao Bus</span>
+  </button>
+
+  <!-- Naver Map：優先開 App，沒安裝改開網頁 -->
+  <a
+    href="https://map.naver.com/"
+    class="menu-item js-open-app"
+    data-app-url="nmap://"
+    data-web-url="https://map.naver.com/"
+  >
+    <div class="menu-icon"><img src="../images/home/navermap.png" alt="Naver Map" /></div>
+    <span class="menu-label">Naver Map</span>
+  </a>
+
+  <!-- 關於退稅：內部頁面 -->
+  <a href="#" class="menu-item js-nav-link" data-page-url="pages/sub-tax-refund.html" data-page-key="home">
+    <div class="menu-icon"><img src="../images/home/taxrefund.png" alt="關於退稅" /></div>
+    <span class="menu-label">關於退稅</span>
+  </a>
+
+  <!-- 必買推薦（實體店）：內部頁面 -->
+  <a href="#" class="menu-item js-nav-link" data-page-url="pages/sub-must-buy.html" data-page-key="home">
+    <div class="menu-icon"><img src="../images/home/mustbuy.png" alt="必買推薦（實體店）" /></div>
+    <span class="menu-label">必買推薦<br />（實體店）</span>
+  </a>
+
+  <!-- 線上免稅店：內部頁面 -->
+  <a href="#" class="menu-item js-nav-link" data-page-url="pages/sub-duty-free.html" data-page-key="home">
+    <div class="menu-icon"><img src="../images/home/dutyfree.png" alt="線上免稅店" /></div>
+    <span class="menu-label">線上免稅店</span>
+  </a>
+
+  <!-- 緊急聯絡：內部頁面 -->
+  <a href="#" class="menu-item js-nav-link" data-page-url="pages/sub-emergency.html" data-page-key="home">
+    <div class="menu-icon"><img src="../images/home/emergency.png" alt="緊急聯絡" /></div>
+    <span class="menu-label">緊急聯絡</span>
+  </a>
+
+  <!-- 釜山Pass：外部連結，開新分頁 -->
+  <a
+    href="https://www.visitbusanpass.com/attractions/?attrtp"
+    class="menu-item"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <div class="menu-icon"><img src="../images/home/busanpass.png" alt="釜山Pass" /></div>
+    <span class="menu-label">釜山Pass</span>
+  </a>
+
+  <!-- Google翻譯：優先開 App，沒安裝改開網頁 -->
+  <a
+    href="https://translate.google.com/?sl=auto&amp;tl=zh-TW&amp;op=translate"
+    class="menu-item js-open-app"
+    data-app-url="googletranslate://"
+    data-web-url="https://translate.google.com/?sl=auto&tl=zh-TW&op=translate"
+  >
+    <div class="menu-icon"><img src="../images/home/googletranslate.png" alt="Google翻譯" /></div>
+    <span class="menu-label">Google翻譯</span>
+  </a>
+
+  <!-- Papago翻譯：優先開 App，沒安裝改開網頁 -->
+  <a
+    href="https://papago.naver.com/"
+    class="menu-item js-open-app"
+    data-app-url="papago://"
+    data-web-url="https://papago.naver.com/"
+  >
+    <div class="menu-icon"><img src="../images/home/papago.png" alt="Papago翻譯" /></div>
+    <span class="menu-label">Papago翻譯</span>
+  </a>
+
+</nav>
+
+<!-- ============================================
+     說明視窗（Modal）：Uber / Kakao T / Kakao Bus
+     皆使用 Bootstrap 5 內建 Modal 元件
+     ============================================ -->
+
+<!-- <div class="modal fade app-modal" id="modalUber" tabindex="-1" aria-labelledby="modalUberLabel" aria-hidden="true"> -->
+  <div class="modal fade app-modal" id="modalUber" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalUberLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalUberLabel">Uber</h5>
+        <button type="button" class="app-modal-close" data-bs-dismiss="modal" aria-label="關閉"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="modal-body">
+        <p class="text-danger fw-bold">上下車步驟</p>
+        <p>
+          <ul >
+            <li>
+              <span class="fw-bold">叫車：</span><br>
+              <ol type="1">
+                <li>
+                  輸入上下車地點，並確認
+                </li>
+                <li>
+                  確認總價與過路費  (預估價格附近的<i class="fa-solid fa-circle-info"></i>可查看) 
+                </li>
+                <li>
+                  選擇信用卡付款
+                </li>
+              </ol>
+            </li>
+            <li>
+              <span class="fw-bold">上車：</span><br>
+              <ol type="1">
+                <li>
+                  確認車牌號碼、車型與司機及時位置
+                </li>
+                <li>
+                  告知司機pin碼  (已開啟pin碼功能) 
+                </li>
+              </ol>
+            </li>
+            <li>
+              <span class="fw-bold">行車過程：</span><br>
+              <ol type="1">
+                <li>
+                  在 App 畫面上隨時查看行駛路線與所在位置
+                </li>
+              </ol>
+            </li>
+            <li>
+              <span class="fw-bold">下車：</span><br>
+              <ol type="1">
+                <li>
+                  查看前方跳錶金額
+                </li>
+                <li>
+                  確認司機輸入正確車資 = 跳表金額 + Toll Fee  (過路費/통행료) 
+                </li>
+                <li>
+                  說 영수증 주세요  (請給我收據)  - 中文空耳  (發音諧音) ：用-蘇-中，珠-ㄙㄟ-唷
+                </li>
+                <li>
+                  確認東西都有拿再下車
+                </li>
+              </ol>
+            </li>
+          </ul>
+        </p>
+        <p class="text-danger fw-bold">搭車注意事項</p>
+        <p>
+          <ol type="1">
+            <li>
+              司機品質參差不齊，可能繞路、多收錢或少找錢，不太好叫車，建議綁定信用卡
+            </li>
+            <li>
+              信用卡付款，叫車會先收一筆預刷金額，下車後會的車資才是最終扣款金額 (會自動取消預刷) 
+            </li>
+            <li>
+              盡量避開以下時段長途搭乘，容易塞車<br>
+              一 ~ 四 ：7：30 - 9：00 與 17：00 - 19：00<br>
+              五： 7：30 - 9：00 與 17：00 - 20：00<br>
+              六、日：11：00後<br>
+            </li>
+          </ol>
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button
+          type="button"
+          class="app-modal-btn js-open-app"
+          data-bs-dismiss="modal"
+          data-app-url="uber://"
+          data-web-url="https://www.uber.com/tw/zh-tw/"
+        >
+          前往
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade app-modal" id="modalKakaoT" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalKakaoTLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalKakaoTLabel">Kakao T</h5>
+        <button type="button" class="app-modal-close" data-bs-dismiss="modal" aria-label="關閉"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="modal-body">
+        <p class="text-danger fw-bold">上下車步驟</p>
+        <p>
+          <ul >
+            <li>
+              <span class="fw-bold">叫車：</span><br>
+              <ol type="1">
+                <li>
+                  輸入上下車地點，並確認
+                </li>
+                <li>
+                  選擇 General Request  (只有這個可以付現/T-money) 
+                </li>
+                <li>
+                  確認總價與過路費  (預估價格附近的<i class="fa-solid fa-circle-info"></i>可查看) 
+                </li>
+                <li>
+                  選 Other Payment Methods 的 Pay to the driver  (現金/T-money/信用卡) 
+                </li>
+              </ol>
+            </li>
+            <li>
+              <span class="fw-bold">上車：</span><br>
+              <ol type="1">
+                <li>
+                  確認車牌號碼、車型與司機及時位置
+                </li>
+                <li>
+                  向司機出示手機 App 預定畫面，確認沒有上錯車
+                </li>
+              </ol>
+            </li>
+            <li>
+              <span class="fw-bold">行車過程：</span><br>
+              <ol type="1">
+                <li>
+                  在 App 畫面上隨時查看行駛路線與所在位置
+                </li>
+              </ol>
+            </li>
+            <li>
+              <span class="fw-bold">下車：</span><br>
+              <ol type="1">
+                <li>
+                  查看前方跳錶金額
+                </li>
+                <li>
+                  確認司機輸入正確車資 = 跳表金額 + Toll Fee  (過路費/통행료) 
+                </li>
+                <li>
+                  付現 - 注意司機找錢的金額  (若拿大鈔讓司機找錢，可以錄影存證，避免司機騙人) 
+                </li>
+                <li>
+                  說 영수증 주세요  (請給我收據)  - 中文空耳  (發音諧音) ：用-蘇-中，珠-ㄙㄟ-唷
+                </li>
+                <li>
+                  確認東西都有拿再下車
+                </li>
+              </ol>
+            </li>
+          </ul>
+        </p>
+        <p class="text-danger fw-bold">搭車注意事項</p>
+        <p>
+          <ol type="1">
+            <li>
+              司機品質較好，不太會繞路，也比較好叫車
+            </li>
+            <li>
+              不是每台計程車現場使用 T-money 或信用卡都刷得過
+            </li>
+            <li>
+              不要綁定台灣信用卡自動扣款，若發生別人上錯車或司機多收錢，想要退款時會很麻煩
+            </li>
+            <li>
+              盡量避開以下時段長途搭乘，容易塞車<br>
+              一 ~ 四 ：7：30 - 9：00 與 17：00 - 19：00<br>
+              五： 7：30 - 9：00 與 17：00 - 20：00<br>
+              六、日：11：00後<br>
+            </li>
+          </ol>
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button
+          type="button"
+          class="app-modal-btn js-open-app"
+          data-bs-dismiss="modal"
+          data-app-url="kakaot://"
+          data-web-url="https://www.kakaocorp.com/page/service/service/KakaoT?lang=ENG"
+        >
+          前往
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade app-modal" id="modalKakaoBus" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalKakaoBusLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalKakaoBusLabel">Kakao Bus</h5>
+        <button type="button" class="app-modal-close" data-bs-dismiss="modal" aria-label="關閉">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="text-danger fw-bold">搭車注意事項</p>
+        <ol type="1">
+          <li>
+            搜尋時要查看 "부산  (釜山) " 的公車
+          </li>
+        </ol>
+      </div>
+      <div class="modal-footer">
+        <button
+          type="button"
+          class="app-modal-btn js-open-app"
+          data-bs-dismiss="modal"
+          data-app-url="kakaobus://"
+          data-web-url="https://www.kakaocorp.com/page/service/service/KakaoT?lang=ENG"
+        >
+          前往
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

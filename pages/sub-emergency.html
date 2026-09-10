@@ -1,0 +1,51 @@
+<!-- ============================================
+     pages/sub-emergency.html
+     子頁面：緊急聯絡（從首頁選單「緊急聯絡」點進來）
+
+     完全重用既有 class，不需要另外的 css 檔：
+     - .stop-card / .stop-field / .field-label / .field-value（itinerary-full.css）
+     - .entity-title-row / .entity-title / .entity-link-icon（departure.css）
+     - .copy-icon / .js-copy（common.js 事件委派）
+     ============================================ -->
+
+<div class="sub-page hotel-page" data-header-style="style3" data-header-title="緊急聯絡">
+  <div id="header-container"></div>
+
+  <section class="dep-section">
+    <div class="stop-card dep-card">
+      <div class="entity-title-row">
+        <h4 class="entity-title">駐韓大使館</h4>
+        <a class="entity-link-icon" href="https://www.roc-taiwan.org/kr/contact_us.html" target="_blank" rel="noopener noreferrer">
+          <i class="fa-solid fa-link"></i>
+        </a>
+      </div>
+      <div class="stop-field"><span class="field-label">電話</span><span class="field-value">82-2-6329-6000</span></div>
+      <div class="stop-field">
+        <span class="field-label">信箱</span>
+        <span class="field-value d-flex flex-wrap">kor@mofa.gov.tw
+          <button type="button" class="js-copy copy-icon ms-2" data-copy-text="kor@mofa.gov.tw" aria-label="複製信箱"><i class="fa-solid fa-copy"></i></button>
+        </span>
+      </div>
+    </div>
+
+    <div class="stop-card dep-card">
+      <div class="entity-title-row">
+        <h4 class="entity-title">急難救助專線</h4>
+        <a class="entity-link-icon" href="https://www.roc-taiwan.org/kr/post/94.html" target="_blank" rel="noopener noreferrer">
+          <i class="fa-solid fa-link"></i>
+        </a>
+      </div>
+      <div class="stop-field"><span class="field-label">電話</span><span class="field-value">82-10-9080-2761</span></div>
+    </div>
+
+    <div class="stop-card dep-card">
+      <div class="entity-title-row">
+        <h4 class="entity-title">韓國旅遊諮詢</h4>
+        <a class="entity-link-icon" href="https://big5chinese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140683" target="_blank" rel="noopener noreferrer">
+          <i class="fa-solid fa-link"></i>
+        </a>
+      </div>
+      <div class="stop-field"><span class="field-label">電話</span><span class="field-value">1330（24 小時中文服務）</span></div>
+    </div>
+  </section>
+</div>
