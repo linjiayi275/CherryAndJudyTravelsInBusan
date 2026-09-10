@@ -95,13 +95,14 @@
   vertical-align: middle;
 }
 
+.shop-table tr:nth-child(even) th,
+.shop-table tr:nth-child(even) td{
+  background: var(--color-lightgray);
+}
+
 .shop-table th:last-child,
 .shop-table td:last-child {
   border-right: none;
-}
-
-.shop-table tr:nth-child(even){
-  background: var(--color-lightgray);
 }
 
 /* 表頭：垂直凍結（捲動時停留在容器頂端） */
