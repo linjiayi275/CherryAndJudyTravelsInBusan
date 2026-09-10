@@ -702,13 +702,7 @@
    ],
    "navermap": "https://naver.me/GcAHD9JM",
    "note": "西面地下購物中心 13號(15號)出口",
-   "links": [
-    {
-     "label": "介紹",
-     "url": "https://bobbytravel.tw/lotte-mart-busan/",
-     "internal": false
-    }
-   ],
+   "links": [],
    "inItinerary": null
   },
   {
@@ -1641,7 +1635,7 @@
    "vbp": null,
    "vbpUrl": null,
    "fee": null,
-   "menuImages": [],
+   "menuImages": ["https://lizzzstyle.tw/wp-content/uploads/2025/05/20250317_124945.jpg","https://lizzzstyle.tw/wp-content/uploads/2025/05/20250317_124949.jpg"],
    "menuAsLink": false,
    "hours": "24hr",
    "website": null,
@@ -1836,7 +1830,7 @@
    "menuImages": [],
    "menuAsLink": false,
    "hours": "09:00 - 18:00 (一公休)",
-   "website": null,
+   "website": "https://www.mmk.or.kr/mobile/",
    "sns": [],
    "region": "影島",
    "metroGroups": [
@@ -2051,7 +2045,17 @@
    "website": "https://shinsegae.cn/store/introduce.do?storeSeq=3",
    "sns": [],
    "region": "海雲台",
-   "metroGroups": [],
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "Centum City站 센텀시티역"
+    }
+   ],
    "navermap": "https://naver.me/5chuGOAf",
    "note": null,
    "links": [
@@ -2315,7 +2319,7 @@
    "menuImages": [],
    "menuAsLink": false,
    "hours": "10:30 - 20:00",
-   "website": "https://global.lotteshopping.com/cht/store/main?cstrCd=0005",
+   "website": "https://m.global.lotteshopping.com/cht/store/main?cstrCd=0005",
    "sns": [],
    "region": "西面",
    "metroGroups": [
@@ -2335,13 +2339,7 @@
    ],
    "navermap": "https://naver.me/5uIYe7Vy",
    "note": "1F 有 tamburins 香水",
-   "links": [
-    {
-     "label": "樓層介紹",
-     "url": "https://global.lotteshopping.com/cht/store/floor?cstrCd=0005",
-     "internal": false
-    }
-   ],
+   "links": [],
    "inItinerary": null
   },
   {
@@ -2356,7 +2354,7 @@
    "menuImages": [],
    "menuAsLink": false,
    "hours": "10:30 - 21:00",
-   "website": "hhttps://global.lotteshopping.com/cht/store/main?cstrCd=0352",
+   "website": "https://m.global.lotteshopping.com/cht/store/main?cstrCd=0352",
    "sns": [],
    "region": "奧西利亞",
    "metroGroups": [
@@ -2372,13 +2370,7 @@
    ],
    "navermap": "https://naver.me/GwpMkOIT",
    "note": null,
-   "links": [
-    {
-     "label": "樓層介紹",
-     "url": "https://global.lotteshopping.com/cht/store/floor?cstrCd=0352",
-     "internal": false
-    }
-   ],
+   "links": [],
    "inItinerary": null
   },
   {
@@ -2455,7 +2447,7 @@
   {
    "zh": "海雲臺藍線公園 尾浦站",
    "kr": "해운대블루라인파크 미포정거장",
-   "category": "膠囊列車",
+   "category": "海岸/膠囊列車",
    "indoor": "室外",
    "rainBackup": false,
    "vbp": null,
@@ -2655,7 +2647,7 @@
    "menuImages": [],
    "menuAsLink": false,
    "hours": "https://www.bluelinepark.com/chn/skyCapsuleTime.do",
-   "website": "https://www.bluelinepark.com/chn/booking.do",
+   "website": "https://www.bluelinepark.com/chn/skyCapsuleCourse.do",
    "sns": [],
    "region": "海雲台",
    "metroGroups": [
@@ -2671,7 +2663,18 @@
    ],
    "navermap": "https://naver.me/F8luCRFz",
    "note": null,
-   "links": [],
+   "links": [    
+    {
+     "label": "官網預約",
+     "url": "https://www.bluelinepark.com/chn/booking.do",
+     "internal": false
+    },
+    {
+     "label": "Trip.com購買",
+     "url": "https://tw.trip.com/travel-guide/attraction/busan/haeundae-blueline-park-131154386/?locale=zh-TW&curr=TWD",
+     "internal": false
+    }
+  ],
    "inItinerary": null
   },
   {
@@ -3052,7 +3055,7 @@
    "menuImages": [],
    "menuAsLink": false,
    "hours": "10:00 - 23:00",
-   "website": "https://global.lotteshopping.com/cht/store/type?cstrCd=0333",
+   "website": "https://m.global.lotteshopping.com/cht/store/main?cstrCd=0333",
    "sns": [],
    "region": "南浦洞",
    "metroGroups": [
