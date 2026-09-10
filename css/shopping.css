@@ -100,12 +100,16 @@
   border-right: none;
 }
 
+.shop-table tr:nth-child(even){
+  background: var(--color-lightgray);
+}
+
 /* 表頭：垂直凍結（捲動時停留在容器頂端） */
 .shop-table thead th {
   position: sticky;
   top: 0;
   z-index: 2;
-  background-color: #f5f6f8;
+  background-color: #edeeef;
   font-weight: 700;
   color: var(--color-black);
   border-bottom: 1.5px solid rgba(89, 89, 89, 0.2);
@@ -125,7 +129,7 @@
 /* 表頭 + 第一欄 交會的左上角：兩個方向都要凍結，層級最高 */
 .shop-table thead th.col-no {
   z-index: 3;
-  background-color: #f5f6f8;
+  background-color: #edeeef;
 }
 
 .shop-table tbody tr:last-child td {
