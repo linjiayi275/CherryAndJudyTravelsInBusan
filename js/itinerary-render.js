@@ -410,7 +410,12 @@ function attachMenuModalHandler() {
           .join("");
       } else {
         bodyEl.innerHTML = images
-          .map((src) => `<img src="${itinEsc(src)}" alt="菜單" />`)
+          .map(
+            (src) =>
+              `<a href="${itinEsc(src)}" class="pswp-trigger" data-pswp-width="1200" data-pswp-height="1200">
+                <img src="${itinEsc(src)}" alt="菜單" />
+              </a>`,
+          )
           .join("");
       }
     }

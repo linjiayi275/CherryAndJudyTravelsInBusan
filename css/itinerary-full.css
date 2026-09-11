@@ -701,8 +701,17 @@
   display: block;
 }
 
+/* .pswp-trigger 預設是 inline-block（配合購物清單表格裡的縮圖），
+   但在菜單 Modal 裡圖片要撐滿寬度，這裡覆蓋成 block 滿版 */
+.menu-modal .modal-body .pswp-trigger {
+  display: block;
+  width: 100%;
+  cursor: zoom-in;
+}
+
 /* 廁所 Modal 沿用 menu-modal 的外框樣式，但內容是連結列表，
    不需要 modal-body 的 flex/gap 設定 */
 .restroom-modal .modal-body {
   display: block;
+  padding: 4px 0;
 }
