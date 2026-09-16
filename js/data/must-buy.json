@@ -37,7 +37,7 @@
     "蝦皮",
     "酷澎"
    ],
-   "note": "要比價一下"
+   "note": "要比價一下，台灣買可能比較便宜"
   },
   {
    "store": "Olive Young",
@@ -135,6 +135,38 @@
     "很多地方都買得到"
    ],
    "note": "也有賣30包入的，還有多種口味的盒裝版"
+  },
+  {
+   "store": "Olive Young",
+   "no": 8,
+   "nameZh": "LADOR 香氛護髮油 80ml 特別套裝",
+   "nameKr": "아도르 퍼퓸 헤어 오일 80ml",
+   "image": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0018/A00000018294738ko.jpg?l=ko&QT=85&SF=webp&sharpen=1x0.5",
+   "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000182947&t_page=%ED%86%B5%ED%95%A9%EA%B2%80%EC%83%89%EA%B2%B0%EA%B3%BC%ED%8E%98%EC%9D%B4%EC%A7%80&t_click=%EA%B2%80%EC%83%89%EC%83%81%ED%92%88%EC%83%81%EC%84%B8&t_search_name=lador&t_number=1&dispCatNo=1000001000400130006&trackingCd=Result_1",
+   "price": 32000,
+   "currency": "KRW",
+   "taxRefund": "立即退稅",
+   "twShops": [
+    "蝦皮",
+    "MOMO",
+    "誠品線上"
+   ],
+   "note": "1. 有5款：\n1) 오스만투스(+엔젤뮤게 10ml) Osmanthus 優雅桂花香(+ Angel Muguet 淡雅鈴蘭香10ml)\n2) 히노키(+오스만투스 10ml) Hinoki 東方檜木香(+ Osmanthus 優雅桂花香10ml)\n3) 라피타(+오스만투스 10ml) La Pitta 清新草本香(+ Osmanthus 優雅桂花香10ml)\n4) 엔젤뮤게(+엔젤뮤게 10ml) Angel Muguet 淡雅鈴蘭香(+ Angel Muguet 淡雅鈴蘭香10ml)\n5) 아워리프(+오스만투스 10ml) Our leaf 綠玫瑰清香(+ Osmanthus 優雅桂花香10ml)\n2. 台灣賣的幾乎都是30ML的\n3. 推薦Angel Muguet 淡雅鈴蘭香"
+  },
+  {
+   "store": "Olive Young",
+   "no": 9,
+   "nameZh": "FRANZ Naked Spot Patch 裸感隱形痘痘貼 72入",
+   "nameKr": "프란츠 네이키드 스팟 패치 72매입",
+   "image": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0025/A00000025435818ko.jpg?l=ko&QT=85&SF=webp&sharpen=1x0.5",
+   "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000254358&t_page=%ED%86%B5%ED%95%A9%EA%B2%80%EC%83%89%EA%B2%B0%EA%B3%BC%ED%8E%98%EC%9D%B4%EC%A7%80&t_click=%EA%B2%80%EC%83%89%EC%83%81%ED%92%88%EC%83%81%EC%84%B8&t_search_name=FRANZ&t_number=1&dispCatNo=1000002000500010001&trackingCd=Result_1",
+   "price": 10000,
+   "currency": "KRW",
+   "taxRefund": "立即退稅",
+   "twShops": [
+    "蝦皮"
+   ],
+   "note": "1. 有4款：\n1) EARLY SPOT - 擠前使用(剛冒出來、微紅微腫、摸起來硬硬的，但還沒有膿頭的初期悶痘)\n2) ACTIVE SPOT - 擠後/熟成使用(已經成熟、冒出明顯白頭，或是剛擠掉、有開放性傷口的痘痘)\n3) DARK SPOT - 癒後去印(痘痘已經消退平復，但留下紅黑痘印、暗沉或色素沉澱的時期)\n4) NAKED SPOT PATCH DUO - 雙效綜合款(EARLY + DARK)\n2. EARLY 與 DARK 厚度皆為 0.013mm；ACTIVE 較厚"
   },
   {
    "store": "SEOMYEON JJANG PHARMACY DRUGSTORE 藥局",
@@ -455,6 +487,19 @@
    "note": "還有巧克力、紅豆等季節限定的口味"
   },
   {
+   "store": "CU",
+   "no": 4,
+   "nameZh": "Chef M 奶油辣白醬義大利麵 (Toowoomba Pasta)",
+   "nameKr": "Chef M 쉐프엠 투움바 파스타",
+   "image": "https://m.chefman.co.kr/web/product/big/202404/514fe72aca9383a8a14ab7844922e4a3.jpg",
+   "url": null,
+   "price": 4200,
+   "currency": "KRW",
+   "taxRefund": null,
+   "twShops": [],
+   "note": "還有 Chef M 培根粉紅醬義大利麵 (Bacon Rosé Pasta) 跟 Chef M 明太子美乃滋義大利麵 (Pollack Roe Mayo Pasta) 也好吃"
+  },
+  {
    "store": "GS25",
    "no": 1,
    "nameZh": "雙重起司香腸海苔飯捲",
@@ -479,6 +524,19 @@
    "taxRefund": null,
    "twShops": [],
    "note": null
+  },
+  {
+   "store": "GS25",
+   "no": 3,
+   "nameZh": "ROROMALLO Ice Chocolate 生巧克力風味冰品／甜點",
+   "nameKr": "로로멜로 아이스생초콜릿 초코맛",
+   "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/rs_quotation_api/rwlpastd/6ab5317aea8d466eb5ba552867ad1ab1.jpg",
+   "url": null,
+   "price": 4500,
+   "currency": "KRW",
+   "taxRefund": null,
+   "twShops": [],
+   "note": "口感濃郁，帶有微苦的濃厚巧克力風味，口感像冰淇淋版的生巧克力"
   },
   {
    "store": "Emart24",
@@ -592,6 +650,19 @@
    "image": "https://tqklhszfkvzk6518638.edge.naverncp.com/product/8801117775001.jpg",
    "url": "https://cu.bgfretail.com/product/view.do?gdIdx=5227&category=product",
    "price": 1700,
+   "currency": "KRW",
+   "taxRefund": null,
+   "twShops": [],
+   "note": null
+  },
+  {
+   "store": "CU、GS25、7-11、Emart24",
+   "no": "6",
+   "nameZh": "韓國農心牛骨湯杯麵",
+   "nameKr": "농심)사리곰탕소컵",
+   "image": "https://tqklhszfkvzk6518638.edge.naverncp.com/product/8801043015691.jpg",
+   "url": "https://cu.bgfretail.com/product/view.do?gdIdx=17557&category=product",
+   "price": 1350,
    "currency": "KRW",
    "taxRefund": null,
    "twShops": [],
@@ -791,6 +862,23 @@
     "MOMO"
    ],
    "note": "1. 口味：CHERRY NOVA (新星櫻桃風)、BLUSH BERRY (羞紅莓果風)、JOLLY STRAWBERRY (歡樂草莓風)、LEMON CREST (浪尖檸檬風)、ORANGE HOUR (魔幻時刻柳橙風)、PEACHY SUNSHINE (陽光蜜桃風)、TROPICAL WAVE (熱帶衝浪風)\n2. 為零糖、含咖啡因"
+  },
+  {
+   "store": "樂天超市",
+   "no": 11,
+   "nameZh": "韓國農心牛骨湯杯麵",
+   "nameKr": "농심)사리곰탕소컵",
+   "image": "https://lottemartzetta.com/images-v3/932dcbc7-fca8-4d43-bcde-f73d1ce3cc7d/8501c870-f3b4-4685-9191-ca2dec63244d/1280x1280.webp",
+   "url": "https://lottemartzetta.com/products/OS8801043015691/details",
+   "price": 1100,
+   "currency": "KRW",
+   "taxRefund": "立即退稅",
+   "twShops": [
+    "蝦皮",
+    "酷澎",
+    "MOMO"
+   ],
+   "note": null
   }
  ]
 }

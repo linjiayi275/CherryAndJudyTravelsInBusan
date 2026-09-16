@@ -951,9 +951,9 @@
      "vbp": null,
      "vbpUrl": null,
      "fee": null,
-     "arrive": "05:15",
-     "leave": "05:45",
-     "duration": 30,
+     "arrive": "05:00",
+     "leave": "05:20",
+     "duration": 20,
      "hours": "24hr",
      "metroGroups": [
       {
@@ -1039,9 +1039,9 @@
      "vbp": null,
      "vbpUrl": null,
      "fee": "免門票",
-     "arrive": "06:10",
-     "leave": "06:55",
-     "duration": 45,
+     "arrive": "05:45",
+     "leave": "06:40",
+     "duration": 55,
      "hours": "24hr",
      "metroGroups": [
       {
@@ -1114,9 +1114,9 @@
      "vbp": null,
      "vbpUrl": null,
      "fee": null,
-     "arrive": "07:00",
-     "leave": "07:55",
-     "duration": 55,
+     "arrive": "06:45",
+     "leave": "07:45",
+     "duration": 60,
      "hours": "24hr",
      "metroGroups": [
       {
@@ -1213,9 +1213,9 @@
      "vbp": "免費",
      "vbpUrl": "https://www.visitbusanpass.com/attractions/_detail?id=GO0000000061",
      "fee": "持釜山pass 桑拿＋汗蒸幕免費使用",
-     "arrive": "08:00",
+     "arrive": "07:50",
      "leave": "09:25",
-     "duration": 85,
+     "duration": 95,
      "hours": "24hr",
      "metroGroups": [
       {
@@ -3306,7 +3306,7 @@
      "sns": [],
      "menuImages": [],
      "menuAsLink": false,
-     "note": "起點：上 - 1 白淺灘文化村諮詢處 (흰여울문화마을거점센터)\n終點：上 - 15 白淺灘展望台 (흰여울전망대) / 中 - 松島展望台 (이송도전망대) / 下 - 白淺灘海岸隧道 (흰여울 해안터널)\n(分成上下兩條路：上是大馬路，中是店家 A-L，下是海岸邊)",
+     "note": "起點：上 - 1 白淺灘文化村諮詢處 (흰여울문화마을거점센터)\n終點：上 - 15 白淺灘展望台 (흰여울전망대) / 中 - 松島展望台 (이송도전망대) / 下 - 白淺灘海岸隧道 (흰여울 해안터널；目前開放時間09:00 - 16:00)\n(分成上中下兩條路：上是大馬路，中是店家 A-L，下是海岸邊)",
      "links": [
       {
        "label": "簡易地圖",

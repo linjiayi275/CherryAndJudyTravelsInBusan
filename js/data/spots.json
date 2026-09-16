@@ -213,7 +213,7 @@
     }
    ],
    "navermap": "https://naver.me/G9pUKK3J",
-   "note": null,
+   "note": "open point APP 的我的條碼 > 旅遊集點護照 > 韓國 > ponta 會員卡-韓國，可累積ponta點數之後轉open point點數在台灣使用",
    "links": [],
    "inItinerary": "Day2-14"
   },
@@ -262,6 +262,41 @@
    "note": null,
    "links": [],
    "inItinerary": "Day1-9"
+  },
+  {
+   "zh": "blue elephant 西面",
+   "kr": "블루엘리펀트 부산 서면",
+   "category": "眼鏡",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "11:00 - 23:00",
+   "website": null,
+   "sns": [],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      },
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "西面站 서면역"
+    }
+   ],
+   "navermap": "https://naver.me/GGGobXdW",
+   "note": "滿15,000韓元可立即退稅",
+   "links": [],
+   "inItinerary": null
   },
   {
    "zh": "DIART COFFEE",
@@ -3141,6 +3176,37 @@
     }
    ],
    "navermap": "https://naver.me/Faf7IJXO",
+   "note": null,
+   "links": [],
+   "inItinerary": null
+  },
+  {
+   "zh": "Angel-in-us Coffee 海雲臺Marine City店",
+   "kr": "엔제리너스 해운대마린시티점",
+   "category": "咖啡廳",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": ["https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250619_68%2F1750322185052Lmphe_JPEG%2FSRL%25C4%25BF%25C7%25C7.JPG","https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250619_146%2F17503221941747NDYI_JPEG%2F%25C1%25A4%25B1%25D4_%25C0%25BD%25B7%25E1.JPG"],
+   "menuAsLink": false,
+   "hours": null,
+   "website": null,
+   "sns": [],
+   "region": "海雲台",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "冬柏站 동백역"
+    }
+   ],
+   "navermap": "https://naver.me/xLWtLl1K",
    "note": null,
    "links": [],
    "inItinerary": null
