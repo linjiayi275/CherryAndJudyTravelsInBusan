@@ -156,17 +156,47 @@
   {
    "store": "Olive Young",
    "no": 9,
-   "nameZh": "FRANZ Naked Spot Patch 裸感隱形痘痘貼 72入",
-   "nameKr": "프란츠 네이키드 스팟 패치 72매입",
-   "image": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0025/A00000025435818ko.jpg?l=ko&QT=85&SF=webp&sharpen=1x0.5",
-   "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000254358&t_page=%ED%86%B5%ED%95%A9%EA%B2%80%EC%83%89%EA%B2%B0%EA%B3%BC%ED%8E%98%EC%9D%B4%EC%A7%80&t_click=%EA%B2%80%EC%83%89%EC%83%81%ED%92%88%EC%83%81%EC%84%B8&t_search_name=FRANZ&t_number=1&dispCatNo=1000002000500010001&trackingCd=Result_1",
-   "price": 10000,
+   "nameZh": "OFRA 迷你高光",
+   "nameKr": "오프라 미니 하이라이터",
+   "image": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023874009ko.jpg?l=ko&QT=85&SF=webp&sharpen=1x0.5",
+   "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000238740&t_page=%ED%86%B5%ED%95%A9%EA%B2%80%EC%83%89%EA%B2%B0%EA%B3%BC%ED%8E%98%EC%9D%B4%EC%A7%80&t_click=%EA%B2%80%EC%83%89%EC%83%81%ED%92%88%EC%83%81%EC%84%B8&t_search_name=OFRA&t_number=2&dispCatNo=1000001000200010008&trackingCd=Result_2",
+   "price": 36000,
    "currency": "KRW",
    "taxRefund": "立即退稅",
    "twShops": [
-    "蝦皮"
+    "蝦皮",
+    "MOMO"
    ],
-   "note": "1. 有4款：\n1) EARLY SPOT - 擠前使用(剛冒出來、微紅微腫、摸起來硬硬的，但還沒有膿頭的初期悶痘)\n2) ACTIVE SPOT - 擠後/熟成使用(已經成熟、冒出明顯白頭，或是剛擠掉、有開放性傷口的痘痘)\n3) DARK SPOT - 癒後去印(痘痘已經消退平復，但留下紅黑痘印、暗沉或色素沉澱的時期)\n4) NAKED SPOT PATCH DUO - 雙效綜合款(EARLY + DARK)\n2. EARLY 與 DARK 厚度皆為 0.013mm；ACTIVE 較厚"
+   "note": "推薦 Champagne hush (샴페인 허쉬)"
+  },
+  {
+   "store": "Olive Young",
+   "no": 10,
+   "nameZh": "wakemake 三色修容盤",
+   "nameKr": "웨이크메이크 믹스 블러링 볼륨 쉐딩",
+   "image": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0022/A00000022287124ko.jpg?l=ko&QT=85&SF=webp&sharpen=1x0.5",
+   "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000222871&t_page=%ED%86%B5%ED%95%A9%EA%B2%80%EC%83%89%EA%B2%B0%EA%B3%BC%ED%8E%98%EC%9D%B4%EC%A7%80&t_click=%EA%B2%80%EC%83%89%EC%83%81%ED%92%88%EC%83%81%EC%84%B8&t_search_name=wakewake&t_number=16&dispCatNo=1000001000200010007&trackingCd=Result_11_30",
+   "price": 18000,
+   "currency": "KRW",
+   "taxRefund": "立即退稅",
+   "twShops": [
+    "蝦皮",
+    "MOMO"
+   ],
+   "note": "色號：\n01 暖棕色 (Warm Neutral / 中性暖調)適合對象：適合暖調膚色、黃皮，或是希望打造自然、健康陽光好氣色的人。\n02 冷棕色 (Cool Neutral / 中性冷調)適合對象：適合冷調膚色、粉白皮，或是容易泛紅、追求精緻立體小臉與自然鼻影的人。"
+  },
+  {
+   "store": "Olive Young",
+   "no": 11,
+   "nameZh": "YELOYOLO 巧克力可可脆片（Cacao Chips）",
+   "nameKr": "옐로욜로 카카오칩",
+   "image": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0024/A00000024857102ko.jpg?l=ko&QT=85&SF=webp&sharpen=1x0.5",
+   "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000248571&t_page=%ED%86%B5%ED%95%A9%EA%B2%80%EC%83%89%EA%B2%B0%EA%B3%BC%ED%8E%98%EC%9D%B4%EC%A7%80&t_click=%EA%B2%80%EC%83%89%EC%83%81%ED%92%88%EC%83%81%EC%84%B8&t_search_name=YELOYOLO&t_number=1&dispCatNo=1000002000200200008,1000002000200230001&trackingCd=Result_1",
+   "price": 3000,
+   "currency": "KRW",
+   "taxRefund": "立即退稅",
+   "twShops": [],
+   "note": null
   },
   {
    "store": "SEOMYEON JJANG PHARMACY DRUGSTORE 藥局",
@@ -199,6 +229,22 @@
     "MOMO"
    ],
    "note": "蝦皮代購可能比較便宜"
+  },
+  {
+   "store": "SEOMYEON JJANG PHARMACY DRUGSTORE 藥局",
+   "no": 3,
+   "nameZh": "Culip Ointment 唇膏 - 急救、短期治療",
+   "nameKr": "큐립연고",
+   "image": "https://megapx-assets.dcard.tw/images/88b39b2e-c195-4d75-9f3c-0d2e235d4068/640.webp",
+   "url": null,
+   "price": 6000,
+   "currency": "KRW",
+   "taxRefund": "立即退稅",
+   "twShops": [
+    "蝦皮",
+    "MOMO"
+   ],
+   "note": "1. 兩種：玫瑰香 (紅色款) 與 溫和草本香 (綠色款)\n2. 嘴唇開始有乾裂、嚴重的脫皮、紅腫、嘴角裂開 (口角炎) 或唇炎前兆時，一天可以塗抹數次。"
   },
   {
    "store": "大創",
@@ -437,7 +483,7 @@
   {
    "store": "大創",
    "no": 19,
-   "nameZh": "CROWN 皇冠巧克力之家威化餅 142g(9入)",
+   "nameZh": "Crown 皇冠巧克力之家威化餅 142g(9入)",
    "nameKr": "크라운 쵸코하임 142g",
    "image": "https://cdn.daisomall.co.kr/file/resize/PD/20231205/thumbnail/850/wZLRvFeezj68kjGrKYL9111118621_00_00wZLRvFeezj68kjGrKYL9.jpg",
    "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=111118621&recmYn=N",
@@ -498,6 +544,19 @@
    "taxRefund": null,
    "twShops": [],
    "note": "還有 Chef M 培根粉紅醬義大利麵 (Bacon Rosé Pasta) 跟 Chef M 明太子美乃滋義大利麵 (Pollack Roe Mayo Pasta) 也好吃"
+  },
+  {
+   "store": "CU",
+   "no": 5,
+   "nameZh": " Renew Phy 一手一餐 高蛋白代餐奶昔 1個",
+   "nameKr": "한손한끼 단백질 프로틴 쉐이크 1개입",
+   "image": "https://down-tw.img.susercontent.com/file/tw-11134207-7ra0i-mddxtbly1q9rcb",
+   "url": null,
+   "price": 4200,
+   "currency": "KRW",
+   "taxRefund": null,
+   "twShops": [],
+   "note": "代購巧克力口味"
   },
   {
    "store": "GS25",
@@ -635,7 +694,7 @@
    "nameZh": "Nerds Gummy Clusters 軟糖 45g",
    "nameKr": "너드 구미 클러스터 45g",
    "image": "https://directcdn.maeil.com/UploadedFiles/direct/product/45fccdfb-353c-4f1f-8828-b316fad62bff.png",
-   "url": "",
+   "url": null,,
    "price": 2400,
    "currency": "KRW",
    "taxRefund": null,
@@ -879,6 +938,138 @@
     "MOMO"
    ],
    "note": null
+  },
+  {
+   "store": "樂天超市",
+   "no": 12,
+   "nameZh": "好麗友 (Orion) 烏龜玉米脆片 抹茶巧克力味",
+   "nameKr": "오리온 꼬북칩 말차초코",
+   "image": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0025/A00000025233001ko.png?l=ko&QT=100&SF=webp&sharpen=1x0.5",
+   "url": null,,
+   "price": 2500,
+   "currency": "KRW",
+   "taxRefund": "立即退稅",
+   "twShops": [
+    "蝦皮",
+    "酷澎"
+   ],
+   "note": null
+  },
+  {
+   "store": "樂天超市",
+   "no": 13,
+   "nameZh": "Crown 抹茶夾心威化酥 (284G) 18包",
+   "nameKr": "크라운 말차하임 첫잎에디션 (284G) 18包",
+   "image": "https://lottemartzetta.com/images-v3/932dcbc7-fca8-4d43-bcde-f73d1ce3cc7d/ead5b040-c170-4aac-8e37-a5cd271150a8/1280x1280.webp",
+   "url": "https://lottemartzetta.com/products/OS8801111966139/details",
+   "price": 6080,
+   "currency": "KRW",
+   "taxRefund": "立即退稅",
+   "twShops": [
+    "蝦皮"
+   ],
+   "note": null
+  },
+  {
+   "store": "樂天超市",
+   "no": 14,
+   "nameZh": "農心 麵包部長 巧克力可頌餅乾 (55G)",
+   "nameKr": "농심 빵부장 초코빵 스낵 (55G)",
+   "image": "https://lottemartzetta.com/images-v3/932dcbc7-fca8-4d43-bcde-f73d1ce3cc7d/4b643b0a-ddb7-43ea-8fee-39f5229694f5/1280x1280.webp",
+   "url": "https://lottemartzetta.com/products/OS8801043070058/details",
+   "price": 1440,
+   "currency": "KRW",
+   "taxRefund": "立即退稅",
+   "twShops": [
+    "蝦皮",
+    "酷澎",
+    "MOMO",
+    "寶雅"
+   ],
+   "note": "1. 還有原味、抹茶口味\n2. 推薦原味與巧克力口味"
+  },
+  {
+   "store": "樂天超市",
+   "no": 15,
+   "nameZh": "好麗友 Bichobi 草莓厚巧克力夾心餅乾 5入",
+   "nameKr": "오리온 비쵸비 딸기 (125G) 5入",
+   "image": "https://lottemartzetta.com/images-v3/932dcbc7-fca8-4d43-bcde-f73d1ce3cc7d/90ccfaed-8946-4b7d-a531-7ea51c37a9e0/1280x1280.webp",
+   "url": "https://lottemartzetta.com/products/OS8801117586416/details",
+   "price": 2880,
+   "currency": "KRW",
+   "taxRefund": "立即退稅",
+   "twShops": [
+    "蝦皮",
+    "酷澎",
+    "MOMO"
+   ],
+   "note": null
+  },
+  {
+   "store": "樂天超市",
+   "no": 16,
+   "nameZh": "東遠兩班 (Dongwon Yangban) 海苔脆餅 - 經典海苔脆片系列 原味",
+   "nameKr": "양반 김부각(오리지널) (50G)",
+   "image": "https://itemimage.cjonstyle.net/goods_images/20/804/2034154804L.jpg?t=20260504104307",
+   "url": "https://lottemartzetta.com/products/OS8801047228394/details",
+   "price": 2990,
+   "currency": "KRW",
+   "taxRefund": "立即退稅",
+   "twShops": [
+    "蝦皮",
+    "酷澎",
+    "MOMO"
+   ],
+   "note": "共4種口味：\n原味 양반 김부각 오리지널 (上-咖啡橘 + 下-紅)、泡菜味 양반 김奇맛 김부각 (上-紅 + 下-紅)、鮮蝦味 양반 새우맛 김부각 (上-粉 + 下-紅)、蒜味 양반 마늘맛 김부각 (上-藕紫 + 下-紅)"
+  },
+  {
+   "store": "樂天超市",
+   "no": 17,
+   "nameZh": "東遠兩班 (Dongwon Yangban) 海苔脆餅 - 沾醬脆餅系列 芥末美乃滋味",
+   "nameKr": "양반 찍먹김부각 와사비마요 (60G)",
+   "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/c26c/c6360dd13317d3097fe38a95a172081e85dba4f4c4dfd7984995e4783657.jpg",
+   "url": "https://lottemartzetta.com/products/OS8801047228660/details",
+   "price": 2990,
+   "currency": "KRW",
+   "taxRefund": "立即退稅",
+   "twShops": [
+    "蝦皮",
+    "酷澎",
+    "MOMO"
+   ],
+   "note": "共2種口味：\n芥末美乃滋味 와사비마요 (上-綠 + 下-黑)、BBQ烤肉醬味 바비큐소스 (上-咖啡 + 下-黑)"
+  },
+  {
+   "store": "樂天超市",
+   "no": 18,
+   "nameZh": "樂天 ZERO 無糖水蜜桃薄荷糖",
+   "nameKr": "롯데 제로 피치민트 캔디 (28G)",
+   "image": "https://lottemartzetta.com/images-v3/932dcbc7-fca8-4d43-bcde-f73d1ce3cc7d/0bb1f028-d54d-4e6b-9dd9-7c7d1a03b69e/1280x1280.webp",
+   "url": "https://lottemartzetta.com/products/OS8802259020721/details",
+   "price": 2790,
+   "currency": "KRW",
+   "taxRefund": "立即退稅",
+   "twShops": [
+    "蝦皮",
+    "酷澎",
+    "寶雅"
+   ],
+   "note": null
+  },
+  {
+   "store": "樂天超市",
+   "no": 19,
+   "nameZh": "韓國品客(Pringles)愛心洋芋片(玫瑰香草口味) 35G",
+   "nameKr": "프링글스 하트 미니로즈 35G",
+   "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/a6c6/1a27195bdd79c02c6fd8d54e9b4122b2067bd1e5eba6d43ab2736fb9bc64.jpg",
+   "url": null,,
+   "price": 1250,
+   "currency": "KRW",
+   "taxRefund": "立即退稅",
+   "twShops": [
+    "蝦皮"
+   ],
+   "note": "限定商品，所以很有可能下架或缺貨"
   }
  ]
 }

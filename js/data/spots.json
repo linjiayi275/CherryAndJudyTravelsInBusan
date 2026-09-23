@@ -2343,6 +2343,51 @@
    "inItinerary": "Day3-10"
   },
   {
+   "zh": "OLENS 西面店",
+   "kr": "오렌즈 서면중앙점",
+   "category": "隱形眼鏡",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "10:30 - 22:30 (日到22:00)",
+   "website": "https://www.o-lens.com/",
+   "sns": [],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      },
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "西面站 서면역"
+    }
+   ],
+   "navermap": "https://naver.me/FbOx4vhe",
+   "note": null,
+    "links": [
+    {
+     "label": "Ending 1 DAY BROWN",
+     "url": "https://www.o-lens.com/product/20663",
+     "internal": false
+    },
+    {
+     "label": "Glowy 1 DAY BROWN",
+     "url": "https://www.o-lens.com/product/20000",
+     "internal": false
+    }],
+   "inItinerary": null
+  },
+  {
    "zh": "樂天百貨(免稅店) 釜山店",
    "kr": "롯데면세점 부산점",
    "category": "百貨、免稅店",
@@ -3006,6 +3051,37 @@
    "note": null,
    "links": [],
    "inItinerary": "Day2-11"
+  },
+  {
+   "zh": "hetras 海雲台分店",
+   "kr": "헤트라스 해운대",
+   "category": "香水",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [],
+   "menuAsLink": false,
+   "hours": "11:00 - 23:30",
+   "website": "https://www.hetras.com.tw/",
+   "sns": [],
+   "region": "海雲台",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "海雲台站 해운대역"
+    }
+   ],
+   "navermap": "https://naver.me/FoXzmAZG",
+   "note": null,
+   "links": [],
+   "inItinerary": null
   },
   {
    "zh": "釜山塔(龍頭山公園入口)",
