@@ -2376,14 +2376,10 @@
    "note": null,
     "links": [
     {
-     "label": "Ending 1 DAY BROWN",
-     "url": "https://www.o-lens.com/product/20663",
-     "internal": false
-    },
-    {
-     "label": "Glowy 1 DAY BROWN",
-     "url": "https://www.o-lens.com/product/20000",
-     "internal": false
+      "label": "必買推薦",
+      "url": "pages/sub-must-buy.html",
+      "internal": true,
+      "pageKey": "home"
     }],
    "inItinerary": null
   },

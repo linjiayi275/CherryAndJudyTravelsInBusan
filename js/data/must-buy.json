@@ -1070,6 +1070,21 @@
     "蝦皮"
    ],
    "note": "限定商品，所以很有可能下架或缺貨"
+  },
+  {
+   "store": "OLENS",
+   "no": 1,
+   "nameZh": "FRENCH SHINE 1 DAY GRAY",
+   "nameKr": "프렌치샤인 원데이 그레이",
+   "image": "https://file.o-lens.com/prd_img/20629/a259793b-dc52-42ac-a3e9-6891c68bceceM1_%EC%9B%90%EB%8D%B0%EC%9D%B4.jpg?w=768&q=75",
+   "url": "https://o-lens.com/product/20629",
+   "price": 36000,
+   "currency": "KRW",
+   "taxRefund": "事後退稅",
+   "twShops": [
+    "台灣通路多"
+   ],
+   "note": "買 450 度"
   }
  ]
 }

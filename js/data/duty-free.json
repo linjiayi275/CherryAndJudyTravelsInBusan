@@ -100,6 +100,39 @@
    "currency": "TWD",
    "twShops": [],
    "note": "買1件"
+  },
+  {
+   "store": "樂天",
+   "no": 7,
+   "name": "OLENS 镜光系列 镜花棕 (20P)",
+   "image": "https://static.lottedfs.cn/prod/prd-img/11/70/29/01/00/02/20001297011_6.jpg/dims/resize/460x460",
+   "url": "https://chn.lottedfs.cn/kr/product/productDetail?prdNo=20000969178&prdOptNo=20001297026&adltPrdYn=N",
+   "price": 495,
+   "currency": "TWD",
+   "twShops": ["台灣通路多"],
+   "note": "買 450 度、500 度各一"
+  },
+  {
+   "store": "樂天",
+   "no": 8,
+   "name": "OLENS 漫月柔情系列 巧漫雾棕(20P)",
+   "image": "https://static.lottedfs.cn/prod/prd-img/56/79/32/01/00/02/20001327956_2.png/dims/resize/460x460",
+   "url": "https://chn.lottedfs.cn/kr/product/productDetail?prdNo=20000984860&prdOptNo=20001327956&adltPrdYn=N",
+   "price": 495,
+   "currency": "TWD",
+   "twShops": ["台灣通路多"],
+   "note": "買 450 度"
+  },
+  {
+   "store": "樂天",
+   "no": 9,
+   "name": "漫月柔情系列 漫夜雾灰 (20P)",
+   "image": "https://static.lottedfs.cn/prod/prd-img/16/79/32/01/00/02/20001327916_2.png/dims/resize/460x460",
+   "url": "https://chn.lottedfs.cn/kr/product/productDetail?prdNo=20000984850&prdOptNo=20001327916&adltPrdYn=N",
+   "price": 495,
+   "currency": "TWD",
+   "twShops": ["台灣通路多"],
+   "note": "買 500 度"
   }
  ]
 }
