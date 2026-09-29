@@ -3367,6 +3367,43 @@
    "inItinerary": null
   },
   {
+   "zh": "TENPERCENT 10% 西面樂天店",
+   "kr": "텐퍼센트커피 서면롯데점",
+   "category": "飲料店",
+   "indoor": "室內",
+   "rainBackup": false,
+   "vbp": null,
+   "vbpUrl": null,
+   "fee": null,
+   "menuImages": [
+    "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260709_279%2F1783587867733f4mAC_JPEG%2Fa3_2000_A_%25C5%25D7%25C0%25CC%25C5%25A9%25BE%25C6%25BF%25F4_%25B5%25F0%25C4%25AB%25C6%25E4%25C0%25CEO_202607_out.jpg"
+   ],
+   "menuAsLink": false,
+   "hours": "07:30 - 23:30",
+   "website": null,
+   "sns": [],
+   "region": "西面",
+   "metroGroups": [
+    {
+     "badges": [
+      {
+       "code": "➀",
+       "color": "#F7752D"
+      },
+      {
+       "code": "➁",
+       "color": "#3CB44A"
+      }
+     ],
+     "name": "西面站 서면역"
+    }
+   ],
+   "navermap": "https://naver.me/xFLSMH6z",
+   "note": null,
+   "links": [],
+   "inItinerary": null
+  },
+  {
    "zh": "龍頭山炭火烤肉(龍頭山排骨)",
    "kr": "용두산갈비",
    "category": "餐廳",

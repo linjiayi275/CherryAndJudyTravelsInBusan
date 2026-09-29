@@ -188,11 +188,24 @@
   {
    "store": "Olive Young",
    "no": 11,
-   "nameZh": "YELOYOLO 巧克力可可脆片（Cacao Chips）",
+   "nameZh": "YELOYOLO 巧克力可可脆片 (Cacao Chips)",
    "nameKr": "옐로욜로 카카오칩",
    "image": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0024/A00000024857102ko.jpg?l=ko&QT=85&SF=webp&sharpen=1x0.5",
    "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000248571&t_page=%ED%86%B5%ED%95%A9%EA%B2%80%EC%83%89%EA%B2%B0%EA%B3%BC%ED%8E%98%EC%9D%B4%EC%A7%80&t_click=%EA%B2%80%EC%83%89%EC%83%81%ED%92%88%EC%83%81%EC%84%B8&t_search_name=YELOYOLO&t_number=1&dispCatNo=1000002000200200008,1000002000200230001&trackingCd=Result_1",
    "price": 3000,
+   "currency": "KRW",
+   "taxRefund": "立即退稅",
+   "twShops": [],
+   "note": null
+  },
+  {
+   "store": "Olive Young",
+   "no": 12,
+   "nameZh": "Ladens 牙胎刷 4入",
+   "nameKr": "라덴스 베럴 혀클리너 4P 번들 기획",
+   "image": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0026/A00000026445802ko.png?l=ko&QT=100&SF=webp&sharpen=1x0.5",
+   "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000264458&t_page=%ED%86%B5%ED%95%A9%EA%B2%80%EC%83%89%EA%B2%B0%EA%B3%BC%ED%8E%98%EC%9D%B4%EC%A7%80&t_click=%EA%B2%80%EC%83%89%EC%83%81%ED%92%88%EC%83%81%EC%84%B8&t_search_name=%EB%9D%BC%EB%8D%B4%EC%8A%A4%20%EB%B2%A0%EB%9F%B4&t_number=2&dispCatNo=1000002000300170005&trackingCd=Result_2",
+   "price": 26730,
    "currency": "KRW",
    "taxRefund": "立即退稅",
    "twShops": [],
@@ -245,6 +258,21 @@
     "MOMO"
    ],
    "note": "1. 兩種：玫瑰香 (紅色款) 與 溫和草本香 (綠色款)\n2. 嘴唇開始有乾裂、嚴重的脫皮、紅腫、嘴角裂開 (口角炎) 或唇炎前兆時，一天可以塗抹數次。"
+  },
+  {
+   "store": "SEOMYEON JJANG PHARMACY DRUGSTORE 藥局",
+   "no": 4,
+   "nameZh": "柳韓洋行 Antiphlamine S 痠痛按摩乳液",
+   "nameKr": "안티푸라민 에스 로션",
+   "image": "https://common.health.kr/shared/images/ext_images/pack_img/P_A11A0450A0608_00.jpg",
+   "url": null,
+   "price": 4000,
+   "currency": "KRW",
+   "taxRefund": "立即退稅",
+   "twShops": [
+    "蝦皮"
+   ],
+   "note": "幫黑黑代購 3 瓶，藥局基本上賣的是 100ml 的"
   },
   {
    "store": "大創",
@@ -494,6 +522,32 @@
    "note": "1. 比任何地方都便宜\n2. 蛋奶素可食"
   },
   {
+   "store": "大創",
+   "no": 20,
+   "nameZh": "Kirsh series deco socks 聯名襪",
+   "nameKr": "키르시 시리즈 양말",
+   "image": "",
+   "url": "https://www.threads.com/@todayis_renjunie/post/Ddxa1rwk6rs?xmt=AQG0vx4bXxIiW1DIRXhqNj0iLmc9jGJTFehlTHcjoDw9BA",
+   "price": 2000,
+   "currency": "KRW",
+   "taxRefund": "事後退稅(機場退)",
+   "twShops": [],
+   "note": "與 Kirsh 聯名，不一定所有大創都有賣"
+  },
+  {
+   "store": "大創",
+   "no": 21,
+   "nameZh": "Mimorang 微針痘痘調理貼片 小號 10片裝",
+   "nameKr": "미모랑 마이크로 트러블 패치 소형 10매입",
+   "image": "https://cdn.daisomall.co.kr/file/resize/PD/20251111/thumbnail/850/yqSUr6LvwMbErout4Tvv1052642_00_00yqSUr6LvwMbErout4Tvv.jpg",
+   "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1052642&recmYn=N",
+   "price": 3000,
+   "currency": "KRW",
+   "taxRefund": "事後退稅(機場退)",
+   "twShops": [],
+   "note": "也有大號的 6片裝 (淺藍色包裝)"
+  },
+  {
    "store": "CU",
    "no": 1,
    "nameZh": "I'MINT 義式濃縮木糖醇咖啡糖",
@@ -724,19 +778,6 @@
    "price": 1350,
    "currency": "KRW",
    "taxRefund": null,
-   "twShops": [],
-   "note": null
-  },
-  {
-   "store": "釜山塔 伴手禮店",
-   "no": 1,
-   "nameZh": "幫黑黑代購",
-   "nameKr": null,
-   "image": null,
-   "url": null,
-   "price": null,
-   "currency": "KRW",
-   "taxRefund": "事後退稅(機場退)",
    "twShops": [],
    "note": null
   },
